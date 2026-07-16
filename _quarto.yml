@@ -1,9 +1,6 @@
 project:
   type: website
   output-dir: docs
-  render:
-    - "*.qmd"
-    - "*/README.md"
 
 website:
   title: "Cyril BOURGEOIS - Data Scientist"
@@ -20,24 +17,24 @@ website:
         menu:
           - text: "--- Master 1 ---"
           - text: "Projets Master 1"
-            href: projets_Master_1/README.html
+            href: projets_Master_1/index.qmd
           - text: "--- Master 2 ---"
           - text: "Projets Master 2"
-            href: projets_Master_2/README.html
+            href: projets_Master_2/index.qmd
           - text: "--- Compétitions ---"
           - text: "Kaggle & ML"
-            href: projets_Competitions/README.html
+            href: projets_Competitions/index.qmd
           - text: "--- MLOps ---"
           - text: "Système Temps Réel"
-            href: projets_MLOps_Vigilancy/README.html
+            href: projets_MLOps_Vigilancy/index.qmd
           - text: "--- Vision ---"
           - text: "Tuning & Data Augmentation"
-            href: projets_Tuning_Data_Augmentation_Vision/README.html
+            href: projets_Tuning_Data_Augmentation_Vision/index.qmd
           - text: "--- Recherche ---"
           - text: "SOTA AD Tabular"
-            href: projets_research_Sota_AD_Tab/README.html
+            href: projets_research_Sota_AD_Tab/index.qmd
           - text: "SOTA AD Time Series"
-            href: projets_research_Sota_AD_TS/README.html
+            href: projets_research_Sota_AD_TS/index.qmd
     right:
       - icon: github
         href: https://github.com/cyril-bgs-dev-tech

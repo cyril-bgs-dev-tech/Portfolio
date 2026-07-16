@@ -39,6 +39,6 @@ Chaque écart avec les valeurs publiées passe par une checklist de diagnostic :
 
 ---
 
-**Projet frère** : [Recherche time series](../projets_research_Sota_AD_TS/README.md) (TSB-AD, VUS-PR)  
+**Projet frère** : [Recherche time series](../projets_research_Sota_AD_TS/) (TSB-AD, VUS-PR)  
 **Dernière mise à jour** : juillet 2026  
 **Contact** : cyril.bgs.dev.tech@gmail.com

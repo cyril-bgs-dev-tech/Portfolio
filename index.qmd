@@ -101,7 +101,7 @@ Alternance **MICHELIN** (12 mois)
 - Cycle de vie d'alarme en épisode unique (hystérésis, escalade, SLA)
 - Dashboard Streamlit 40+ pages (rôles RASCI), observabilité Prometheus/Grafana
 
-→ [Voir le projet](projets_MLOps_Vigilancy/README.html)
+→ [Voir le projet](projets_MLOps_Vigilancy/index.qmd)
 
 ### 🔬 Recherche — Benchmarks de Reproduction (ADBench & TSB-AD)
 **La rigueur avant la performance**
@@ -110,7 +110,7 @@ Alternance **MICHELIN** (12 mois)
 - TSB-AD séries temporelles : reproductions **exactes** des scores publiés (Sub-PCA, Sub-KNN)
 - VUS-PR primaire, point-adjust banni, validation LODO — chaque écart diagnostiqué
 
-→ [Voir le projet](projets_research_Sota_AD_Tab/README.html)
+→ [Voir le projet](projets_research_Sota_AD_Tab/index.qmd)
 
 ### 🏆 Compétitions Kaggle - Top 1% Mondial
 **35+ compétitions**
@@ -119,7 +119,7 @@ Alternance **MICHELIN** (12 mois)
 - Prediction F1 Pit Stop : #14 / 3 022 (Top 0.5%)
 - Feature engineering intensif, ensembling/stacking
 
-→ [Voir les compétitions](projets_Competitions/README.html)
+→ [Voir les compétitions](projets_Competitions/index.qmd)
 
 ---
 

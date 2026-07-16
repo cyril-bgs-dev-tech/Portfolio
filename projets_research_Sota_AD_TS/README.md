@@ -44,6 +44,6 @@ Deux volets complémentaires :
 
 ---
 
-**Projet frère** : [Recherche tabulaire](../projets_research_Sota_AD_Tab/README.md) (ADBench)  
+**Projet frère** : [Recherche tabulaire](../projets_research_Sota_AD_Tab/) (ADBench)  
 **Dernière mise à jour** : juillet 2026  
 **Contact** : cyril.bgs.dev.tech@gmail.com
