@@ -155,23 +155,24 @@ Data Scientist passionné avec **double compétence modélisation + production**
 
 ---
 
-### 🔬 [Recherche - Benchmarks de Reproduction AD](projets_research_Sota_AD_Tab/)
-**ADBench (tabulaire) + TSB-AD (séries temporelles)**
+### 🔬 [Recherche Compositionnelle - Anomaly Detection](projets_research_Sota_AD_Tab/)
+**Composer les SOTA et router par domaine — ADBench (tabulaire) + TSB-AD (séries temporelles)**
 
 <div align="center">
 
-![ADBench](https://img.shields.io/badge/ADBench-47%20datasets-2563eb?style=for-the-badge)
-![TSB--AD](https://img.shields.io/badge/TSB--AD-870U%20%2B%20200M%20s%C3%A9ries-10B981?style=for-the-badge)
+![Corpus](https://img.shields.io/badge/Corpus-502%20datasets%20%C2%B7%2020%20domaines-2563eb?style=for-the-badge)
+![PaAno](https://img.shields.io/badge/PaAno%20(ICLR'26)-%231%20des%202%20volets%20TSB--AD-10B981?style=for-the-badge)
 ![Repro](https://img.shields.io/badge/Reproductions-exactes%20valid%C3%A9es-8B5CF6?style=for-the-badge)
 ![Métrique](https://img.shields.io/badge/VUS--PR-point--adjust%20banni-F59E0B?style=for-the-badge)
 
 </div>
 
 ✨ **Highlights** :
-- 🎯 Reproduire l'état de l'art AVANT de prétendre le battre : tables publié/reproduit/Δ
-- ✅ Reproductions exactes validées (Sub-PCA 0.4234, Sub-KNN 0.3501 en VUS-PR)
-- 🧪 SOTA récents montés sur RTX 5090 : MOMENT, TranAD, AnomalyTransformer, FITS, Donut, OFA
-- 💡 Phase exploratoire préalable (~60 concepts, dont MVAD) → méthodologie durcie
+- 🎯 Démarche : reproduire l'ancre (égalités exactes : Sub-PCA 0.4234, Sub-KNN 0.3501) → monter les SOTA → **caractériser les domaines** → router
+- 🥇 PaAno (ICLR 2026) intégré à TSB-AD et certifié : **#1 des volets U et M** (0.58 / 0.46 VUS-PR vs 0.42 / 0.31 pour les leaders publiés)
+- 📈 Tabulaire : routage par domaine **72.5 AUROC** (préenregistré, p=5×10⁻⁷) vs 69.8 meilleur détecteur unique — oracle à 78.3
+- 💡 Leçon : même avec un système SOTA, la composition par domaine ajoute jusqu'à +0.33 VUS-PR localement
+- 🔬 Volets : [tabulaire](projets_research_Sota_AD_Tab/) · [séries temporelles](projets_research_Sota_AD_TS/)
 
 ---
 

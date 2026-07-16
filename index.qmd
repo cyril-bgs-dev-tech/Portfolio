@@ -30,10 +30,10 @@ Data Scientist avec **double compétence modélisation + production**, spéciali
 - **4 compétitions top 1% mondial**
 - **Meilleur classement** : #13 / 1 757 équipes (Top 0.7%)
 
-### Recherche — Benchmarks de reproduction
-- **ADBench (tabulaire)** : 5 détecteurs classiques reproduits sur 47 datasets
-- **TSB-AD (séries temporelles)** : reproductions exactes des scores publiés (Sub-PCA, Sub-KNN VUS-PR)
-- **Rigueur** : VUS-PR en métrique primaire, point-adjust banni, protocole publié/reproduit/Δ
+### Recherche compositionnelle — détection d'anomalies
+- **Ancres reproduites** : ADBench (47 datasets) et TSB-AD (égalités exactes au publié)
+- **PaAno (ICLR 2026)** intégré et certifié sur TSB-AD : **#1 des volets U et M**
+- **Routage par domaine** : 502 datasets / 20 domaines, +2.7 pts AUROC vs meilleur single (préenregistré)
 
 ### MLOps
 - **Système temps réel** : DAG 9 workers, Redis, Docker
@@ -103,12 +103,13 @@ Alternance **MICHELIN** (12 mois)
 
 → [Voir le projet](projets_MLOps_Vigilancy/index.qmd)
 
-### 🔬 Recherche — Benchmarks de Reproduction (ADBench & TSB-AD)
-**La rigueur avant la performance**
+### 🔬 Recherche Compositionnelle — Détection d'Anomalies (ADBench & TSB-AD)
+**Composer les SOTA et router par domaine de données**
 
-- ADBench tabulaire : 5 détecteurs reproduits sur 47 datasets
-- TSB-AD séries temporelles : reproductions **exactes** des scores publiés (Sub-PCA, Sub-KNN)
-- VUS-PR primaire, point-adjust banni, validation LODO — chaque écart diagnostiqué
+- Ancre reproduite à l'exact (Sub-PCA 0.4234, Sub-KNN 0.3501 en VUS-PR), point-adjust banni
+- PaAno (ICLR 2026) monté sur TSB-AD et certifié : **#1 des deux volets** (0.58 U / 0.46 M)
+- Corpus 502 datasets / 20 domaines : le routage par domaine bat le meilleur détecteur unique de +2.7 pts AUROC (préenregistré)
+- Le gain du routage croît avec la dimensionnalité — la composition bat le champion global
 
 → [Voir le projet](projets_research_Sota_AD_Tab/index.qmd)
 
