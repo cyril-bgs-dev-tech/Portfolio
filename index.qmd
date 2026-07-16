@@ -1,0 +1,142 @@
+---
+title: "Cyril BOURGEOIS"
+subtitle: "Data Scientist | MLOps Engineer"
+about:
+  template: jolla
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/cyril-bgs-dev-tech
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/cyril-bourgeois/
+    - icon: envelope
+      text: Email
+      href: mailto:cyril.bgs.dev.tech@gmail.com
+---
+
+## 🎯 Profil
+
+Data Scientist avec **double compétence modélisation + production**, spécialisé en détection d'anomalies et MLOps.
+
+**Parcours atypique** : reconversion armée → commerce → data science (2021-2024)
+
+---
+
+## 🏆 Faits Marquants
+
+### Compétitions Kaggle
+- **35+ compétitions** complétées
+- **4 compétitions top 1% mondial**
+- **Meilleur classement** : #13 / 1 757 équipes (Top 0.7%)
+
+### Recherche — Benchmarks de reproduction
+- **ADBench (tabulaire)** : 5 détecteurs classiques reproduits sur 47 datasets
+- **TSB-AD (séries temporelles)** : reproductions exactes des scores publiés (Sub-PCA, Sub-KNN VUS-PR)
+- **Rigueur** : VUS-PR en métrique primaire, point-adjust banni, protocole publié/reproduit/Δ
+
+### MLOps
+- **Système temps réel** : DAG 9 workers, Redis, Docker
+- **Dashboard** : 40+ pages Streamlit avec rôles RASCI
+- **Observabilité** : Prometheus, Grafana, SLA tracking
+
+---
+
+## 🎓 Formation
+
+### Master 2 - Data Scientist (2023-2024)
+**OpenClassRooms + Centrale Supélec**  
+Alternance **MICHELIN** (12 mois)
+
+### Master 1 - Data Analyst (2021-2022)
+**OpenClassRooms + ENSAE**  
+10 projets validés
+
+---
+
+## 🛠️ Stack Technique
+
+### Langages
+**Python** (avancé) · **SQL**
+
+### Machine Learning
+- **Classique** : Scikit-learn, XGBoost, LightGBM, CatBoost
+- **Deep Learning** : PyTorch, TensorFlow, HuggingFace
+- **Time Series** : Statsmodels, Prophet, LSTM, AnomalyTransformer
+
+### MLOps & Infrastructure
+- **Containerisation** : Docker, Docker Compose
+- **Orchestration** : Redis, DAG event-driven
+- **Monitoring** : Prometheus, Grafana
+- **Dashboard** : Streamlit (40+ pages)
+
+### Data Engineering
+- **DataFrames** : Pandas, Polars, NumPy
+- **Stockage** : Parquet, PostgreSQL, S3/MinIO
+- **Versioning** : Git, DVC, MLflow
+
+---
+
+## 💼 Expérience
+
+### Alternance Data Scientist - MICHELIN (2023-2024)
+**POC Parsing/Matching de Données Complexes**
+
+- Gestion de données pricing mondial (niveau continental)
+- Algorithmes de fuzzy matching (score > 85%)
+- Dashboards Power BI pour équipe pricing
+- Tests automatisés (PyTest)
+
+**Feedback** : *"Force de proposition, assidu dans les missions. POC parsing/mapping mené avec succès."*
+
+---
+
+## 📊 Projets Phares
+
+### 🔧 Système de Détection d'Anomalies Temps Réel
+**Projet MLOps complet** - 1 200+ heures
+
+- Architecture event-driven : DAG 9 workers, 3 réplicas CPU + 1 GPU
+- 3 canaux de détection décorrélés : IsolationForest + résidu Ridge temporel + reconstruction PCA séquentielle, fusion XGBoost
+- Cycle de vie d'alarme en épisode unique (hystérésis, escalade, SLA)
+- Dashboard Streamlit 40+ pages (rôles RASCI), observabilité Prometheus/Grafana
+
+→ [Voir le projet](projets_MLOps_Vigilancy/README.html)
+
+### 🔬 Recherche — Benchmarks de Reproduction (ADBench & TSB-AD)
+**La rigueur avant la performance**
+
+- ADBench tabulaire : 5 détecteurs reproduits sur 47 datasets
+- TSB-AD séries temporelles : reproductions **exactes** des scores publiés (Sub-PCA, Sub-KNN)
+- VUS-PR primaire, point-adjust banni, validation LODO — chaque écart diagnostiqué
+
+→ [Voir le projet](projets_research_Sota_AD_Tab/README.html)
+
+### 🏆 Compétitions Kaggle - Top 1% Mondial
+**35+ compétitions**
+
+- Predict Stellar Class : #13 / 1 757 (Top 0.7%)
+- Prediction F1 Pit Stop : #14 / 3 022 (Top 0.5%)
+- Feature engineering intensif, ensembling/stacking
+
+→ [Voir les compétitions](projets_Competitions/README.html)
+
+---
+
+## 🎓 Certifications
+
+- **Master 2 Data Scientist** - Centrale Supélec (2024)
+- **Master 1 Data Analyst** - ENSAE (2022)
+- **Kaggle Competitions** : Top 1% mondial
+
+---
+
+## 📫 Contact
+
+**Email** : [cyril.bgs.dev.tech@gmail.com](mailto:cyril.bgs.dev.tech@gmail.com)  
+**GitHub** : [github.com/cyril-bgs-dev-tech](https://github.com/cyril-bgs-dev-tech)  
+**LinkedIn** : [linkedin.com/in/cyril-bourgeois](https://www.linkedin.com/in/cyril-bourgeois/)
+
+---
+
+*Dernière mise à jour : Juillet 2026*

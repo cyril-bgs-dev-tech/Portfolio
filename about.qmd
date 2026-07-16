@@ -1,0 +1,210 @@
+---
+title: "À Propos"
+---
+
+## 🎯 Mon Parcours
+
+### De l'Armée à la Data Science
+
+**Background atypique** : Reconversion professionnelle de l'armée vers le commerce, puis vers la data science (2021-2024).
+
+Ce parcours m'a apporté :
+- **Rigueur et discipline** (armée)
+- **Sens du client et communication** (commerce)
+- **Compétences techniques** (data science)
+
+---
+
+## 🎓 Formation
+
+### Master 2 - Data Scientist (2023-2024)
+**OpenClassRooms + Centrale Supélec**
+
+- Alternance **MICHELIN** (12 mois)
+- POC parsing/matching de données complexes
+- Deep Learning, NLP, Time Series, Détection d'anomalies
+
+### Master 1 - Data Analyst (2021-2022)
+**OpenClassRooms + ENSAE**
+
+- 10 projets validés
+- Analyse exploratoire, SQL, ML classique
+- Outils : Python, SQL, KNIME, Tableau, Power BI
+
+---
+
+## 💼 Expérience Professionnelle
+
+### Alternance Data Scientist - MICHELIN (Fév 2023 - Fév 2024)
+
+**POC Parsing/Matching de Données Complexes**
+
+**Contexte** : Données pricing mondial, niveau continental, hétérogénéité des sources
+
+**Missions** :
+- Parsing et extraction de données hétérogènes (JSON, XML, CSV, Excel)
+- Algorithmes de fuzzy matching (score de confiance > 85%)
+- Contrôle qualité avec tests automatisés (PyTest)
+- Dashboards Power BI pour équipe pricing
+
+**Résultats** :
+- POC validé et prêt pour industrialisation
+- Réduction du temps de traitement manuel
+- Amélioration de la qualité des données
+
+**Feedback** :
+> *"Implication et capacité constante à se challenger. Force de proposition, assidu dans les missions. POC parsing/mapping mené avec succès."*
+> 
+> — Antoine DANIEL LAMAZIERE (PO) + Architecte Data, Michelin
+
+---
+
+## 🏆 Réalisations Marquantes
+
+### 1. Compétitions Kaggle - Top 1% Mondial
+
+**35+ compétitions** avec des résultats exceptionnels :
+
+| Compétition | Rang | Top % |
+|-------------|------|-------|
+| Predict Stellar Class | #13 / 1 757 | 0.7% |
+| Prediction F1 Pit Stop | #14 / 3 022 | 0.5% |
+| Predicting Irrigation Need | #32 / 4 315 | 0.7% |
+| Predict Podcast Listening Time | #20 / 3 310 | 0.6% |
+
+**Approche** :
+- Feature engineering intensif (centaines de features)
+- Ensembling/stacking de modèles diversifiés
+- Optimisation bayésienne (Optuna)
+- Veille active (TabM, TabICL2, RealMLP)
+
+### 2. Recherche - Benchmarks de Reproduction (ADBench & TSB-AD)
+
+**Phase 1 — exploration** (~60 concepts testés depuis papiers 2024-2026, dont le modèle maison MVAD) : riche en leçons, mais méthodologiquement fragile — d'où la phase 2.
+
+**Phase 2 — reproduction rigoureuse (en cours)** :
+
+- **ADBench** : 5 détecteurs classiques reproduits sur 47 datasets, écarts diagnostiqués
+- **TSB-AD** : reproductions exactes (Sub-PCA 0.4234, Sub-KNN 0.3501 en VUS-PR), SOTA récents montés sur RTX 5090
+- **Rigueur** : VUS-PR primaire, point-adjust banni, validation LODO par source
+
+**Leçons clés de la phase exploratoire** :
+- La simplicité bat la complexité
+- StandardScaler aussi bon que RobustScaler pour KNN
+- L'autoencodeur dégrade les performances (lisse les anomalies)
+- Seuil d/n > 0.1 → LOF, sinon → KNN multi-échelle
+
+### 3. Système MLOps Temps Réel
+
+**Projet personnel** - 1 200+ heures de développement
+
+**Architecture** :
+- DAG event-driven avec 9 workers (3 réplicas CPU + 1 GPU)
+- Redis : queues, barrières de synchronisation atomiques, Dead Letter Queue
+- Docker Compose : 14 services (workers, monitoring, jobs de fond)
+- 3 canaux de détection décorrélés (IsolationForest + Ridge temporel + PCA séquentiel) + fusion XGBoost
+
+**Dashboard** :
+- 40+ pages Streamlit avec rôles RASCI
+- Investigation temporelle avancée, replay, analyse contrastive
+- Analyse SHAP par event pour interprétabilité
+
+**Observabilité** :
+- Prometheus : latence et erreurs par étape du DAG
+- Grafana + cAdvisor : pipeline et infrastructure
+- SLA opérationnel par sévérité d'alerte (countdown dans le cockpit)
+
+**Points forts défendables** :
+- Cycle de vie d'alarme en épisode unique (hystérésis, escalade, concurrence multi-réplicas sans verrou)
+- Reprise exacte après redémarrage (état persisté Redis)
+- Détecteurs temporels à 0.05-0.12 ms/event, historique partagé entre réplicas
+
+---
+
+## 🛠️ Compétences Techniques
+
+### Langages
+- **Python** (avancé) : Pandas, NumPy, Scikit-learn, PyTorch
+- **SQL** : Requêtes complexes, optimisation
+
+### Machine Learning
+- **Classique** : Scikit-learn, XGBoost, LightGBM, CatBoost
+- **Deep Learning** : PyTorch, TensorFlow, HuggingFace Transformers
+- **Time Series** : Statsmodels, Prophet, LSTM, AnomalyTransformer, TimesNet
+- **Anomalies** : Isolation Forest, LOF, Autoencoders, AnomalyTransformer
+
+### MLOps & Infrastructure
+- **Containerisation** : Docker, Docker Compose
+- **Orchestration** : Redis, DAG event-driven, 9 workers
+- **Monitoring** : Prometheus, Grafana, cAdvisor
+- **Dashboard** : Streamlit (40+ pages)
+- **Stockage** : Parquet, registries JSON versionnés
+
+### Data Engineering
+- **DataFrames** : Pandas, Polars, NumPy
+- **Feature Engineering** : Temporel, textuel, géographique
+- **Versioning** : Git, DVC, SCD2
+
+### Visualisation & BI
+- **Python** : Matplotlib, Seaborn, Plotly
+- **BI** : Tableau, Power BI, Excel
+- **No-Code** : KNIME Analytics Platform
+
+---
+
+## 🎓 Certifications et Diplômes
+
+- **Master 2 Data Scientist** - Centrale Supélec (2024)
+- **Master 1 Data Analyst** - ENSAE (2022)
+- **Kaggle Competitions** : Top 1% mondial (4 compétitions)
+
+---
+
+## 📚 Centres d'Intérêt
+
+### Veille Technologique
+- Papiers de recherche (NeurIPS, ICML, ICLR)
+- Nouvelles architectures (Transformers, GNN, Foundation Models)
+- Compétitions Kaggle (feature engineering, ensembling)
+
+### Domaines d'Application
+- Détection d'anomalies (tabulaire, time series)
+- Maintenance prédictive
+- Pricing et prévision
+- NLP et computer vision
+
+### Open Source
+- Contribution à des projets communautaires
+- Partage de solutions et notebooks
+- Documentation et tutoriels
+
+---
+
+## 📫 Contact
+
+**Email** : [cyril.bgs.dev.tech@gmail.com](mailto:cyril.bgs.dev.tech@gmail.com)  
+**GitHub** : [github.com/cyril-bgs-dev-tech](https://github.com/cyril-bgs-dev-tech)  
+**LinkedIn** : [linkedin.com/in/cyril-bourgeois](https://www.linkedin.com/in/cyril-bourgeois/)
+
+---
+
+## 📄 Lettres de Recommandation
+
+### Michelin (2023-2024)
+**Antoine DANIEL LAMAZIERE** (Product Owner) + **Architecte Data**
+
+> *"Implication et capacité constante à se challenger. Maîtrise des solutions de développement et mise en œuvre. Curiosité et motivation, intérêt pour problématiques Data Business. Force de proposition, assidu dans les missions."*
+
+### OpenClassRooms (2022)
+**Hamza Tajmouati** (Mentor)
+
+> *"Parcours exemplaire. Proactivité et qualité du travail remarquables."*
+
+### Deltamu (2026)
+**Nuno DOS REIS** (Président)
+
+> *"Expertise technique solide et capacité d'adaptation exceptionnelle."*
+
+---
+
+*Dernière mise à jour : Juillet 2026*

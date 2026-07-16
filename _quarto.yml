@@ -1,0 +1,72 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Cyril BOURGEOIS - Data Scientist"
+  description: "Portfolio de projets en data science, machine learning et MLOps"
+  site-url: https://cyril-bgs-dev-tech.github.io/Portfolio/
+  
+  navbar:
+    left:
+      - text: "Accueil"
+        href: index.qmd
+      - text: "À propos"
+        href: about.qmd
+      - text: "Projets"
+        menu:
+          - text: "--- Master 1 ---"
+          - text: "Projets Master 1"
+            href: projets_Master_1/README.html
+          - text: "--- Master 2 ---"
+          - text: "Projets Master 2"
+            href: projets_Master_2/README.html
+          - text: "--- Compétitions ---"
+          - text: "Kaggle & ML"
+            href: projets_Competitions/README.html
+          - text: "--- MLOps ---"
+          - text: "Système Temps Réel"
+            href: projets_MLOps_Vigilancy/README.html
+          - text: "--- Vision ---"
+          - text: "Tuning & Data Augmentation"
+            href: projets_Tuning_Data_Augmentation_Vision/README.html
+          - text: "--- Recherche ---"
+          - text: "SOTA AD Tabular"
+            href: projets_research_Sota_AD_Tab/README.html
+          - text: "SOTA AD Time Series"
+            href: projets_research_Sota_AD_TS/README.html
+    right:
+      - icon: github
+        href: https://github.com/cyril-bgs-dev-tech
+      - icon: linkedin
+        href: https://www.linkedin.com/in/cyril-bourgeois/
+      - icon: envelope
+        href: mailto:cyril.bgs.dev.tech@gmail.com
+
+  page-footer:
+    center: "© 2026 Cyril BOURGEOIS | Data Scientist"
+    background: "#f8f9fa"
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css
+    toc: true
+    code-copy: true
+    code-fold: true
+    code-tools: true
+    cite-tools: true
+    
+    # Design moderne
+    mainfont: "Inter, -apple-system, BlinkMacSystemFont, sans-serif"
+    monofont: "Fira Code, Consolas, monospace"
+    
+    # Couleurs personnalisées
+    linkcolor: "#2563eb"
+    link-hover-color: "#1d4ed8"
+
+execute:
+  echo: false
+  warning: false

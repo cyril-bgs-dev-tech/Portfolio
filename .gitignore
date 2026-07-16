@@ -1,0 +1,33 @@
+# Ignore Quarto output
+docs/
+_site/
+
+# Ignore Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+
+# Ignore Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Ignore OS
+.DS_Store
+Thumbs.db
+
+# Ignore IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore temporary files
+*.log
+*.tmp
+*.bak

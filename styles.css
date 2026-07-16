@@ -1,0 +1,179 @@
+/* Custom styles for portfolio */
+
+/* Modern font imports */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap');
+
+/* Global styles */
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  line-height: 1.6;
+}
+
+/* Code blocks */
+code {
+  font-family: 'Fira Code', Consolas, monospace;
+  font-size: 0.9em;
+}
+
+pre code {
+  font-size: 0.85em;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+h1 {
+  font-size: 2.5em;
+  border-bottom: 3px solid #2563eb;
+  padding-bottom: 0.3em;
+}
+
+h2 {
+  font-size: 2em;
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 0.3em;
+}
+
+/* Links */
+a {
+  color: #2563eb;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #1d4ed8;
+  text-decoration: underline;
+}
+
+/* Cards and containers */
+.card {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 1.5em;
+  margin: 1em 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  transition: box-shadow 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5em 0;
+}
+
+th {
+  background-color: #f3f4f6;
+  font-weight: 600;
+  text-align: left;
+  padding: 0.75em;
+  border-bottom: 2px solid #d1d5db;
+}
+
+td {
+  padding: 0.75em;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+tr:hover {
+  background-color: #f9fafb;
+}
+
+/* Badges */
+.badge {
+  display: inline-block;
+  padding: 0.25em 0.75em;
+  border-radius: 12px;
+  font-size: 0.85em;
+  font-weight: 500;
+  margin: 0.25em;
+}
+
+.badge-primary {
+  background-color: #dbeafe;
+  color: #1e40af;
+}
+
+.badge-success {
+  background-color: #d1fae5;
+  color: #065f46;
+}
+
+.badge-warning {
+  background-color: #fef3c7;
+  color: #92400e;
+}
+
+/* Navbar customization */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+/* Footer */
+.footer {
+  margin-top: 3em;
+  padding: 2em 0;
+  background-color: #f8f9fa;
+  border-top: 1px solid #e5e7eb;
+}
+
+/* Dark mode adjustments */
+@media (prefers-color-scheme: dark) {
+  .card {
+    background-color: #1f2937;
+    border-color: #374151;
+  }
+  
+  th {
+    background-color: #374151;
+    border-bottom-color: #4b5563;
+  }
+  
+  td {
+    border-bottom-color: #374151;
+  }
+  
+  tr:hover {
+    background-color: #1f2937;
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2em;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+  }
+  
+  table {
+    font-size: 0.9em;
+  }
+}
+
+/* Print styles */
+@media print {
+  .navbar, .footer {
+    display: none;
+  }
+  
+  a {
+    text-decoration: underline;
+  }
+}
