@@ -152,6 +152,7 @@ Data Scientist passionné avec **double compétence modélisation + production**
 - 🎫 Cycle de vie d'alarme en épisode unique : hystérésis, escalade, SLA par sévérité
 - 📊 Dashboard Streamlit 40+ pages avec rôles RASCI
 - 🔭 Observabilité par étape du DAG : Prometheus + Grafana + cAdvisor
+- 💻 **Code** : [github.com/cyril-bgs-dev-tech/vigilance](https://github.com/cyril-bgs-dev-tech/vigilance)
 
 ---
 
@@ -172,7 +173,7 @@ Data Scientist passionné avec **double compétence modélisation + production**
 - 🥇 PaAno (ICLR 2026) intégré à TSB-AD et certifié : **#1 des volets U et M** (0.58 / 0.46 VUS-PR vs 0.42 / 0.31 pour les leaders publiés)
 - 📈 Tabulaire : routage par domaine **72.5 AUROC** (préenregistré, p=5×10⁻⁷) vs 69.8 meilleur détecteur unique — oracle à 78.3
 - 💡 Leçon : même avec un système SOTA, la composition par domaine ajoute jusqu'à +0.33 VUS-PR localement
-- 🔬 Volets : [tabulaire](projets_research_Sota_AD_Tab/) · [séries temporelles](projets_research_Sota_AD_TS/)
+- 🔬 Volets : [tabulaire](projets_research_Sota_AD_Tab/) · [séries temporelles](projets_research_Sota_AD_TS/) — dépôts : [anomaly_tabular](https://github.com/cyril-bgs-dev-tech/anomaly_tabular) · [anomaly_tsad](https://github.com/cyril-bgs-dev-tech/anomaly_tsad)
 
 ---
 
