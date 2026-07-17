@@ -30,8 +30,8 @@ Data Scientist passionné avec **double compétence modélisation + production**
   
 **🥇 Kaggle Top 1%**
 - 35+ compétitions
-- 4 top 1% mondial
-- Meilleur rang : #13/1757
+- 3 top 1% mondial
+- Meilleur rang : #14/3022
 
 </td>
 <td width="33%">
@@ -178,16 +178,16 @@ Data Scientist passionné avec **double compétence modélisation + production**
 ---
 
 ### 🏆 [Compétitions Kaggle - Top 1% Mondial](projets_Competitions/)
-**35+ compétitions** | **4 top 1%**
+**35+ compétitions** | **3 top 1%**
 
 <div align="center">
 
 | Compétition | Rang | Top % |
 |:---|:---:|:---:|
-| 🌟 Predict Stellar Class | #13 / 1 757 | 0.7% |
 | 🏎️ Prediction F1 Pit Stop | #14 / 3 022 | 0.5% |
 | 🌾 Predicting Irrigation Need | #32 / 4 315 | 0.7% |
 | 🎧 Predict Podcast Listening | #20 / 3 310 | 0.6% |
+| 🏠 Regression California Housing | #14 / 689 | 2% |
 
 </div>
 

@@ -27,8 +27,8 @@ Data Scientist avec **double compétence modélisation + production**, spéciali
 
 ### Compétitions Kaggle
 - **35+ compétitions** complétées
-- **4 compétitions top 1% mondial**
-- **Meilleur classement** : #13 / 1 757 équipes (Top 0.7%)
+- **3 compétitions top 1% mondial**
+- **Meilleur classement** : #14 / 3 022 équipes (Top 0.5%)
 
 ### Recherche compositionnelle — détection d'anomalies
 - **Ancres reproduites** : ADBench (47 datasets) et TSB-AD (égalités exactes au publié)
@@ -116,7 +116,7 @@ Alternance **MICHELIN** (12 mois)
 ### 🏆 Compétitions Kaggle - Top 1% Mondial
 **35+ compétitions**
 
-- Predict Stellar Class : #13 / 1 757 (Top 0.7%)
+- Predict Podcast Listening Time : #20 / 3 310 (Top 0.6%)
 - Prediction F1 Pit Stop : #14 / 3 022 (Top 0.5%)
 - Feature engineering intensif, ensembling/stacking
 

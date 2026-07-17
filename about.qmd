@@ -67,10 +67,10 @@ Ce parcours m'a apporté :
 
 | Compétition | Rang | Top % |
 |-------------|------|-------|
-| Predict Stellar Class | #13 / 1 757 | 0.7% |
 | Prediction F1 Pit Stop | #14 / 3 022 | 0.5% |
 | Predicting Irrigation Need | #32 / 4 315 | 0.7% |
 | Predict Podcast Listening Time | #20 / 3 310 | 0.6% |
+| Regression — California Housing | #14 / 689 | 2% |
 
 **Approche** :
 - Feature engineering intensif (centaines de features)
@@ -156,7 +156,7 @@ Ce parcours m'a apporté :
 
 - **Master 2 Data Scientist** - Centrale Supélec (2024)
 - **Master 1 Data Analyst** - ENSAE (2022)
-- **Kaggle Competitions** : Top 1% mondial (4 compétitions)
+- **Kaggle Competitions** : Top 1% mondial (3 compétitions)
 
 ---
 

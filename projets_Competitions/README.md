@@ -1,7 +1,7 @@
 # 🏆 Compétitions Kaggle & Machine Learning
 
-**35+ compétitions complétées** | **8 top 4% mondial** | **4 top 1% mondial**  
-**Meilleur classement** : #13 / 1 757 équipes (Top 0.7%)
+**35+ compétitions complétées** | **7 top 4% mondial** | **3 top 1% mondial**  
+**Meilleur classement** : #14 / 3 022 équipes (Top 0.5%)
 
 ---
 
@@ -10,35 +10,16 @@
 | Métrique | Valeur |
 |----------|--------|
 | Compétitions complétées | 35+ |
-| Top 4% mondial | 8 compétitions |
-| Top 1% mondial | 4 compétitions |
-| Meilleur rang | #13 / 1 757 (Top 0.7%) |
+| Top 4% mondial | 7 compétitions |
+| Top 1% mondial | 3 compétitions |
+| Meilleur rang | #14 / 3 022 (Top 0.5%) |
 | Domaines couverts | Régression, classification, NLP, time series, vision, anomalies |
 
 ---
 
 ## 🥇 Compétitions Top 1% Mondial
 
-### 1. Predict Stellar Class - #13 / 1 757 équipes (Top 0.7%)
-**Type** : Classification multi-classes  
-**Contexte** : Classification d'étoiles basée sur des données astronomiques
-
-**Approche Feature Engineering** :
-- Features astronomiques dérivées (rapports de magnitude, indices de couleur)
-- Interactions entre variables physiques
-- Encodages cycliques pour variables angulaires
-- Normalisation robuste aux outliers
-
-**Modélisation** :
-- Modèles : XGBoost, LightGBM, CatBoost, TabM, RealMLP
-- Ensembling : Stacking avec méta-modèle
-- Optimisation : Optuna avec validation stratifiée
-
-**Technologies** : Python, XGBoost, LightGBM, CatBoost, TabM, Optuna
-
----
-
-### 2. Predicting Irrigation Need - #32 / 4 315 équipes (Top 0.7%)
+### 1. Predicting Irrigation Need - #32 / 4 315 équipes (Top 0.7%)
 **Type** : Classification binaire/multi-classes  
 **Contexte** : Prédiction des besoins en irrigation agricole
 
@@ -58,7 +39,7 @@
 
 ---
 
-### 3. Prediction F1 Pit Stop - #14 / 3 022 équipes (Top 0.5%)
+### 2. Prediction F1 Pit Stop - #14 / 3 022 équipes (Top 0.5%)
 **Type** : Régression/Classification  
 **Contexte** : Prédiction de la durée ou du moment des arrêts aux stands en F1
 
@@ -79,7 +60,7 @@
 
 ---
 
-### 4. Predict Podcast Listening Time - #20 / 3 310 équipes (Top 0.6%)
+### 3. Predict Podcast Listening Time - #20 / 3 310 équipes (Top 0.6%)
 **Type** : Régression  
 **Contexte** : Prédiction du temps d'écoute de podcasts
 
@@ -101,7 +82,7 @@
 
 ## 🥈 Autres Compétitions Notables
 
-### 5. Regression — California Housing - #14 / 689 équipes (Top 2%)
+### 4. Regression — California Housing - #14 / 689 équipes (Top 2%)
 **Type** : Régression  
 **Contexte** : Prédiction de prix immobiliers en Californie
 
@@ -112,7 +93,7 @@
 
 ---
 
-### 6. Regression — Abalone Dataset - #61 / 2 606 équipes (Top 2%)
+### 5. Regression — Abalone Dataset - #61 / 2 606 équipes (Top 2%)
 **Type** : Régression  
 **Contexte** : Prédiction de l'âge d'ormeau à partir de caractéristiques physiques
 
@@ -122,7 +103,7 @@
 
 ---
 
-### 7. Steel Plate Defect Prediction - #88 / 2 199 équipes (Top 4%)
+### 6. Steel Plate Defect Prediction - #88 / 2 199 équipes (Top 4%)
 **Type** : Classification multi-label  
 **Contexte** : Détection de défauts sur des plaques d'acier (industrie)
 
@@ -133,7 +114,7 @@
 
 ---
 
-### 8. Multi-Label Classification — Enzyme Substrate - #44 / 1 047 équipes (Top 4%)
+### 7. Multi-Label Classification — Enzyme Substrate - #44 / 1 047 équipes (Top 4%)
 **Type** : Classification multi-label  
 **Contexte** : Prédiction de substrats enzymatiques (biologie/chimie)
 
@@ -252,7 +233,7 @@
 ## 🎯 Valeur Ajoutée pour l'Entreprise
 
 ### Compétences Démontrées
-1. **Capacité d'apprentissage rapide** : Top 1% sur des domaines variés (astronomie, agriculture, F1, podcasts)
+1. **Capacité d'apprentissage rapide** : Top 1% sur des domaines variés (agriculture, F1, podcasts)
 2. **Feature engineering avancé** : Création de features pertinentes dans tous les domaines
 3. **Maîtrise état de l'art** : Test et intégration des dernières avancées (TabM, TabICL2, RealMLP)
 4. **Rigueur expérimentale** : Validation croisée, reproductibilité, interprétabilité
