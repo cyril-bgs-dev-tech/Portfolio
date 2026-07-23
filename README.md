@@ -77,6 +77,7 @@ Data Scientist passionné avec **double compétence modélisation + production**
 
 💡 **Impact** :
 - POC mené jusqu'au bout et préparé pour la mise en production
+- Accélération considérable des temps de traitement par rapport au processus manuel
 - Adapté et utilisé par les équipes par la suite
 
 🗣️ **Feedback** :

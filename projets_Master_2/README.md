@@ -49,8 +49,6 @@ Cette deuxième année (2023-2024) associe une formation avancée (deep learning
 - Score de confiance pour chaque match
 - Gestion des cas limites
 
-**Technologies** : Scikit-learn
-
 **Résultat** : Augmentation considérable du taux de détection des correspondances, contribution à l'amélioration de la qualité des données pricing
 
 #### 3. Contrôle Qualité
@@ -68,7 +66,7 @@ Cette deuxième année (2023-2024) associe une formation avancée (deep learning
 
 ### Résultats Globaux
 - POC validé et prêt pour industrialisation
-- Réduction du temps de traitement manuel
+- Accélération considérable des temps de traitement par rapport au processus manuel
 - Amélioration de la qualité des données
 - Dashboards utilisés par l'équipe pricing
 
