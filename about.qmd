@@ -36,26 +36,38 @@ Ce parcours m'a apporté :
 ## 💼 Expérience Professionnelle
 
 ### Alternance Data Scientist - MICHELIN (Fév 2023 - Fév 2024)
+*39h/semaine, 4 jours/5 en entreprise*
 
-**POC Parsing/Matching de Données Complexes**
-
-**Contexte** : Données pricing mondial, niveau continental, hétérogénéité des sources
+**POC Parsing/Matching de Données Complexes — Niveau Continental**
 
 **Missions** :
-- Parsing et extraction de données hétérogènes (JSON, XML, CSV, Excel)
-- Algorithmes de fuzzy matching (score de confiance > 85%)
-- Contrôle qualité avec tests automatisés (PyTest)
-- Dashboards Power BI pour équipe pricing
+- Réalisation d'un POC de parsing/matching de données complexes, niveau continental
+- Algorithmes de fuzzy matching — augmentation considérable du taux de détection des correspondances
+- Nettoyage et qualité des données, analyses spécifiques autour du pricing niveau mondial
+- Tests de non régression
 
 **Résultats** :
-- POC validé et prêt pour industrialisation
-- Réduction du temps de traitement manuel
-- Amélioration de la qualité des données
+- Vitesse d'exécution et résultats jugés excellents d'après plusieurs Product Owners
+- Accélération considérable des temps de traitement par rapport au processus manuel
+- POC mené jusqu'au bout et préparé pour la mise en production, adapté et utilisé par les équipes par la suite
 
 **Feedback** :
 > *"Implication et capacité constante à se challenger. Force de proposition, assidu dans les missions. POC parsing/mapping mené avec succès."*
 > 
 > — Antoine DANIEL LAMAZIERE (PO) + Architecte Data, Michelin
+
+---
+
+### CDD Data Scientist / ML Engineer - DELTAMU (Oct 2024 - Oct 2025)
+
+**Recherche en Détection d'Anomalies — Capteurs Industriels (Pharma)**
+
+**Contexte** : Industrie pharma, plusieurs centaines de capteurs
+
+**Missions** :
+- Tests de recherche en clustering et détection d'anomalies
+- Analyse et interprétation d'insights et de cycliques
+- Création d'un algorithme de niveau recherche validé par le responsable scientifique
 
 ---
 
@@ -196,14 +208,14 @@ Ce parcours m'a apporté :
 > *"Implication et capacité constante à se challenger. Maîtrise des solutions de développement et mise en œuvre. Curiosité et motivation, intérêt pour problématiques Data Business. Force de proposition, assidu dans les missions."*
 
 ### OpenClassRooms (2022)
-**Hamza Tajmouati** (Mentor)
+**Hamza Tajmouati** (Head of AI chez Iktos, Mentor OpenClassrooms)
 
-> *"Parcours exemplaire. Proactivité et qualité du travail remarquables."*
+> *"Grande autonomie, proactivité et motivation. Curiosité et recherche constante d'amélioration. Doué en programmation et en compréhension théorique."*
 
 ### Deltamu (2026)
 **Nuno DOS REIS** (Président)
 
-> *"Expertise technique solide et capacité d'adaptation exceptionnelle."*
+> *"Réelle passion pour la data science et les algorithmes d'IA. Investissement dans les missions, contribution active au produit logiciel."*
 
 ---
 
