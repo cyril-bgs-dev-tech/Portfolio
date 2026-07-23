@@ -36,6 +36,7 @@ Ce parcours m'a apporté :
 ## 💼 Expérience Professionnelle
 
 ### Alternance Data Scientist - MICHELIN (Fév 2023 - Fév 2024)
+*39h/semaine, 4 jours/5 en entreprise*
 
 **POC Parsing/Matching de Données Complexes — Niveau Continental**
 

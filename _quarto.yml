@@ -26,12 +26,12 @@ website:
             href: projets_Competitions/index.qmd
           - text: "--- MLOps ---"
           - text: "Système Temps Réel"
-            href: projets_MLOps_Vigilancy/index.qmd
+            href: vigilance/index.qmd
           - text: "--- Recherche ---"
           - text: "SOTA AD Tabular"
-            href: projets_research_Sota_AD_Tab/index.qmd
+            href: anomaly_tabular/index.qmd
           - text: "SOTA AD Time Series"
-            href: projets_research_Sota_AD_TS/index.qmd
+            href: anomaly_tsad/index.qmd
     right:
       - icon: github
         href: https://github.com/cyril-bgs-dev-tech

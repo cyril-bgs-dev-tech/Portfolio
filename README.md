@@ -60,7 +60,7 @@ Data Scientist passionné avec **double compétence modélisation + production**
 <div align="center">
 
 ### 🏭 Data Scientist - MICHELIN (Alternance)
-*Février 2023 - Février 2024*
+*Février 2023 - Février 2024 · 39h/semaine, 4 jours/5 en entreprise*
 
 </div>
 
@@ -151,7 +151,7 @@ Data Scientist passionné avec **double compétence modélisation + production**
 
 ## 🚀 Projets Phares
 
-### 🔧 [Système MLOps Temps Réel](projets_MLOps_Vigilancy/)
+### 🔧 [Système MLOps Temps Réel](vigilance/)
 **Détection d'anomalies industrielle** - 1 200+ heures
 
 <div align="center">
@@ -173,7 +173,7 @@ Data Scientist passionné avec **double compétence modélisation + production**
 
 ---
 
-### 🔬 [Recherche Compositionnelle - Anomaly Detection](projets_research_Sota_AD_Tab/)
+### 🔬 [Recherche Compositionnelle - Anomaly Detection](anomaly_tabular/)
 **Composer les SOTA et router par domaine — ADBench (tabulaire) + TSB-AD (séries temporelles)**
 
 <div align="center">
@@ -190,7 +190,7 @@ Data Scientist passionné avec **double compétence modélisation + production**
 - 🥇 PaAno (ICLR 2026) intégré à TSB-AD et certifié : **#1 des volets U et M** (0.58 / 0.46 VUS-PR vs 0.42 / 0.31 pour les leaders publiés)
 - 📈 Tabulaire : routage par domaine **72.5 AUROC** (préenregistré, p=5×10⁻⁷) vs 69.8 meilleur détecteur unique — oracle à 78.3
 - 💡 Leçon : même avec un système SOTA, la composition par domaine ajoute jusqu'à +0.33 VUS-PR localement
-- 🔬 Volets : [tabulaire](projets_research_Sota_AD_Tab/) · [séries temporelles](projets_research_Sota_AD_TS/) — dépôts : [anomaly_tabular](https://github.com/cyril-bgs-dev-tech/anomaly_tabular) · [anomaly_tsad](https://github.com/cyril-bgs-dev-tech/anomaly_tsad)
+- 🔬 Volets : [tabulaire](anomaly_tabular/) · [séries temporelles](anomaly_tsad/) — dépôts : [anomaly_tabular](https://github.com/cyril-bgs-dev-tech/anomaly_tabular) · [anomaly_tsad](https://github.com/cyril-bgs-dev-tech/anomaly_tsad)
 
 ---
 
@@ -225,10 +225,10 @@ Data Scientist passionné avec **double compétence modélisation + production**
 ├── 🎓 projets_Master_1/        # 10 projets Data Analyst
 ├── 🎓 projets_Master_2/        # 7 projets Data Scientist + Michelin
 ├── 🏆 projets_Competitions/    # 35+ compétitions Kaggle
-├── 🔧 projets_MLOps_Vigilancy/ # Système temps réel
+├── 🔧 vigilance/ # Système temps réel
 ├── 🎨 projets_Tuning_Vision/   # Computer Vision & Data Augmentation
-├── 🔬 projets_research_Sota_AD_Tab/  # Recherche tabulaire
-└── 🔬 projets_research_Sota_AD_TS/   # Recherche time series
+├── 🔬 anomaly_tabular/  # Recherche tabulaire
+└── 🔬 anomaly_tsad/   # Recherche time series
 ```
 
 </div>

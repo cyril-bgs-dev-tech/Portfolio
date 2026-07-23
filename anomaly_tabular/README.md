@@ -87,6 +87,6 @@ Même en partant du **meilleur détecteur unique** (KNN, 69.8), la composition r
 ---
 
 **Dépôt dédié** : [github.com/cyril-bgs-dev-tech/anomaly_tabular](https://github.com/cyril-bgs-dev-tech/anomaly_tabular)  
-**Projet frère** : [Recherche time series](../projets_research_Sota_AD_TS/) (TSB-AD, PaAno, routage par domaine)  
+**Projet frère** : [Recherche time series](../anomaly_tsad/) (TSB-AD, PaAno, routage par domaine)  
 **Dernière mise à jour** : juillet 2026  
 **Contact** : cyril.bgs.dev.tech@gmail.com

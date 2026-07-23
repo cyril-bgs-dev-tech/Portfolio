@@ -1,7 +1,7 @@
 # 🎓 Projets Master 2 - Data Scientist (2023-2024)
 
 **Formation** : OpenClassRooms + Centrale Supelec  
-**Alternance** : MICHELIN (Fév 2023 - Fév 2024)  
+**Alternance** : MICHELIN (Fév 2023 - Fév 2024), 39h/semaine, 4 jours/5 en entreprise  
 **Durée** : 12 mois
 
 **Où en est ce projet** : formation et alternance terminées et validées (2024). Le code Michelin est confidentiel (données pricing propriétaires) ; les notebooks des projets académiques ne sont pas versionnés ici — disponibles sur demande.
@@ -71,6 +71,8 @@ Cette deuxième année (2023-2024) associe une formation avancée (deep learning
 - Planifier le parcours Master 2
 - Identifier les ressources et outils
 
+**Feedback** : *"Cadre de la formation bien défini, objectifs clairs. Très bonne soutenance."*
+
 ---
 
 ### Projet 2 : Concevez une Application au Service de la Santé Publique
@@ -82,6 +84,8 @@ Cette deuxième année (2023-2024) associe une formation avancée (deep learning
 - Analyse de données de santé
 - Modélisation prédictive
 - Visualisation et recommandations
+
+**Feedback** : *"Livrables complets, répondent à la problématique. Analyse pertinente des données, traitements outliers et valeurs manquantes bien réalisés."*
 
 ---
 
@@ -95,6 +99,8 @@ Cette deuxième année (2023-2024) associe une formation avancée (deep learning
 - Modèles de régression
 - Prévisions de consommation
 
+**Feedback** : *"Valeurs manquantes très bien réalisées, beaucoup de recherches. Data leakage bien identifié et écarté. Très bon score de R². Félicitations."*
+
 ---
 
 ### Projet 4 : Segmentez des Clients d'un Site E-commerce
@@ -107,6 +113,8 @@ Cette deuxième année (2023-2024) associe une formation avancée (deep learning
 - Analyse comportementale
 - Recommandations business
 
+**Feedback** : *"Présentation claire et agréable, support de qualité professionnel. Bonne compréhension des approches de clustering, clusters bien interprétés."*
+
 ---
 
 ### Projet 5 : Catégorisez Automatiquement des Questions
@@ -118,6 +126,8 @@ Cette deuxième année (2023-2024) associe une formation avancée (deep learning
 - Pipeline NLP (tokenization, vectorization)
 - Modèles de classification de textes
 - TF-IDF, embeddings, transformers
+
+**Feedback** : *"Travail de grande qualité, répond parfaitement aux critères de validation. Bon niveau technique et solides compétences en communication."*
 
 ---
 
@@ -139,17 +149,21 @@ Cette deuxième année (2023-2024) associe une formation avancée (deep learning
 
 **Technologies** : Python, TensorFlow/PyTorch, CNN, Transfer Learning
 
+**Feedback** : *"Points forts : prétraitements, CNN from scratch, transfer learning, data augmentation, fine-tuning."*
+
 ---
 
 ### Projet 7 : Développez une Preuve de Concept (Option Stage)
 **Statut** : ✅ Validé
 
-**Contexte** : POC pour validation des acquis avant stage/alternance
+**Contexte** : POC pour validation des acquis avant stage/alternance — classification sur données tabulaires, test d'une famille d'algorithmes récente (TabPFN) comparée aux approches ensemblistes (XGBoost, LightGBM, CatBoost)
 
 **Réalisation** :
 - Projet intégrateur combinant plusieurs compétences
 - Démonstration de capacité à mener un projet de bout en bout
 - Présentation et soutenance
+
+**Feedback** : *"Sujet pertinent, sources sérieuses consultées et bien articulées. Présentation claire."*
 
 ---
 

@@ -101,7 +101,7 @@ Alternance **MICHELIN** (12 mois)
 - Cycle de vie d'alarme en épisode unique (hystérésis, escalade, SLA)
 - Dashboard Streamlit 40+ pages (rôles RASCI), observabilité Prometheus/Grafana
 
-→ [Voir le projet](projets_MLOps_Vigilancy/index.qmd)
+→ [Voir le projet](vigilance/index.qmd)
 
 ### 🔬 Recherche Compositionnelle — Détection d'Anomalies (ADBench & TSB-AD)
 **Composer les SOTA et router par domaine de données**
@@ -111,7 +111,7 @@ Alternance **MICHELIN** (12 mois)
 - Corpus 502 datasets / 20 domaines : le routage par domaine bat le meilleur détecteur unique de +2.7 pts AUROC (préenregistré)
 - Le gain du routage croît avec la dimensionnalité — la composition bat le champion global
 
-→ [Voir le projet](projets_research_Sota_AD_Tab/index.qmd)
+→ [Voir le projet](anomaly_tabular/index.qmd)
 
 ### 🏆 Compétitions Kaggle - Top 1% Mondial
 **35+ compétitions**
