@@ -179,7 +179,7 @@ Navigation native `st.navigation`, matrice **RASCI par page** (opérateur / anal
 
 ## 🚀 Évolutions prévues
 
-- **Court terme** : boucle de feedback opérateur (validation → réentraînement), score de santé agrégé par machine, sparkline d'épisode sur les cartes d'alerte, Redis comme source de vérité unique des tickets
+- **Court terme** : boucle de feedback fermée avec [Aegis-RCA](../aegis-rca/) — les diagnostics de cause racine validés (ou corrigés) par un opérateur deviennent des labels pour réentraîner la couche supervisée au-delà du binaire anomalie/pas-anomalie ; score de santé agrégé par machine, sparkline d'épisode sur les cartes d'alerte, Redis comme source de vérité unique des tickets
 - **Moyen terme** : GATv2/Transformer sur graphes de capteurs (prototype existant), online learning, multi-sites
 - **Long terme** : RUL (durée de vie restante), maintenance prescriptive
 

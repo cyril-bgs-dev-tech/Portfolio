@@ -59,6 +59,10 @@ Chaque choix structurant a été soumis à deux avis externes (Gemini, ChatGPT) 
 - Nécessite le réseau Docker externe de vigilance pour tourner
 - Mémoire long-terme, observabilité de production et déploiement cloud : décisions documentées, pas encore construites
 
+## Prochaine étape — boucle de feedback fermée avec vigilance
+
+Les diagnostics validés (ou corrigés) par un opérateur constituent des labels de cause racine que [vigilance](../vigilance/) n'a pas aujourd'hui (sa couche supervisée ne distingue qu'anomalie/pas-anomalie). L'architecture mémoire déjà décidée (tickets résolus indexés dans Qdrant + corrections humaines structurées) est le prérequis naturel : une fois construite, elle alimente à la fois le réentraînement de vigilance et l'élargissement du banc d'évaluation d'Aegis au-delà des 14 cas actuels.
+
 :::
 
 ---
