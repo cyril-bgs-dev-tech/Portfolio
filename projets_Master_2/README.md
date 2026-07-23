@@ -49,9 +49,9 @@ Cette deuxième année (2023-2024) associe une formation avancée (deep learning
 - Score de confiance pour chaque match
 - Gestion des cas limites
 
-**Technologies** : Scikit-learn, Distance de Levenshtein, TF-IDF
+**Technologies** : Scikit-learn
 
-**Résultat** : Score de confiance > 85% sur dataset de test
+**Résultat** : Augmentation considérable du taux de détection des correspondances, contribution à l'amélioration de la qualité des données pricing
 
 #### 3. Contrôle Qualité
 - Tests de non-régression automatisés (PyTest)

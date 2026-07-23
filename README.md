@@ -66,18 +66,18 @@ Data Scientist passionné avec **double compétence modélisation + production**
 
 **POC Parsing/Matching de Données Complexes**
 
-🎯 **Mission** : Industrialiser un système de matching pour données pricing mondiales
+🎯 **Mission** : Concevoir un système de matching pour données pricing mondiales, préparé pour industrialisation
 
 ✨ **Réalisations** :
 - 🔄 Pipeline de parsing multi-format (JSON, XML, CSV, Excel)
-- 🎯 Algorithmes de fuzzy matching (score > 85%)
+- 🎯 Algorithmes de fuzzy matching — augmentation considérable du taux de détection des correspondances
+- 📈 Amélioration de la qualité des données pricing
 - 📊 Dashboards Power BI pour équipe pricing
 - ✅ Tests automatisés (PyTest) + contrôle qualité
 
 💡 **Impact** :
-- POC validé → prêt pour industrialisation
-- Réduction significative du temps de traitement manuel
-- Adoption par l'équipe pricing
+- POC mené jusqu'au bout et préparé pour la mise en production
+- Adapté et utilisé par les équipes par la suite
 
 🗣️ **Feedback** :
 > *"Implication et capacité constante à se challenger. Force de proposition, assidu dans les missions. POC parsing/mapping mené avec succès."*  

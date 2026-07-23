@@ -43,13 +43,13 @@ Ce parcours m'a apporté :
 
 **Missions** :
 - Parsing et extraction de données hétérogènes (JSON, XML, CSV, Excel)
-- Algorithmes de fuzzy matching (score de confiance > 85%)
+- Algorithmes de fuzzy matching — augmentation considérable du taux de détection des correspondances
 - Contrôle qualité avec tests automatisés (PyTest)
 - Dashboards Power BI pour équipe pricing
 
 **Résultats** :
-- POC validé et prêt pour industrialisation
-- Réduction du temps de traitement manuel
+- POC mené jusqu'au bout et préparé pour la mise en production
+- Adapté et utilisé par les équipes par la suite
 - Amélioration de la qualité des données
 
 **Feedback** :
