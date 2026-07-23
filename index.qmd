@@ -103,6 +103,15 @@ Alternance **MICHELIN** (12 mois)
 
 → [Voir le projet](vigilance/index.qmd)
 
+### 🕵️ Aegis-RCA — Agent de Diagnostic de Causes Racines
+**Prototype de recherche actif** — extension de vigilance
+
+- Agent LLM local qui investigue les incidents : contexte métriques, RAG sur procédures, diagnostic + recommandation validés par un humain
+- Décisions d'architecture confrontées à des avis externes puis vérifiées par des bancs de mesure réels
+- Sandbox d'auto-correction durci, 1 succès réel mesuré
+
+→ [Voir le projet](aegis-rca/index.qmd)
+
 ### 🔬 Recherche Compositionnelle — Détection d'Anomalies (ADBench & TSB-AD)
 **Composer les SOTA et router par domaine de données**
 
