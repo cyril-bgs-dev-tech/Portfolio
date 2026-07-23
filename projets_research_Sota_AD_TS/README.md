@@ -2,7 +2,27 @@
 
 **Thèse** : même le meilleur modèle SOTA ne domine pas partout sur les séries temporelles. On reproduit le benchmark de référence, on y monte les SOTA les plus récents, puis on **caractérise les domaines** pour router le bon détecteur vers la bonne série — et on mesure ce que cette composition rapporte **au-dessus** du SOTA.
 
+**Où en est ce projet** :
+- ✅ Fait : benchmark de référence reproduit à l'exact, dernier état de l'art (PaAno, ICLR 2026) intégré et certifié #1, caractérisation des domaines et gains de routage mesurés en LODO préenregistré
+- 🚧 Pas encore fait : le harnais de code n'est pas encore extrait dans ce dépôt public sous une forme reproductible par un tiers — seuls la méthodologie et les classements consolidés y sont aujourd'hui
+
 ---
+
+::: {.panel-tabset}
+
+## 🧑‍💼 Vue d'ensemble
+
+**La question posée** : face à un signal (température, vibration, trafic réseau...) qui part en dérive, existe-t-il UN modèle qui détecte le mieux les anomalies, quel que soit le type de données ? Beaucoup de recherches cherchent "le" meilleur modèle universel.
+
+**Ce qu'on a trouvé** : non, ce modèle universel n'existe pas. Le meilleur détecteur pour des données médicales n'est pas le même que pour des données de serveurs informatiques ou de capteurs industriels. Plutôt que de chercher LE modèle miracle, l'approche ici est de **reconnaître automatiquement le type de données** et d'assigner le bon outil au bon problème — comme un chef d'orchestre qui assigne le bon musicien à la bonne partition plutôt que de chercher un instrument qui joue tout parfaitement.
+
+**Pourquoi c'est rigoureux et pas juste une intuition** : avant de prétendre faire mieux que les modèles publiés dans la recherche académique, la première étape a été de **reproduire exactement** leurs résultats publiés — sans ça, impossible de savoir si un gain mesuré ensuite est réel ou un artefact de mesure. Cette étape de vérification est ce qui distingue une démarche scientifique sérieuse d'un simple benchmark marketing.
+
+**Le résultat chiffré** : en intégrant le modèle le plus récent de la recherche (2026) et en le combinant avec ce routage par domaine, le système obtient de meilleurs résultats que n'importe quel modèle utilisé seul — l'écart grandit avec la complexité des données (plusieurs capteurs corrélés plutôt qu'un seul).
+
+**Ce que ça démontre** : la capacité à mener une recherche appliquée avec la même rigueur qu'une publication scientifique (protocoles figés à l'avance, vérifications anti-triche), tout en gardant un œil sur l'utilité pratique du résultat.
+
+## 🔧 Détails techniques
 
 ## 1️⃣ Le benchmark de base (l'ancre)
 
@@ -70,6 +90,8 @@ Même en déployant PaAno partout (le #1 absolu), la spécialisation par domaine
 3. **Warm-start par source** : les deltas warm vs cold montrent qu'un historique de la source vaut des points (jusqu'à +0.44 en médical neuro)
 4. **Corpus qualité** : ≥ 800 séries / ≥ 12 domaines avec gates de qualité par série
 5. **Préenregistrement + réplication séquestrée** des claims de routage (même discipline que le volet tabulaire)
+
+:::
 
 ---
 

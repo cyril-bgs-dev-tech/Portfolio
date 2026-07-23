@@ -27,9 +27,6 @@ website:
           - text: "--- MLOps ---"
           - text: "Système Temps Réel"
             href: projets_MLOps_Vigilancy/index.qmd
-          - text: "--- Vision ---"
-          - text: "Tuning & Data Augmentation"
-            href: projets_Tuning_Data_Augmentation_Vision/index.qmd
           - text: "--- Recherche ---"
           - text: "SOTA AD Tabular"
             href: projets_research_Sota_AD_Tab/index.qmd

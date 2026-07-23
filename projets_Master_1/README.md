@@ -4,7 +4,20 @@
 **Durée** : 12 mois  
 **Projets réalisés** : 10 projets validés
 
+**Où en est ce projet** : les 10 projets sont validés et clos (2022). Les notebooks/livrables ne sont pas versionnés ici (pour garder le dépôt léger) — disponibles sur demande.
+
 ---
+
+::: {.panel-tabset}
+
+## 🧑‍💼 Vue d'ensemble
+
+Cette première année de formation (2021-2022) pose les bases du métier de data analyst : passer de données brutes à des recommandations utilisables par une équipe métier, sur des cas concrets — ventes e-commerce, gestion de stock, indicateurs d'égalité professionnelle, qualité de l'eau potable, étude de marché...
+
+Le fil conducteur des retours d'évaluateurs (5 formateurs différents sur 10 projets) : la technique était acquise dès le début, mais la **présentation des résultats à un public non-technique** était le point à travailler — et s'est nettement améliorée au fil des projets (voir le dernier, sur la détection de faux billets, où ce retour a été le plus explicite).
+
+## 🔧 Détails techniques
+
 
 ## 📊 Vue d'Ensemble
 
@@ -211,8 +224,6 @@
 
 ## 📊 Synthèse des Feedbacks
 
-![Feedbacks Évaluateurs](wordcloud_master1.png)
-
 **Mots-clés dominants** :
 - **Présentation** : Mentionnée dans 8/10 projets
 - **Conforme/Complet** : Livrables de qualité
@@ -258,6 +269,8 @@
 - Deep learning et NLP
 - Données à plus grande échelle
 - Alternance en entreprise
+
+:::
 
 ---
 

@@ -4,7 +4,23 @@
 **Alternance** : MICHELIN (Fév 2023 - Fév 2024)  
 **Durée** : 12 mois
 
+**Où en est ce projet** : formation et alternance terminées et validées (2024). Le code Michelin est confidentiel (données pricing propriétaires) ; les notebooks des projets académiques ne sont pas versionnés ici — disponibles sur demande.
+
 ---
+
+::: {.panel-tabset}
+
+## 🧑‍💼 Vue d'ensemble
+
+Cette deuxième année (2023-2024) associe une formation avancée (deep learning, NLP, séries temporelles) à une alternance d'un an chez Michelin.
+
+**La mission Michelin en une phrase** : Michelin collecte des données de prix concurrents dans le monde entier, mais ces données arrivent dans des formats différents selon la source (fichiers Excel, exports JSON, XML...) et doivent être rapprochées pour être comparables. La mission consistait à construire un système qui **fait ce rapprochement automatiquement**, avec un score de fiabilité, là où c'était fait manuellement — un travail comparable à celui de reconnaître qu'"IBM" et "International Business Machines" désignent la même entreprise, mais à l'échelle de millions de lignes et de plusieurs langues/devises.
+
+**L'impact** : moins de temps passé à rapprocher les données à la main pour l'équipe pricing, plus de fiabilité dans les comparaisons de prix, et un POC jugé prêt pour une mise en production plus large.
+
+**Le reste de l'année** : projets académiques sur des cas variés (application santé publique, prévision de consommation énergétique, segmentation client e-commerce, classification automatique de texte, reconnaissance d'images).
+
+## 🔧 Détails techniques
 
 ## 🏭 Alternance Michelin - POC Parsing/Matching de Données Complexes
 
@@ -57,8 +73,6 @@
 - Dashboards utilisés par l'équipe pricing
 
 ### Synthèse des Feedbacks
-
-![Feedbacks Michelin](wordcloud_master2.png)
 
 **Mots-clés dominants** :
 - **Implication/Challenger** : Engagement constant
@@ -208,6 +222,8 @@
 | **Anomalies** | Scikit-learn, Isolation Forest, Autoencoders |
 | **Entreprise** | Power BI, Streamlit, Plotly, Git |
 | **Testing** | PyTest |
+
+:::
 
 ---
 

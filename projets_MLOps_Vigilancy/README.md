@@ -6,7 +6,32 @@
 **Durée** : 1 200+ heures de développement (2025-2026)  
 **Périmètre** : 3 machines simulées (capteurs numériques, flux 1 event/s/machine), extensible par simple enregistrement de dataset
 
+**Où en est ce projet** :
+- ✅ Fait et fonctionnel : pipeline de détection (3 canaux + fusion), cycle de vie d'alarme, dashboard 40+ pages, observabilité Prometheus/Grafana, résilience (DLQ, backups, reprise après crash)
+- 🚧 Prévu, pas encore construit : boucle de feedback opérateur (validation humaine → réentraînement automatique), score de santé agrégé par machine
+- 🔭 Exploratoire : GATv2/Transformer sur graphes de capteurs (prototype existant, pas intégré au pipeline)
+
 ---
+
+::: {.panel-tabset}
+
+## 🧑‍💼 Vue d'ensemble
+
+**En une phrase** : un système qui surveille en continu des capteurs industriels et prévient automatiquement quand quelque chose d'anormal se produit — avant que ça ne devienne une panne coûteuse.
+
+**Le problème** : sur une ligne de production, un capteur qui dérive lentement (roulement qui s'use, capteur qui se désétalonne) passe souvent inaperçu jusqu'à la panne. Détecter ce genre de signal faible, en continu et sans intervention humaine, est la promesse du "monitoring intelligent" — le même principe que les outils de supervision utilisés par Netflix ou Uber pour surveiller leurs services, appliqué ici à des capteurs physiques.
+
+**Ce que le système fait concrètement** :
+- Il regarde chaque capteur en continu et compare son comportement à trois façons différentes de définir "anormal" (pour ne pas rater un type de dérive qu'une seule méthode manquerait)
+- Quand une anomalie est confirmée, il ouvre un ticket unique (pas un spam d'alertes répétées pour le même problème) et lui donne un niveau de gravité
+- Un tableau de bord affiche en direct l'état de toutes les machines, avec une explication de *pourquoi* chaque alerte a été levée — pas juste "anomalie détectée", mais "ce facteur précis est responsable"
+- Le système sait aussi surveiller sa propre santé : temps de réponse, erreurs, charge — comme le ferait une équipe SRE pour un site web
+
+**Pourquoi c'est difficile** : le vrai défi n'est pas de détecter une anomalie évidente, mais d'éviter à la fois les fausses alertes (qui usent la confiance des opérateurs) et les anomalies manquées — tout en restant utilisable en continu, sans surveillance humaine constante.
+
+**Ce que ça démontre** : la capacité à concevoir un système complet — pas juste un modèle qui prédit, mais tout ce qu'il faut autour pour que ce modèle soit fiable, observable et utilisable en production.
+
+## 🔧 Détails techniques
 
 ## 🏗️ Architecture Réelle du DAG (9 workers)
 
@@ -146,7 +171,7 @@ Navigation native `st.navigation`, matrice **RASCI par page** (opérateur / anal
 - **Architecture événementielle** : DAG distribué, barrières atomiques, workers découplés, fusion d'états
 - **Fiabilité** : DLQ, archivage, backups, reprise exacte après redémarrage, dégradation propre (warm-up, TTL)
 - **Gestion d'alarmes** : machine à états, hystérésis, escalade, déduplication en épisode unique — le cœur métier d'un système de monitoring industriel
-- **MLOps** : registries versionnés, bootstrap conditionnel, compatibilité descendante des modèles picklés, feedback opérateur
+- **MLOps** : registries versionnés, bootstrap conditionnel, compatibilité descendante des modèles picklés
 - **Observabilité** : métriques par étape, SLA, monitoring infra
 - **UX opérationnelle** : 40+ pages organisées par rôle RASCI, du cockpit temps réel à l'audit
 
@@ -154,9 +179,11 @@ Navigation native `st.navigation`, matrice **RASCI par page** (opérateur / anal
 
 ## 🚀 Évolutions prévues
 
-- **Court terme** : score de santé agrégé par machine, sparkline d'épisode sur les cartes d'alerte, Redis comme source de vérité unique des tickets
+- **Court terme** : boucle de feedback opérateur (validation → réentraînement), score de santé agrégé par machine, sparkline d'épisode sur les cartes d'alerte, Redis comme source de vérité unique des tickets
 - **Moyen terme** : GATv2/Transformer sur graphes de capteurs (prototype existant), online learning, multi-sites
 - **Long terme** : RUL (durée de vie restante), maintenance prescriptive
+
+:::
 
 ---
 

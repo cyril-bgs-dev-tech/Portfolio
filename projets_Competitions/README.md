@@ -3,7 +3,24 @@
 **35+ compétitions complétées** | **7 top 4% mondial** | **3 top 1% mondial**  
 **Meilleur classement** : #14 / 3 022 équipes (Top 0.5%)
 
+**Où en est ce projet** : activité continue — nouvelle compétition engagée régulièrement, en parallèle des autres projets.
+
 ---
+
+::: {.panel-tabset}
+
+## 🧑‍💼 Vue d'ensemble
+
+**Le principe** : sur Kaggle, des milliers d'équipes dans le monde s'affrontent sur le même problème, avec les mêmes données, dans un délai fixé — un peu comme un concours d'algorithmes à l'échelle mondiale. Le classement final est objectif : même données pour tout le monde, un seul score qui compte.
+
+**Pourquoi c'est une preuve utile** : contrairement à un projet personnel où on choisit son propre problème et ses propres critères de réussite, ici la difficulté et les règles sont imposées, et la comparaison se fait contre des milliers d'autres personnes, du débutant à l'expert. Finir dans le 1% mondial sur plusieurs compétitions différentes (course automobile, agriculture, écoute de podcasts...) montre une capacité à s'adapter vite à un nouveau domaine et à en extraire les bonnes informations, plutôt qu'une simple connaissance apprise par cœur sur un seul sujet.
+
+**Ce que ça démontre concrètement** :
+- Capacité d'apprentissage rapide sur des domaines très différents (35+ sujets distincts en 5 ans)
+- Rigueur méthodologique (éviter de "tricher" en apprenant par cœur les données de test, une erreur fréquente chez les débutants)
+- Veille technique active : intégration des toutes dernières techniques de recherche dès leur publication
+
+## 🔧 Détails techniques
 
 ## 📊 Statistiques Globales
 
@@ -264,6 +281,8 @@
 3. **Partage** : Partager ses approches apprend aux autres et renforce sa propre compréhension
 4. **Veille** : Rester à jour sur les dernières avancées est crucial
 5. **Patience** : Les améliorations marginales s'accumulent
+
+:::
 
 ---
 
