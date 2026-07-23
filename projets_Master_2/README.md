@@ -14,9 +14,9 @@
 
 Cette deuxième année (2023-2024) associe une formation avancée (deep learning, NLP, séries temporelles) à une alternance d'un an chez Michelin.
 
-**La mission Michelin en une phrase** : Michelin collecte des données de prix concurrents dans le monde entier, mais ces données arrivent dans des formats différents selon la source (fichiers Excel, exports JSON, XML...) et doivent être rapprochées pour être comparables. La mission consistait à construire un système qui **fait ce rapprochement automatiquement**, avec un score de fiabilité, là où c'était fait manuellement — un travail comparable à celui de reconnaître qu'"IBM" et "International Business Machines" désignent la même entreprise, mais à l'échelle de millions de lignes et de plusieurs langues/devises.
+**La mission Michelin en une phrase** : rapprocher automatiquement des données de pricing venant de sources multiples et hétérogènes, à l'échelle mondiale (niveau continental) — un travail de rapprochement fait manuellement jusque-là, avec des résultats jugés excellents par plusieurs Product Owners.
 
-**L'impact** : moins de temps passé à rapprocher les données à la main pour l'équipe pricing, plus de fiabilité dans les comparaisons de prix, et un POC jugé prêt pour une mise en production plus large.
+**L'impact** : accélération considérable des temps de traitement par rapport au processus manuel, amélioration de la qualité des données de pricing, et un POC mené jusqu'au bout, préparé pour la mise en production, puis adapté et utilisé par les équipes.
 
 **Le reste de l'année** : projets académiques sur des cas variés (application santé publique, prévision de consommation énergétique, segmentation client e-commerce, classification automatique de texte, reconnaissance d'images).
 
@@ -29,46 +29,19 @@ Cette deuxième année (2023-2024) associe une formation avancée (deep learning
 **Contexte** : Données pricing mondial, niveau continental, hétérogénéité des sources
 
 ### Problématique
-- Matcher des données provenant de sources multiples avec des formats différents
-- Assurer la qualité des données pour des analyses pricing fiables
-- Industrialiser un POC pour une utilisation en production
+- Rapprocher des données de pricing provenant de sources multiples et hétérogènes, niveau continental
+- Assurer la qualité des données pour des analyses pricing mondiales fiables
 
 ### Missions Réalisées
-
-#### 1. Parsing et Extraction
-- Extraction de données structurées et non structurées
-- Normalisation des formats (dates, devises, unités)
-- Gestion des doublons et conflits
-- Parsing de fichiers JSON, XML, CSV, Excel
-
-**Technologies** : Python (Pandas, Regex), JSON/XML parsing
-
-#### 2. Matching et Réconciliation
-- Algorithmes de fuzzy matching
-- Règles de business pour validation
-- Score de confiance pour chaque match
-- Gestion des cas limites
-
-**Résultat** : Augmentation considérable du taux de détection des correspondances, contribution à l'amélioration de la qualité des données pricing
-
-#### 3. Contrôle Qualité
-- Tests de non-régression automatisés (PyTest)
-- Détection d'anomalies dans les données
-- Alertes sur incohérences
-- Validation croisée des résultats
-
-#### 4. Analyse Pricing Mondial
-- Dashboards interactifs par région/produit/période
-- Détection d'écarts de pricing
-- Recommandations pour l'équipe métier
-
-**Technologies** : Power BI, Streamlit, Plotly
+- Réalisation d'un POC de parsing/matching de données complexes, niveau continental
+- Algorithmes de fuzzy matching — augmentation considérable du taux de détection des correspondances
+- Nettoyage et qualité des données, analyses spécifiques autour du pricing niveau mondial
+- Tests de non régression
 
 ### Résultats Globaux
-- POC validé et prêt pour industrialisation
+- Vitesse d'exécution et résultats jugés excellents d'après plusieurs Product Owners
 - Accélération considérable des temps de traitement par rapport au processus manuel
-- Amélioration de la qualité des données
-- Dashboards utilisés par l'équipe pricing
+- POC mené jusqu'au bout et préparé pour la mise en production, adapté et utilisé par les équipes par la suite
 
 ### Synthèse des Feedbacks
 

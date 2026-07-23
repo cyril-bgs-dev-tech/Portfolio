@@ -37,26 +37,36 @@ Ce parcours m'a apporté :
 
 ### Alternance Data Scientist - MICHELIN (Fév 2023 - Fév 2024)
 
-**POC Parsing/Matching de Données Complexes**
-
-**Contexte** : Données pricing mondial, niveau continental, hétérogénéité des sources
+**POC Parsing/Matching de Données Complexes — Niveau Continental**
 
 **Missions** :
-- Parsing et extraction de données hétérogènes (JSON, XML, CSV, Excel)
+- Réalisation d'un POC de parsing/matching de données complexes, niveau continental
 - Algorithmes de fuzzy matching — augmentation considérable du taux de détection des correspondances
-- Contrôle qualité avec tests automatisés (PyTest)
-- Dashboards Power BI pour équipe pricing
+- Nettoyage et qualité des données, analyses spécifiques autour du pricing niveau mondial
+- Tests de non régression
 
 **Résultats** :
-- POC mené jusqu'au bout et préparé pour la mise en production
+- Vitesse d'exécution et résultats jugés excellents d'après plusieurs Product Owners
 - Accélération considérable des temps de traitement par rapport au processus manuel
-- Adapté et utilisé par les équipes par la suite
-- Amélioration de la qualité des données
+- POC mené jusqu'au bout et préparé pour la mise en production, adapté et utilisé par les équipes par la suite
 
 **Feedback** :
 > *"Implication et capacité constante à se challenger. Force de proposition, assidu dans les missions. POC parsing/mapping mené avec succès."*
 > 
 > — Antoine DANIEL LAMAZIERE (PO) + Architecte Data, Michelin
+
+---
+
+### CDD Data Scientist / ML Engineer - DELTAMU (Oct 2024 - Oct 2025)
+
+**Recherche en Détection d'Anomalies — Capteurs Industriels (Pharma)**
+
+**Contexte** : Industrie pharma, plusieurs centaines de capteurs
+
+**Missions** :
+- Tests de recherche en clustering et détection d'anomalies
+- Analyse et interprétation d'insights et de cycliques
+- Création d'un algorithme de niveau recherche validé par le responsable scientifique
 
 ---
 

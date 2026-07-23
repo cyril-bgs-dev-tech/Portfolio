@@ -64,25 +64,41 @@ Data Scientist passionné avec **double compétence modélisation + production**
 
 </div>
 
-**POC Parsing/Matching de Données Complexes**
+**POC Parsing/Matching de Données Complexes — Niveau Continental**
 
-🎯 **Mission** : Concevoir un système de matching pour données pricing mondiales, préparé pour industrialisation
+🎯 **Mission** : Réalisation d'un POC de parsing/matching de données complexes, niveau continental
 
 ✨ **Réalisations** :
-- 🔄 Pipeline de parsing multi-format (JSON, XML, CSV, Excel)
 - 🎯 Algorithmes de fuzzy matching — augmentation considérable du taux de détection des correspondances
-- 📈 Amélioration de la qualité des données pricing
-- 📊 Dashboards Power BI pour équipe pricing
-- ✅ Tests automatisés (PyTest) + contrôle qualité
+- 🧹 Nettoyage et qualité des données, analyses spécifiques autour du pricing niveau mondial
+- ✅ Tests de non régression
 
 💡 **Impact** :
-- POC mené jusqu'au bout et préparé pour la mise en production
+- Vitesse d'exécution et résultats jugés excellents d'après plusieurs Product Owners
 - Accélération considérable des temps de traitement par rapport au processus manuel
-- Adapté et utilisé par les équipes par la suite
+- POC mené jusqu'au bout et préparé pour la mise en production, adapté et utilisé par les équipes par la suite
 
 🗣️ **Feedback** :
 > *"Implication et capacité constante à se challenger. Force de proposition, assidu dans les missions. POC parsing/mapping mené avec succès."*  
 > — Antoine DANIEL LAMAZIERE (PO) + Architecte Data
+
+---
+
+<div align="center">
+
+### 🧪 Data Scientist / ML Engineer - DELTAMU (CDD)
+*Octobre 2024 - Octobre 2025*
+
+</div>
+
+**Recherche en Détection d'Anomalies — Capteurs Industriels (Pharma)**
+
+🎯 **Contexte** : Industrie pharma, plusieurs centaines de capteurs
+
+✨ **Missions** :
+- 🔬 Tests de recherche en clustering et détection d'anomalies
+- 📊 Analyse et interprétation d'insights et de cycliques
+- 🧠 Création d'un algorithme de niveau recherche validé par le responsable scientifique
 
 ---
 
