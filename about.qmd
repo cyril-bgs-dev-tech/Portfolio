@@ -131,6 +131,15 @@ Ce parcours m'a apporté :
 - Reprise exacte après redémarrage (état persisté Redis)
 - Détecteurs temporels à 0.05-0.12 ms/event, historique partagé entre réplicas
 
+### 4. Aegis-RCA — Agent de Diagnostic de Causes Racines
+
+**Prototype de recherche actif** — extension de vigilance, 3 jours de développement (juillet 2026)
+
+- Agent LLM local (Qwen3.6:27B) : investigue les incidents ouverts par vigilance, corrèle métriques et procédures (RAG), propose diagnostic + recommandation validés par un humain
+- Décisions d'architecture confrontées à des avis externes (Gemini, ChatGPT) puis vérifiées par des bancs de mesure réels — une erreur méthodologique détectée et corrigée en cours de route, documentée telle quelle plutôt que masquée
+- Sandbox d'auto-correction durci (Docker jetable, réseau isolé, cgroups) : 1 succès réel mesuré
+- Statut assumé : prototype, pas un produit fini
+
 ---
 
 ## 🛠️ Compétences Techniques

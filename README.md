@@ -173,6 +173,17 @@ Data Scientist passionné avec **double compétence modélisation + production**
 
 ---
 
+### 🕵️ [Aegis-RCA — Agent de Diagnostic de Causes Racines](aegis-rca/)
+**Prototype de recherche actif** — extension de vigilance, 3 jours de développement (juillet 2026)
+
+✨ **Highlights** :
+- 🤖 Agent LLM local (Qwen3.6:27B) qui investigue les incidents ouverts par vigilance : contexte métriques, RAG sur procédures, diagnostic + recommandation validés par un humain
+- 🔬 Décisions d'architecture confrontées à des avis externes (Gemini, ChatGPT) **puis vérifiées par des bancs de mesure réels** — une erreur de méthodologie détectée et corrigée en cours de route, documentée telle quelle
+- 🛡️ Sandbox d'auto-correction durci (Docker jetable, réseau isolé, cgroups) — 1 succès réel mesuré
+- 💻 **Code** : [github.com/cyril-bgs-dev-tech/aegis-rca](https://github.com/cyril-bgs-dev-tech/aegis-rca)
+
+---
+
 ### 🔬 [Recherche Compositionnelle - Anomaly Detection](anomaly_tabular/)
 **Composer les SOTA et router par domaine — ADBench (tabulaire) + TSB-AD (séries temporelles)**
 
@@ -222,13 +233,13 @@ Data Scientist passionné avec **double compétence modélisation + production**
 
 ```
 📦 Portfolio
-├── 🎓 projets_Master_1/        # 10 projets Data Analyst
-├── 🎓 projets_Master_2/        # 7 projets Data Scientist + Michelin
-├── 🏆 projets_Competitions/    # 35+ compétitions Kaggle
-├── 🔧 vigilance/ # Système temps réel
-├── 🎨 projets_Tuning_Vision/   # Computer Vision & Data Augmentation
+├── 🎓 projets_Master_1/  # 10 projets Data Analyst
+├── 🎓 projets_Master_2/  # 7 projets Data Scientist + Michelin
+├── 🏆 projets_Competitions/  # 35+ compétitions Kaggle
+├── 🔧 vigilance/  # Système MLOps temps réel
+├── 🕵️ aegis-rca/  # Agent de diagnostic de causes racines
 ├── 🔬 anomaly_tabular/  # Recherche tabulaire
-└── 🔬 anomaly_tsad/   # Recherche time series
+└── 🔬 anomaly_tsad/  # Recherche time series
 ```
 
 </div>
