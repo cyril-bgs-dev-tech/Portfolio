@@ -151,6 +151,28 @@ Data Scientist passionné avec **double compétence modélisation + production**
 
 ## 🚀 Projets Phares
 
+### 🌬️ [Correction apprise des prévisions de qualité de l'air](projets_Qualite_Air/)
+**Post-traitement de CAMS Europe aux stations françaises** — 213 M d'enregistrements horaires
+
+<div align="center">
+
+![Protocole](https://img.shields.io/badge/Protocole-Double%20aveugle-2563eb?style=for-the-badge)
+![NO2](https://img.shields.io/badge/NO%E2%82%82-%2B39%2C6%20%25%20de%20RMSE-10B981?style=for-the-badge)
+![Polluants](https://img.shields.io/badge/Polluants-4-8B5CF6?style=for-the-badge)
+![Sources](https://img.shields.io/badge/Sources-CAMS%20%7C%20GEOS--CF%20%7C%20ERA5-F59E0B?style=for-the-badge)
+
+</div>
+
+✨ **Highlights** :
+- 🎯 La contrainte qui définit le produit : corriger **là où il n'y a aucune station**, sans lire une seule observation locale — l'évaluation cache la station **et** le mois simultanément
+- 🔬 Le mécanisme du dernier levier est **établi, pas supposé** : une permutation conditionnelle qui ne détruit que l'appariement au jour efface **la totalité** du gain, sur les quatre polluants
+- 📐 Chaque test porte son **critère de décision écrit avant la première mesure**, avec la phrase à publier si le test échoue — une attribution a d'ailleurs renoncé faute d'avoir franchi son propre seuil
+- 🔴 Une affirmation du projet **réfutée par sa propre mesure** : la stabilité avec l'échéance tient sur le NO₂ (0,38 pt de J0 à J+3) et tombe sur l'ozone (2,25 pt)
+- 🛡️ Le registre des défauts trouvés dans nos propres résultats est publié — et chacun a produit le garde exécutable qui l'empêche
+- 💻 **Code** : [github.com/cyril-bgs-dev-tech/correction-previsions-qualite-air](https://github.com/cyril-bgs-dev-tech/correction-previsions-qualite-air)
+
+---
+
 ### 🔧 [Système MLOps Temps Réel](vigilance/)
 **Détection d'anomalies industrielle** - 1 200+ heures
 
@@ -236,6 +258,7 @@ Data Scientist passionné avec **double compétence modélisation + production**
 ├── 🎓 projets_Master_1/  # 10 projets Data Analyst
 ├── 🎓 projets_Master_2/  # 7 projets Data Scientist + Michelin
 ├── 🏆 projets_Competitions/  # 35+ compétitions Kaggle
+├── 🌬️ projets_Qualite_Air/  # Correction apprise des prévisions CAMS
 ├── 🔧 vigilance/  # Système MLOps temps réel
 ├── 🕵️ aegis-rca/  # Agent de diagnostic de causes racines
 ├── 🔬 anomaly_tabular/  # Recherche tabulaire

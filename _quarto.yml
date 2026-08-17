@@ -30,6 +30,9 @@ website:
           - text: "--- Agents IA ---"
           - text: "Aegis-RCA"
             href: aegis-rca/index.qmd
+          - text: "--- Qualité de l'air ---"
+          - text: "Correction de prévisions CAMS"
+            href: projets_Qualite_Air/index.qmd
           - text: "--- Recherche ---"
           - text: "SOTA AD Tabular"
             href: anomaly_tabular/index.qmd
