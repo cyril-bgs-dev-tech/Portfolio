@@ -152,7 +152,7 @@ Data Scientist passionné avec **double compétence modélisation + production**
 ## 🚀 Projets Phares
 
 ### 🌬️ [Correction apprise des prévisions de qualité de l'air](projets_Qualite_Air/)
-**Post-traitement de CAMS Europe aux stations françaises** — 213 M d'enregistrements horaires
+**Post-traitement de CAMS Europe aux stations françaises** — 36 mois, 28,0 M d'enregistrements horaires
 
 <div align="center">
 

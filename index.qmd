@@ -94,7 +94,7 @@ Alternance **MICHELIN** (12 mois)
 ## 📊 Projets Phares
 
 ### 🌬️ Correction Apprise des Prévisions de Qualité de l'Air
-**Post-traitement de CAMS Europe aux stations françaises** — 213 M d'enregistrements horaires
+**Post-traitement de CAMS Europe aux stations françaises** — 36 mois, 28,0 M d'enregistrements horaires
 
 - Corriger **là où il n'y a aucune station** : aucune observation locale à l'inférence, pas même celle de la veille
 - Évaluation en double aveugle — station **et** mois cachés simultanément : +39,6 % de RMSE sur le NO₂, +17,9 % sur l'ozone

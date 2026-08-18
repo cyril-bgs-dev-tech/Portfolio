@@ -109,7 +109,7 @@ scikit-learn · Streamlit · Playwright
 chimie indépendant)*, observations LCSQA/Geod'Air, ERA5 *(réanalyse : plafond, non
 déployable)*, Copernicus DEM GLO-30, IGN Géoplateforme, PREV'AIR/INERIS.
 
-**Volume** — 213 M d'enregistrements horaires, 476 stations, 37 mois.
+**Volume** — corpus de **36 mois** (2023-08 → 2026-07), **28,0 M d'enregistrements horaires**. Prévisions extraites à **476 points** ; **438 stations effectivement évaluées**, de 236 (PM2,5) à 344 (NO₂) selon le polluant.
 
 ---
 
