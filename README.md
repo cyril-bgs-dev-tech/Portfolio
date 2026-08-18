@@ -142,6 +142,8 @@ Data Scientist passionné avec **double compétence modélisation + production**
 ![RealMLP](https://img.shields.io/badge/RealMLP-6E56CF?style=for-the-badge)
 ![Modèles physiques](https://img.shields.io/badge/Mod%C3%A8les%20physiques-0EA5E9?style=for-the-badge)
 ![LLMs](https://img.shields.io/badge/LLMs-8B5CF6?style=for-the-badge)
+![Modèles pré-entraînés](https://img.shields.io/badge/Mod%C3%A8les%20pr%C3%A9--entra%C3%AEn%C3%A9s-F59E0B?style=for-the-badge)
+![CUDA](https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 

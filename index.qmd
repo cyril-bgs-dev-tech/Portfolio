@@ -65,6 +65,8 @@ Alternance **MICHELIN** (12 mois)
 - **Time Series** : Statsmodels, Prophet, LSTM, AnomalyTransformer
 - **Modèles physiques** : chimie-transport (CAMS, CHIMERE, GEOS-CF) — post-traitement de sorties
 - **LLMs** : évaluation, orchestration, revue croisée de résultats
+- **Modèles pré-entraînés** : transfer learning, fine-tuning
+- **Calcul GPU** : CUDA
 
 ### LLMs utilisés
 Claude · ChatGPT · Grok · Kimi K3 · Gemini · Mistral
