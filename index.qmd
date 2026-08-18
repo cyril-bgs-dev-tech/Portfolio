@@ -57,7 +57,7 @@ Alternance **MICHELIN** (12 mois)
 ## 🛠️ Stack Technique
 
 ### Langages
-**Python** (avancé) · **SQL**
+**Python** (avancé) · **SQL** · **Rust**
 
 ### Machine Learning
 - **Classique** : Scikit-learn, XGBoost, LightGBM, CatBoost
@@ -83,11 +83,22 @@ Alternance **MICHELIN** (12 mois)
 **POC Parsing/Matching de Données Complexes**
 
 - Gestion de données pricing mondial (niveau continental)
-- Algorithmes de fuzzy matching (score > 85%)
+- Augmentation considérable du taux de détection des correspondances
 - Dashboards Power BI pour équipe pricing
 - Tests automatisés (PyTest)
 
 **Feedback** : *"Force de proposition, assidu dans les missions. POC parsing/mapping mené avec succès."*
+
+### Data Scientist / ML Engineer - DELTAMU (2024-2025)
+**Recherche en détection d'anomalies — capteurs industriels (pharma)**
+
+- Tests de recherche en clustering et détection d'anomalies, plusieurs centaines de capteurs
+- Algorithme de niveau recherche validé par le responsable scientifique
+- Analyses statistiques avancées sur ensemble de bon fonctionnement
+- Cœur calculatoire haute vitesse optimisé en **Rust**
+- Augmentation colossale de la capacité de compréhension des données
+
+**Feedback** : *"Réelle passion pour la data science et les algorithmes d'IA. Investissement dans les missions. Contribution active au produit logiciel."* — Nuno DOS REIS, Président, DELTAMU
 
 ---
 

@@ -5,8 +5,7 @@
 ### Data Scientist | MLOps Engineer | Problem Solver
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-en%20ligne-2563eb?style=for-the-badge&logo=quarto)](https://cyril-bgs-dev-tech.github.io/Portfolio/)
-![Deploy](https://img.shields.io/github/actions/workflow/status/cyril-bgs-dev-tech/Portfolio/deploy.yml?style=for-the-badge&label=deploy)
-![License](https://img.shields.io/github/license/cyril-bgs-dev-tech/Portfolio?style=for-the-badge&color=10B981)
+![License](https://img.shields.io/badge/License-MIT-10B981?style=for-the-badge)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/cyril-bourgeois/)
 [![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail)](mailto:cyril.bgs.dev.tech@gmail.com)
@@ -26,7 +25,7 @@ Data Scientist passionné avec **double compétence modélisation + production**
 
 <table>
 <tr>
-<td width="33%">
+<td width="33%" valign="top">
   
 **🥇 Kaggle Top 1%**
 - 35+ compétitions
@@ -34,7 +33,7 @@ Data Scientist passionné avec **double compétence modélisation + production**
 - Meilleur rang : #14/3022
 
 </td>
-<td width="33%">
+<td width="33%" valign="top">
   
 **🔬 Benchmarks SOTA**
 - ADBench : 47 datasets
@@ -42,7 +41,7 @@ Data Scientist passionné avec **double compétence modélisation + production**
 - Reproductions exactes validées
 
 </td>
-<td width="33%">
+<td width="33%" valign="top">
   
 **⚙️ MLOps Temps Réel**
 - DAG 9 workers, 4 réplicas
@@ -69,7 +68,7 @@ Data Scientist passionné avec **double compétence modélisation + production**
 🎯 **Mission** : Réalisation d'un POC de parsing/matching de données complexes, niveau continental
 
 ✨ **Réalisations** :
-- 🎯 Algorithmes de fuzzy matching — augmentation considérable du taux de détection des correspondances
+- 🎯 Augmentation considérable du taux de détection des correspondances
 - 🧹 Nettoyage et qualité des données, analyses spécifiques autour du pricing niveau mondial
 - ✅ Tests de non régression
 
@@ -100,6 +99,15 @@ Data Scientist passionné avec **double compétence modélisation + production**
 - 📊 Analyse et interprétation d'insights et de cycliques
 - 🧠 Création d'un algorithme de niveau recherche validé par le responsable scientifique
 
+💡 **Impact** :
+- 📈 Analyses statistiques avancées sur ensemble de bon fonctionnement
+- ⚡ Cœur calculatoire haute vitesse optimisé en **Rust**
+- 🔍 Augmentation colossale de la capacité de compréhension des données
+
+🗣️ **Feedback** :
+> *"Réelle passion pour la data science et les algorithmes d'IA. Investissement dans les missions. Contribution active au produit logiciel."*  
+> — Nuno DOS REIS, Président, DELTAMU
+
 ---
 
 ## 🎓 Formation
@@ -122,6 +130,7 @@ Data Scientist passionné avec **double compétence modélisation + production**
 
 ### 🐍 Langages & Frameworks
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
