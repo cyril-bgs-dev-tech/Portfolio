@@ -99,6 +99,7 @@ Alternance **MICHELIN** (12 mois)
 - Corriger **là où il n'y a aucune station** : aucune observation locale à l'inférence, pas même celle de la veille
 - Évaluation en double aveugle — station **et** mois cachés simultanément : +39,6 % de RMSE sur le NO₂, +17,9 % sur l'ozone
 - Le mécanisme du dernier levier **établi par permutation conditionnelle**, pas supposé : elle efface la totalité du gain sur les quatre polluants
+- **Horizon 2030** : la directive (UE) 2024/2881 divise les seuils par deux et rend la modélisation obligatoire là où ils sont dépassés — **6 stations en dépassement aujourd'hui, 109 en 2030** ; CAMS brut ne satisfait le critère FAIRMODE que sur **41,4 %** des stations NO₂, la correction l'y porte à **96,2 %**
 - Critère de décision écrit **avant** chaque mesure, et une affirmation du projet réfutée par sa propre mesure jusqu'à J+3
 
 → [Voir le projet](projets_Qualite_Air/index.qmd)

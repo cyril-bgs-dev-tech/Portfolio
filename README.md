@@ -168,6 +168,7 @@ Data Scientist passionné avec **double compétence modélisation + production**
 - 🔬 Le mécanisme du dernier levier est **établi, pas supposé** : une permutation conditionnelle qui ne détruit que l'appariement au jour efface **la totalité** du gain, sur les quatre polluants
 - 📐 Chaque test porte son **critère de décision écrit avant la première mesure**, avec la phrase à publier si le test échoue — une attribution a d'ailleurs renoncé faute d'avoir franchi son propre seuil
 - 🔴 Une affirmation du projet **réfutée par sa propre mesure** : la stabilité avec l'échéance tient sur le NO₂ (0,38 pt de J0 à J+3) et tombe sur l'ozone (2,25 pt)
+- 📅 **L'usage, pas seulement le score** : la directive (UE) 2024/2881 fait basculer **6 stations en dépassement aujourd'hui à 109 en 2030** à air constant, et rend la modélisation obligatoire là où un seuil est dépassé — or le produit européen brut ne satisfait le critère FAIRMODE que sur **41,4 %** des stations NO₂ ; la correction l'y porte à **96,2 %**
 - 🛡️ Le registre des défauts trouvés dans nos propres résultats est publié — et chacun a produit le garde exécutable qui l'empêche
 - 💻 **Code** : [github.com/cyril-bgs-dev-tech/correction-previsions-qualite-air](https://github.com/cyril-bgs-dev-tech/correction-previsions-qualite-air)
 
