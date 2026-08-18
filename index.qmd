@@ -45,11 +45,11 @@ Data Scientist avec **double compétence modélisation + production**, spéciali
 ## 🎓 Formation
 
 ### Master 2 - Data Scientist (2023-2024)
-**OpenClassRooms + Centrale Supélec**  
+**OpenClassrooms + Centrale Supélec**  
 Alternance **MICHELIN** (12 mois)
 
 ### Master 1 - Data Analyst (2021-2022)
-**OpenClassRooms + ENSAE**  
+**OpenClassrooms + ENSAE**  
 10 projets validés
 
 ---
@@ -61,8 +61,16 @@ Alternance **MICHELIN** (12 mois)
 
 ### Machine Learning
 - **Classique** : Scikit-learn, XGBoost, LightGBM, CatBoost
-- **Deep Learning** : PyTorch, TensorFlow, HuggingFace
+- **Deep Learning** : PyTorch, TensorFlow, HuggingFace, **RealMLP**
 - **Time Series** : Statsmodels, Prophet, LSTM, AnomalyTransformer
+- **Modèles physiques** : chimie-transport (CAMS, CHIMERE, GEOS-CF) — post-traitement de sorties
+- **LLMs** : évaluation, orchestration, revue croisée de résultats
+
+### LLMs utilisés
+Claude · ChatGPT · Grok · Kimi K3 · Gemini · Mistral
+
+### Agentic
+Claude Code · Codex · OpenCode
 
 ### MLOps & Infrastructure
 - **Containerisation** : Docker, Docker Compose
@@ -157,8 +165,8 @@ Alternance **MICHELIN** (12 mois)
 
 ## 🎓 Certifications
 
-- **Master 2 Data Scientist** - Centrale Supélec (2024)
-- **Master 1 Data Analyst** - ENSAE (2022)
+- **Master 2 Data Scientist** - OpenClassrooms + Centrale Supélec (2024)
+- **Master 1 Data Analyst** - OpenClassrooms + ENSAE (2022)
 - **Kaggle Competitions** : Top 1% mondial
 
 ---

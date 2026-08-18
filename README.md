@@ -116,7 +116,7 @@ Data Scientist passionné avec **double compétence modélisation + production**
 
 | Master 2 - Data Scientist | Master 1 - Data Analyst |
 |:---:|:---:|
-| **Centrale Supélec** (2024) | **ENSAE** (2022) |
+| **OpenClassrooms + Centrale Supélec** (2024) | **OpenClassrooms + ENSAE** (2022) |
 | Alternance Michelin (12 mois) | 10 projets validés |
 | Deep Learning, NLP, Time Series | ML classique, SQL, BI |
 
@@ -131,6 +131,7 @@ Data Scientist passionné avec **double compétence modélisation + production**
 ### 🐍 Langages & Frameworks
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
@@ -138,8 +139,24 @@ Data Scientist passionné avec **double compétence modélisation + production**
 ### 📊 Machine Learning & IA
 ![XGBoost](https://img.shields.io/badge/XGBoost-FF6B6B?style=for-the-badge)
 ![LightGBM](https://img.shields.io/badge/LightGBM-007ACC?style=for-the-badge)
+![RealMLP](https://img.shields.io/badge/RealMLP-6E56CF?style=for-the-badge)
+![Modèles physiques](https://img.shields.io/badge/Mod%C3%A8les%20physiques-0EA5E9?style=for-the-badge)
+![LLMs](https://img.shields.io/badge/LLMs-8B5CF6?style=for-the-badge)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+
+### 🤖 LLMs utilisés
+![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white)
+![ChatGPT](https://img.shields.io/badge/ChatGPT-10A37F?style=for-the-badge)
+![Grok](https://img.shields.io/badge/Grok-000000?style=for-the-badge&logo=x&logoColor=white)
+![Kimi K3](https://img.shields.io/badge/Kimi%20K3-1E293B?style=for-the-badge)
+![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white)
+![Mistral](https://img.shields.io/badge/Mistral-FA520F?style=for-the-badge&logo=mistralai&logoColor=white)
+
+### ⚡ Agentic
+![Claude Code](https://img.shields.io/badge/Claude%20Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+![Codex](https://img.shields.io/badge/Codex-412991?style=for-the-badge)
+![OpenCode](https://img.shields.io/badge/OpenCode-0F172A?style=for-the-badge)
 
 ### ⚙️ MLOps & Infrastructure
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)

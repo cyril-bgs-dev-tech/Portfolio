@@ -18,14 +18,14 @@ Ce parcours m'a apporté :
 ## 🎓 Formation
 
 ### Master 2 - Data Scientist (2023-2024)
-**OpenClassRooms + Centrale Supélec**
+**OpenClassrooms + Centrale Supélec**
 
 - Alternance **MICHELIN** (12 mois)
 - POC parsing/matching de données complexes
 - Deep Learning, NLP, Time Series, Détection d'anomalies
 
 ### Master 1 - Data Analyst (2021-2022)
-**OpenClassRooms + ENSAE**
+**OpenClassrooms + ENSAE**
 
 - 10 projets validés
 - Analyse exploratoire, SQL, ML classique
@@ -175,8 +175,8 @@ Ce parcours m'a apporté :
 
 ## 🎓 Certifications et Diplômes
 
-- **Master 2 Data Scientist** - Centrale Supélec (2024)
-- **Master 1 Data Analyst** - ENSAE (2022)
+- **Master 2 Data Scientist** - OpenClassrooms + Centrale Supélec (2024)
+- **Master 1 Data Analyst** - OpenClassrooms + ENSAE (2022)
 - **Kaggle Competitions** : Top 1% mondial (3 compétitions)
 
 ---
@@ -216,7 +216,7 @@ Ce parcours m'a apporté :
 
 > *"Implication et capacité constante à se challenger. Maîtrise des solutions de développement et mise en œuvre. Curiosité et motivation, intérêt pour problématiques Data Business. Force de proposition, assidu dans les missions."*
 
-### OpenClassRooms (2022)
+### OpenClassrooms (2022)
 **Hamza Tajmouati** (Head of AI chez Iktos, Mentor OpenClassrooms)
 
 > *"Grande autonomie, proactivité et motivation. Curiosité et recherche constante d'amélioration. Doué en programmation et en compréhension théorique."*
