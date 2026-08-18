@@ -180,24 +180,23 @@ Data Scientist passionné avec **double compétence modélisation + production**
 ## 🚀 Projets Phares
 
 ### 🌬️ [Correction apprise des prévisions de qualité de l'air](projets_Qualite_Air/)
-**Post-traitement de CAMS Europe aux stations françaises** — 36 mois, 28,0 M d'enregistrements horaires
+**Apprendre l'erreur du modèle européen, et la retirer** — 36 mois, 28 M de mesures horaires, 4 polluants
 
 <div align="center">
 
 ![Protocole](https://img.shields.io/badge/Protocole-Double%20aveugle-2563eb?style=for-the-badge)
-![NO2](https://img.shields.io/badge/NO%E2%82%82-%2B39%2C6%20%25%20de%20RMSE-10B981?style=for-the-badge)
-![Polluants](https://img.shields.io/badge/Polluants-4-8B5CF6?style=for-the-badge)
+![NO2](https://img.shields.io/badge/NO%E2%82%82-%E2%88%9239%2C6%20%25%20d'erreur-10B981?style=for-the-badge)
+![Stations](https://img.shields.io/badge/Stations-438-8B5CF6?style=for-the-badge)
 ![Sources](https://img.shields.io/badge/Sources-CAMS%20%7C%20GEOS--CF%20%7C%20ERA5-F59E0B?style=for-the-badge)
 
 </div>
 
 ✨ **Highlights** :
-- 🎯 La contrainte qui définit le produit : corriger **là où il n'y a aucune station**, sans lire une seule observation locale — l'évaluation cache la station **et** le mois simultanément
-- 🔬 Le mécanisme du dernier levier est **établi, pas supposé** : une permutation conditionnelle qui ne détruit que l'appariement au jour efface **la totalité** du gain, sur les quatre polluants
-- 📐 Chaque test porte son **critère de décision écrit avant la première mesure**, avec la phrase à publier si le test échoue — une attribution a d'ailleurs renoncé faute d'avoir franchi son propre seuil
-- 🔴 Une affirmation du projet **réfutée par sa propre mesure** : la stabilité avec l'échéance tient sur le NO₂ (0,38 pt de J0 à J+3) et tombe sur l'ozone (2,25 pt)
-- 📅 **L'usage, pas seulement le score** : la directive (UE) 2024/2881 fait basculer **6 stations en dépassement aujourd'hui à 109 en 2030** à air constant, et rend la modélisation obligatoire là où un seuil est dépassé — or le produit européen brut ne satisfait le critère FAIRMODE que sur **41,4 %** des stations NO₂ ; la correction l'y porte à **96,2 %**
-- 🛡️ Le registre des défauts trouvés dans nos propres résultats est publié — et chacun a produit le garde exécutable qui l'empêche
+- 🎯 **Prévoir là où personne ne mesure** : aucune observation du lieu corrigé n'entre dans le modèle — et il est testé sur des stations *et* des mois qu'il n'a jamais vus
+- 📉 **−39,6 % d'erreur sur le NO₂**, −20,2 % sur les PM10, −17,9 % sur l'ozone, −11,8 % sur les PM2,5, face à la prévision européenne brute
+- 📅 **En 2030 l'Europe divise ses seuils par deux** : à pollution inchangée, les stations en dépassement passent de **6 à 109** — et 4 départements d'Occitanie n'ont aucune station pour le constater
+- ✅ **Assez bon pour servir en réglementaire&nbsp;?** Le critère européen de qualité est atteint sur 41,4 % des stations NO₂ avec la prévision brute, **96,2 %** après correction
+- 🔍 **Les limites sont publiées comme les résultats** : 3 épisodes de pollution réels détectés sur 33 — l'observation directe elle-même n'en attrape que 21, et le produit officiel 1
 - 💻 **Code** : [github.com/cyril-bgs-dev-tech/correction-previsions-qualite-air](https://github.com/cyril-bgs-dev-tech/correction-previsions-qualite-air)
 
 ---
