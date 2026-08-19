@@ -26,6 +26,11 @@ qu'elle rend en une semaine. **La démarche qui mène au top 1 % est comprise et
 trois fois, sur trois domaines sans rapport entre eux : course automobile, irrigation agricole,
 écoute de podcasts.
 
+**499 notebooks** dans l'espace de travail Kaggle, dont la grande majorité restent privés :
+brouillons, essais écartés, itérations qui n'ont pas vocation à être publiées. Le chiffre
+donne l'ordre de grandeur du travail réel derrière les rangs affichés — il ne désigne pas
+499 publications consultables, et il n'est pas vérifiable de l'extérieur.
+
 ### 🤖 Ce qui change en ce moment
 
 La stratégie gagnante se déplace vers l'**agentique**. Là où l'on itérait à la main sur les
@@ -60,6 +65,7 @@ il est en train de redéfinir ce que veut dire « bien travailler » sur une com
 | Métrique | Valeur |
 |----------|--------|
 | Compétitions complétées | 35+ |
+| Notebooks dans l'espace de travail | 499 *(majorité privés)* |
 | Top 4% mondial | 7 compétitions |
 | Top 1% mondial | 3 compétitions |
 | Meilleur rang | #14 / 3 022 (Top 0.5%) |
