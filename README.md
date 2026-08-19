@@ -117,7 +117,7 @@ Data Scientist passionné avec **double compétence modélisation + production**
 | Master 2 - Data Scientist | Master 1 - Data Analyst |
 |:---:|:---:|
 | **OpenClassrooms + Centrale Supélec** (2024) | **OpenClassrooms + ENSAE** (2022) |
-| 8 projets validés | 10 projets validés |
+| 7 projets validés | 10 projets validés |
 | Alternance Michelin (12 mois) | — |
 | Deep Learning, NLP, Time Series | ML classique, SQL, BI |
 
