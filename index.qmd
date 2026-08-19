@@ -160,6 +160,8 @@ Claude Code · Codex · OpenCode
 - Predict Podcast Listening Time : #20 / 3 310 (Top 0.6%)
 - Prediction F1 Pit Stop : #14 / 3 022 (Top 0.5%)
 - Feature engineering intensif, ensembling/stacking
+- La stratégie gagnante se déplace vers l'**agentique** : des systèmes d'agents qui explorent et sélectionnent les pistes en autonomie
+- **Palmarès vérifiable** : [kaggle.com/cyrilbourgeois](https://www.kaggle.com/cyrilbourgeois/competitions)
 
 → [Voir les compétitions](projets_Competitions/index.qmd)
 

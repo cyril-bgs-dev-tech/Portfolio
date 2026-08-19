@@ -275,6 +275,8 @@ Data Scientist passionné avec **double compétence modélisation + production**
 - 🤝 Ensembling/stacking de modèles diversifiés
 - ⚡ Optimisation bayésienne (Optuna)
 - 🔬 Veille active (TabM, TabICL2, RealMLP)
+- 🤖 La stratégie gagnante se déplace vers l'**agentique** — des systèmes d'agents qui explorent et sélectionnent les pistes en autonomie
+- 🏅 **Palmarès vérifiable** : [kaggle.com/cyrilbourgeois](https://www.kaggle.com/cyrilbourgeois/competitions)
 
 ---
 

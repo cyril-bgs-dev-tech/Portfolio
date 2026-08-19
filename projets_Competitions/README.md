@@ -1,7 +1,40 @@
 # 🏆 Compétitions Kaggle & Machine Learning
 
-**35+ compétitions complétées** | **7 top 4% mondial** | **3 top 1% mondial**  
-**Meilleur classement** : #14 / 3 022 équipes (Top 0.5%)
+<div align="center">
+
+[![Profil Kaggle](https://img.shields.io/badge/Profil%20Kaggle-cyrilbourgeois-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/cyrilbourgeois/competitions)
+
+**35+ compétitions** · **7 top 4 %** · **3 top 1 %** · meilleur rang **#14 / 3 022**
+
+*Palmarès complet et vérifiable sur le profil.*
+
+</div>
+
+---
+
+### 📖 Comment lire ce palmarès
+
+**Toutes ces compétitions n'ont pas reçu le même investissement — autant le dire que le laisser deviner.**
+
+La majorité ont été menées sérieusement, du début à la fin. D'autres ont été engagées puis
+laissées de côté : une semaine de travail initial, puis le temps a manqué. Sur celles-là,
+**moins de 25 % du temps disponible a été réellement exploité**, et le classement retenu est
+celui d'une soumission arrêtée en fin de mois.
+
+Le rang de ces compétitions-là ne mesure donc pas le plafond de la méthode : il mesure ce
+qu'elle rend en une semaine. **La démarche qui mène au top 1 % est comprise et reproduite** —
+trois fois, sur trois domaines sans rapport entre eux : course automobile, irrigation agricole,
+écoute de podcasts.
+
+### 🤖 Ce qui change en ce moment
+
+La stratégie gagnante se déplace vers l'**agentique**. Là où l'on itérait à la main sur les
+variables et les modèles, les compétiteurs déploient de plus en plus des **systèmes d'agents**
+qui explorent, testent et sélectionnent les pistes en autonomie. C'est le même mouvement que
+celui suivi par ailleurs sur mes projets — agent de diagnostic, orchestration de modèles — et
+il est en train de redéfinir ce que veut dire « bien travailler » sur une compétition.
+
+---
 
 **Où en est ce projet** : activité continue — nouvelle compétition engagée régulièrement, en parallèle des autres projets.
 
