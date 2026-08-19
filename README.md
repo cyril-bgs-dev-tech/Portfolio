@@ -342,6 +342,6 @@ Data Scientist passionné avec **double compétence modélisation + production**
 ![GitHub Pages](https://img.shields.io/badge/Deployed%20on-GitHub%20Pages-2088FF?style=for-the-badge&logo=github)
 ![Open Source](https://img.shields.io/badge/Open%20Source-Yes-10B981?style=for-the-badge)
 
-*Dernière mise à jour : Juillet 2026*
+*Dernière mise à jour : Août 2026*
 
 </div>

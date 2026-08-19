@@ -286,5 +286,5 @@
 
 ---
 
-**Dernière mise à jour** : Juillet 2026  
+**Dernière mise à jour** : Août 2026  
 **Contact** : cyril.bgs.dev.tech@gmail.com

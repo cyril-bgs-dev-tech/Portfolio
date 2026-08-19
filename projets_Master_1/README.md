@@ -1,6 +1,6 @@
 # 🎓 Projets Master 1 - Data Analyst (2021-2022)
 
-**Formation** : OpenClassRooms + ENSAE  
+**Formation** : OpenClassrooms + ENSAE  
 **Durée** : 12 mois  
 **Projets réalisés** : 10 projets validés
 
@@ -274,7 +274,7 @@ Le fil conducteur des retours d'évaluateurs (5 formateurs différents sur 10 pr
 
 ---
 
-**Dernière mise à jour** : Juillet 2026  
+**Dernière mise à jour** : Août 2026  
 **Contact** : cyril.bgs.dev.tech@gmail.com
 
 > 📦 **Livrables complets** (notebooks, rapports, soutenances) disponibles sur demande — non versionnés ici pour garder le dépôt léger.

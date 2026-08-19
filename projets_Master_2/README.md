@@ -1,8 +1,9 @@
 # 🎓 Projets Master 2 - Data Scientist (2023-2024)
 
-**Formation** : OpenClassRooms + Centrale Supelec  
+**Formation** : OpenClassrooms + Centrale Supélec  
 **Alternance** : MICHELIN (Fév 2023 - Fév 2024), 39h/semaine, 4 jours/5 en entreprise  
-**Durée** : 12 mois
+**Durée** : 12 mois  
+**Projets réalisés** : 7 projets validés
 
 **Où en est ce projet** : formation et alternance terminées et validées (2024). Le code Michelin est confidentiel (données pricing propriétaires) ; les notebooks des projets académiques ne sont pas versionnés ici — disponibles sur demande.
 
@@ -212,7 +213,7 @@ Cette deuxième année (2023-2024) associe une formation avancée (deep learning
 
 ---
 
-**Dernière mise à jour** : Juillet 2026  
+**Dernière mise à jour** : Août 2026  
 **Contact** : cyril.bgs.dev.tech@gmail.com
 
 > 📦 **Livrables complets** (notebooks, rapports, soutenances) disponibles sur demande — non versionnés ici pour garder le dépôt léger.
