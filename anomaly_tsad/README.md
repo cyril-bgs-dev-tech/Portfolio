@@ -10,8 +10,6 @@
 
 ---
 
-::: {.panel-tabset}
-
 ## 🧑‍💼 Vue d'ensemble
 
 **La question posée** : face à un signal (température, vibration, trafic réseau...) qui part en dérive, existe-t-il UN modèle qui détecte le mieux les anomalies, quel que soit le type de données ? Beaucoup de recherches cherchent "le" meilleur modèle universel.
@@ -92,8 +90,6 @@ Même en déployant PaAno partout (le #1 absolu), la spécialisation par domaine
 3. **Warm-start par source** : les deltas warm vs cold montrent qu'un historique de la source vaut des points (jusqu'à +0.44 en médical neuro)
 4. **Corpus qualité** : ≥ 800 séries / ≥ 12 domaines avec gates de qualité par série
 5. **Préenregistrement + réplication séquestrée** des claims de routage (même discipline que le volet tabulaire)
-
-:::
 
 ---
 

@@ -11,8 +11,6 @@
 
 ---
 
-::: {.panel-tabset}
-
 ## 🧑‍💼 Vue d'ensemble
 
 **Le problème** : un système de détection d'anomalies comme `vigilance` dit *qu'*une machine se comporte anormalement — mais pas toujours *pourquoi*. Un opérateur reçoit une alerte et doit encore chercher la cause, consulter les procédures pertinentes, et décider quoi faire. C'est ce travail d'investigation qu'Aegis-RCA prend en charge automatiquement.
@@ -62,8 +60,6 @@ Chaque choix structurant a été soumis à deux avis externes (Gemini, ChatGPT) 
 ## Prochaine étape — boucle de feedback fermée avec vigilance
 
 Les diagnostics validés (ou corrigés) par un opérateur constituent des labels de cause racine que [vigilance](../vigilance/) n'a pas aujourd'hui (sa couche supervisée ne distingue qu'anomalie/pas-anomalie). L'architecture mémoire déjà décidée (tickets résolus indexés dans Qdrant + corrections humaines structurées) est le prérequis naturel : une fois construite, elle alimente à la fois le réentraînement de vigilance et l'élargissement du banc d'évaluation d'Aegis au-delà des 14 cas actuels.
-
-:::
 
 ---
 

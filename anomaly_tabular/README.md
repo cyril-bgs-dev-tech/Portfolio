@@ -10,8 +10,6 @@
 
 ---
 
-::: {.panel-tabset}
-
 ## 🧑‍💼 Vue d'ensemble
 
 **La question posée** : pour détecter des anomalies dans des données tabulaires (transactions, mesures, dossiers...), existe-t-il un détecteur qui marche mieux que tous les autres, quel que soit le domaine ? Beaucoup de projets s'arrêtent au premier modèle qui bat une baseline.
@@ -83,8 +81,6 @@ Même en partant du **meilleur détecteur unique** (KNN, 69.8), la composition r
 3. **Fusion pondérée par point** plutôt que sélection dure par dataset (la pondération douce bat déjà la fusion plate de +0.9)
 4. **Corpus : grandir en natif** (~200 datasets à anomalies réelles) + lot de réplication séquestré
 5. **Baseline concurrente MetaOD** re-run au même protocole + courbe de scaling du routeur (100 → 250 → 502 datasets) — les conditions de publiabilité
-
-:::
 
 ---
 

@@ -45,8 +45,6 @@ il est en train de redéfinir ce que veut dire « bien travailler » sur une com
 
 ---
 
-::: {.panel-tabset}
-
 ## 🧑‍💼 Vue d'ensemble
 
 **Le principe** : sur Kaggle, des milliers d'équipes dans le monde s'affrontent sur le même problème, avec les mêmes données, dans un délai fixé — un peu comme un concours d'algorithmes à l'échelle mondiale. Le classement final est objectif : même données pour tout le monde, un seul score qui compte.
@@ -320,8 +318,6 @@ il est en train de redéfinir ce que veut dire « bien travailler » sur une com
 3. **Partage** : Partager ses approches apprend aux autres et renforce sa propre compréhension
 4. **Veille** : Rester à jour sur les dernières avancées est crucial
 5. **Patience** : Les améliorations marginales s'accumulent
-
-:::
 
 ---
 

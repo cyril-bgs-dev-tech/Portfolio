@@ -9,8 +9,6 @@
 
 ---
 
-::: {.panel-tabset}
-
 ## 🧑‍💼 Vue d'ensemble
 
 Cette deuxième année (2023-2024) associe une formation avancée (deep learning, NLP, séries temporelles) à une alternance d'un an chez Michelin.
@@ -208,8 +206,6 @@ Cette deuxième année (2023-2024) associe une formation avancée (deep learning
 | **Anomalies** | Scikit-learn, Isolation Forest, Autoencoders |
 | **Entreprise** | Power BI, Streamlit, Plotly, Git |
 | **Testing** | PyTest |
-
-:::
 
 ---
 
