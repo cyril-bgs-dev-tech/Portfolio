@@ -1,7 +1,7 @@
 # 🌬️ Correction apprise des prévisions de qualité de l'air
 
 **Post-traitement des prévisions européennes CAMS aux stations françaises** — le modèle
-apprend le **résidu** `observation − CAMS` et le retranche. Quatre polluants : NO₂, O₃,
+apprend la **correction** `observation − CAMS`, puis l'**ajoute** à la prévision CAMS. Quatre polluants : NO₂, O₃,
 PM10, PM2,5.
 
 > **Ce que ce projet démontre n'est pas un score, c'est un protocole.** La méthode est

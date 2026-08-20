@@ -21,7 +21,8 @@
 
 **Ce que ça démontre** : la capacité à construire un système d'IA agentique avec la même rigueur qu'une démarche scientifique — mesurer plutôt que supposer, documenter les échecs autant que les réussites, et rester honnête sur ce qui n'est pas encore prouvé (le module d'auto-correction n'a qu'un seul succès mesuré à ce stade, pas un taux fiable).
 
-## 🔧 Détails techniques
+<details>
+<summary><strong>🔧 Détails techniques</strong> — cliquer pour déplier</summary>
 
 ## Architecture
 
@@ -67,3 +68,5 @@ Les diagnostics validés (ou corrigés) par un opérateur constituent des labels
 **Projet frère** : [vigilance](../vigilance/) (le système qu'Aegis-RCA investigue)
 **Dernière mise à jour** : Août 2026
 **Contact** : cyril.bgs.dev.tech@gmail.com
+
+</details>

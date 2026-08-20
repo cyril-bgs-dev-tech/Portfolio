@@ -196,7 +196,7 @@ Data Scientist passionné avec **double compétence modélisation + production**
 - 🎯 **Prévoir là où personne ne mesure** : aucune observation du lieu corrigé n'entre dans le modèle — et il est testé sur des stations *et* des mois qu'il n'a jamais vus
 - 📉 **−39,6 % d'erreur sur le NO₂**, −20,2 % sur les PM10, −17,9 % sur l'ozone, −11,8 % sur les PM2,5, face à la prévision européenne brute
 - 📅 **En 2030 l'Europe divise ses seuils par deux** : à pollution inchangée, les stations en dépassement passent de **6 à 109** — et 4 départements d'Occitanie n'ont aucune station pour le constater
-- ✅ **Assez bon pour servir en réglementaire&nbsp;?** Le critère européen de qualité est atteint sur 41,4 % des stations NO₂ avec la prévision brute, **96,2 %** après correction
+- ✅ **Utilisable au sens réglementaire&nbsp;?** **Sans aucune observation du point**, la part des stations NO₂ qui satisfait le critère européen passe de 41,4 % à **87,9 %** — encore sous le seuil de 90 %. **Aux stations instrumentées**, elle atteint **96,2 %**
 - 🔍 **Les limites sont publiées comme les résultats** : 3 épisodes de pollution réels détectés sur 33 — l'observation directe elle-même n'en attrape que 21, et le produit officiel 1
 - 💻 **Code** : [github.com/cyril-bgs-dev-tech/correction-previsions-qualite-air](https://github.com/cyril-bgs-dev-tech/correction-previsions-qualite-air)
 
@@ -250,7 +250,7 @@ Data Scientist passionné avec **double compétence modélisation + production**
 ✨ **Highlights** :
 - 🎯 Démarche : reproduire l'ancre (égalités exactes : Sub-PCA 0.4234, Sub-KNN 0.3501) → monter les SOTA → **caractériser les domaines** → router
 - 🥇 PaAno (ICLR 2026) intégré à TSB-AD et certifié : **#1 des volets U et M** (0.58 / 0.46 VUS-PR vs 0.42 / 0.31 pour les leaders publiés)
-- 📈 Tabulaire : routage par domaine **72.5 AUROC** (préenregistré, p=5×10⁻⁷) vs 69.8 meilleur détecteur unique — oracle à 78.3
+- 📈 Tabulaire : **routeur source-strict 72,8 AUROC** (pré-enregistré, LODO groupé par source) contre **69,8** pour le meilleur détecteur unique — soit **+3,0 points** ; oracle du corpus à **78,7**
 - 💡 Leçon : même avec un système SOTA, la composition par domaine ajoute jusqu'à +0.33 VUS-PR localement
 - 🔬 Volets : [tabulaire](anomaly_tabular/) · [séries temporelles](anomaly_tsad/) — dépôts : [anomaly_tabular](https://github.com/cyril-bgs-dev-tech/anomaly_tabular) · [anomaly_tsad](https://github.com/cyril-bgs-dev-tech/anomaly_tsad)
 

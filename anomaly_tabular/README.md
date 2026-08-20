@@ -24,7 +24,8 @@
 
 **Ce que ça démontre** : la capacité à mener une recherche appliquée avec la même rigueur qu'une publication scientifique (hypothèses figées avant les résultats, vérification systématique), tout en restant honnête sur les limites (le gain est nul sur certains domaines, et c'est dit clairement).
 
-## 🔧 Détails techniques
+<details>
+<summary><strong>🔧 Détails techniques</strong> — cliquer pour déplier</summary>
 
 ## 1️⃣ Le benchmark de base (l'ancre)
 
@@ -88,3 +89,5 @@ Même en partant du **meilleur détecteur unique** (KNN, 69.8), la composition r
 **Projet frère** : [Recherche time series](../anomaly_tsad/) (TSB-AD, PaAno, routage par domaine)  
 **Dernière mise à jour** : Août 2026  
 **Contact** : cyril.bgs.dev.tech@gmail.com
+
+</details>

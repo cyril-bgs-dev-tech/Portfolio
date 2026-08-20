@@ -22,7 +22,8 @@
 
 **Ce que ça démontre** : la capacité à mener une recherche appliquée avec la même rigueur qu'une publication scientifique (protocoles figés à l'avance, vérifications anti-triche), tout en gardant un œil sur l'utilité pratique du résultat.
 
-## 🔧 Détails techniques
+<details>
+<summary><strong>🔧 Détails techniques</strong> — cliquer pour déplier</summary>
 
 ## 1️⃣ Le benchmark de base (l'ancre)
 
@@ -97,3 +98,5 @@ Même en déployant PaAno partout (le #1 absolu), la spécialisation par domaine
 **Projet frère** : [Recherche tabulaire](../anomaly_tabular/) (ADBench, 502 datasets, 20 domaines)  
 **Dernière mise à jour** : Août 2026  
 **Contact** : cyril.bgs.dev.tech@gmail.com
+
+</details>

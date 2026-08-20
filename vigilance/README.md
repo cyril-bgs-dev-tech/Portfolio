@@ -29,7 +29,8 @@
 
 **Ce que ça démontre** : la capacité à concevoir un système complet — pas juste un modèle qui prédit, mais tout ce qu'il faut autour pour que ce modèle soit fiable, observable et utilisable en production.
 
-## 🔧 Détails techniques
+<details>
+<summary><strong>🔧 Détails techniques</strong> — cliquer pour déplier</summary>
 
 ## 🏗️ Architecture Réelle du DAG (9 workers)
 
@@ -186,3 +187,5 @@ Navigation native `st.navigation`, matrice **RASCI par page** (opérateur / anal
 **Code source** : [github.com/cyril-bgs-dev-tech/vigilance](https://github.com/cyril-bgs-dev-tech/vigilance)  
 **Dernière mise à jour** : Août 2026  
 **Contact** : cyril.bgs.dev.tech@gmail.com
+
+</details>

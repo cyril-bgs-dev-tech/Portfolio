@@ -33,7 +33,7 @@ Data Scientist avec **double compétence modélisation + production**, spéciali
 ### Recherche compositionnelle — détection d'anomalies
 - **Ancres reproduites** : ADBench (47 datasets) et TSB-AD (égalités exactes au publié)
 - **PaAno (ICLR 2026)** intégré et certifié sur TSB-AD : **#1 des volets U et M**
-- **Routage par domaine** : 502 datasets / 20 domaines, +2.7 pts AUROC vs meilleur single (préenregistré)
+- **Routeur source-strict** : 502 jeux / 19 domaines, **+3,0 pts** AUROC contre le meilleur détecteur unique (pré-enregistré, LODO groupé par source)
 
 ### MLOps
 - **Système temps réel** : DAG 9 workers, Redis, Docker
@@ -120,7 +120,7 @@ Claude Code · Codex · OpenCode
 - **Prévoir là où personne ne mesure** : aucune observation du lieu corrigé n'entre dans le modèle, et il est testé sur des stations *et* des mois qu'il n'a jamais vus
 - **−39,6 % d'erreur sur le NO₂**, −20,2 % sur les PM10, −17,9 % sur l'ozone, −11,8 % sur les PM2,5
 - **En 2030 l'Europe divise ses seuils par deux** : à pollution inchangée, les stations en dépassement passent de **6 à 109**, et 4 départements d'Occitanie n'ont aucune station pour le constater
-- **Assez bon pour servir en réglementaire ?** Le critère européen de qualité est atteint sur 41,4 % des stations NO₂ en brut, **96,2 %** après correction
+- **Utilisable au sens réglementaire ?** **Sans observation du point**, la part des stations NO₂ satisfaisant le critère européen passe de 41,4 % à **87,9 %** — sous le seuil de 90 %. **Aux stations instrumentées**, **96,2 %**
 - **Les limites sont publiées comme les résultats** : 3 épisodes réels détectés sur 33 — l'observation directe n'en attrape que 21, le produit officiel 1
 
 → [Voir le projet](projets_Qualite_Air/index.qmd)
@@ -149,7 +149,7 @@ Claude Code · Codex · OpenCode
 
 - Ancre reproduite à l'exact (Sub-PCA 0.4234, Sub-KNN 0.3501 en VUS-PR), point-adjust banni
 - PaAno (ICLR 2026) monté sur TSB-AD et certifié : **#1 des deux volets** (0.58 U / 0.46 M)
-- Corpus 502 datasets / 20 domaines : le routage par domaine bat le meilleur détecteur unique de +2.7 pts AUROC (préenregistré)
+- Corpus 502 jeux / 19 domaines : le **routeur source-strict** bat le meilleur détecteur unique de **+3,0 pts** AUROC (pré-enregistré)
 - Le gain du routage croît avec la dimensionnalité — la composition bat le champion global
 
 → [Voir le projet](anomaly_tabular/index.qmd)
