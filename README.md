@@ -35,13 +35,13 @@ Data Scientist passionné avec **double compétence modélisation + production**
 **🔬 Benchmarks SOTA**
 - ADBench : 47 datasets
 - TSB-AD : 870 séries U + 200 M
-- Reproductions exactes validées
+- TSB-AD : 2 scores reproduits à l'identique<br>ADBench : 5 détecteurs réexécutés
 
 </td>
 <td width="33%" valign="top">
   
 **⚙️ MLOps Temps Réel**
-- DAG 9 workers, 4 réplicas
+- DAG 9 workers · pool de 3 réplicas CPU + 1 GPU
 - Dashboard 40+ pages RASCI
 - Observabilité Prometheus/Grafana
 
@@ -99,7 +99,7 @@ Data Scientist passionné avec **double compétence modélisation + production**
 💡 **Impact** :
 - 📈 Analyses statistiques avancées sur ensemble de bon fonctionnement
 - ⚡ Cœur calculatoire haute vitesse optimisé en **Rust**
-- 🔍 Augmentation colossale de la capacité de compréhension des données
+- 🔍 Caractérisation des régimes de fonctionnement sur plusieurs centaines de capteurs
 
 🗣️ **Feedback** :
 > *"Réelle passion pour la data science et les algorithmes d'IA. Investissement dans les missions. Contribution active au produit logiciel."*  

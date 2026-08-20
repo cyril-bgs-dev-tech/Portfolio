@@ -72,11 +72,11 @@ Routage tuned-domaine validé en LODO, gains **au-dessus du meilleur global** pa
 
 Et le signal le plus intéressant — **le gain du routage croît avec la dimensionnalité** :
 
-| Strate | Gain routage | Plafond oracle |
-|--------|-------------:|---------------:|
-| Tout multivarié (d ≥ 2) | −0.01 | +0.16 |
-| Multivarié réel (d ≥ 8) | **+0.03** | +0.18 |
-| Haute dimension (d ≥ 20) | **+0.07** | +0.24 |
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/v8_routage_dimension_sombre.svg">
+  <img alt="Le routage perd 0,01 sur l'ensemble du multivarié, gagne 0,03 à partir de huit variables et 0,07 au-delà de vingt." src="../assets/v8_routage_dimension_clair.svg" width="100%">
+</picture>
+
 
 Les séries quasi-univariées (d = 2) diluent le signal : le routage compositionnel est une stratégie **du multivarié réel**.
 

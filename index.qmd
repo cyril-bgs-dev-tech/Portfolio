@@ -106,7 +106,7 @@ Claude Code · Codex · OpenCode
 - Algorithme de niveau recherche validé par le responsable scientifique
 - Analyses statistiques avancées sur ensemble de bon fonctionnement
 - Cœur calculatoire haute vitesse optimisé en **Rust**
-- Augmentation colossale de la capacité de compréhension des données
+- Caractérisation des régimes de fonctionnement sur plusieurs centaines de capteurs
 
 **Feedback** : *"Réelle passion pour la data science et les algorithmes d'IA. Investissement dans les missions. Contribution active au produit logiciel."* — Nuno DOS REIS, Président, DELTAMU
 

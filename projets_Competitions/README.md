@@ -4,7 +4,7 @@
 
 [![Profil Kaggle](https://img.shields.io/badge/Profil%20Kaggle-cyrilbourgeois-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/cyrilbourgeois/competitions)
 
-**35+ compétitions** · **7 top 4 %** · **3 top 1 %** · meilleur rang **#14 / 3 022**
+**35+ compétitions engagées** · **7 top 4 %** · **3 top 1 %** · meilleur rang **#14 / 3 022**
 
 *Palmarès complet et vérifiable sur le profil.*
 
@@ -39,6 +39,8 @@ qui explorent, testent et sélectionnent les pistes en autonomie. C'est le même
 celui suivi par ailleurs sur mes projets — agent de diagnostic, orchestration de modèles — et
 il est en train de redéfinir ce que veut dire « bien travailler » sur une compétition.
 
+**Où j'en suis** : j'expérimente l'automatisation d'une partie de l'exploration des variables et des modèles. **Aucun classement ci-dessus ne lui est attribuable** — c'est un chantier, pas un résultat.
+
 ---
 
 **Où en est ce projet** : activité continue — nouvelle compétition engagée régulièrement, en parallèle des autres projets.
@@ -63,7 +65,7 @@ il est en train de redéfinir ce que veut dire « bien travailler » sur une com
 
 | Métrique | Valeur |
 |----------|--------|
-| Compétitions complétées | 35+ |
+| Compétitions engagées | 35+ |
 | Notebooks écrits | ≈ 1 050 — 499 sur Kaggle *(majorité privés)*, 551 en local |
 | Top 4% mondial | 7 compétitions |
 | Top 1% mondial | 3 compétitions |
@@ -180,7 +182,9 @@ il est en train de redéfinir ce que veut dire « bien travailler » sur une com
 
 ---
 
-## 📊 Répartition par Type de Problème
+## 📊 Répartition — non exclusive — par type de problème
+
+*Une compétition peut relever de plusieurs types ; les lignes se recoupent et leur somme dépasse le total.*
 
 | Type | Nombre | Meilleur Top % |
 |------|--------|----------------|

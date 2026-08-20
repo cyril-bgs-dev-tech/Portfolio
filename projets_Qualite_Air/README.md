@@ -48,6 +48,11 @@ n'expose que six jours glissants et ne peut pas remonter le temps.
 
 ## 🔬 Ce qui distingue ce travail
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/v6_pile_no2_sombre.svg">
+  <img alt="Sur le NO₂, la pile passe de 26,6 % pour la base à 40,2 % avec la spéciation, la typologie de station apportant le plus gros saut." src="../assets/v6_pile_no2_clair.svg" width="100%">
+</picture>
+
 ### Le mécanisme est établi, pas supposé
 
 Le dernier levier trouvé — sept traceurs de **composition** du champ CAMS que le dépôt ne
@@ -78,8 +83,8 @@ avec l'horizon. C'est donc une mesure de **sensibilité**, à lire pour sa pente
 son niveau.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/v5_echeances_sombre.svg">
-  <img alt="De J0 à J+3, le gain sur le NO₂ reste stable de 37,1 % à 36,7 % (0,38 point), tandis que celui sur l'ozone tombe de 9,3 % à 7,0 % (2,25 points)." src="assets/v5_echeances_clair.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/v5_echeances_sombre.svg">
+  <img alt="De J0 à J+3, le gain sur le NO₂ reste stable de 37,1 % à 36,7 % (0,38 point), tandis que celui sur l'ozone tombe de 9,3 % à 7,0 % (2,25 points)." src="../assets/v5_echeances_clair.svg" width="100%">
 </picture>
 
 | | J0 | J+1 | J+2 | J+3 | plage | verdict |
@@ -120,8 +125,8 @@ donnent l'argument que ni l'une ni l'autre ne porte seule — abaisser le seuil 
 mécaniquement** le nombre de zones où modéliser devient une obligation légale.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/v4_seuil_2030_sombre.svg">
-  <img alt="Le nombre de stations en dépassement passe de 6 aujourd'hui à 109 en 2030, soit un facteur 18,2, sans qu'aucune émission n'ait changé." src="assets/v4_seuil_2030_clair.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/v4_seuil_2030_sombre.svg">
+  <img alt="Le nombre de stations en dépassement passe de 6 aujourd'hui à 109 en 2030, soit un facteur 18,2, sans qu'aucune émission n'ait changé." src="../assets/v4_seuil_2030_clair.svg" width="100%">
 </picture>
 
 Compté sur le parc réel, moyennes annuelles 2025, à air constant : **6 stations en
