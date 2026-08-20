@@ -43,7 +43,7 @@ Ce parcours m'a apporté :
 
 **Missions** :
 - Réalisation d'un POC de parsing/matching de données complexes, niveau continental
-- Algorithmes de fuzzy matching — augmentation considérable du taux de détection des correspondances
+- Rapprochement automatisé de données de pricing hétérogènes, et tests de non-régression
 - Nettoyage et qualité des données, analyses spécifiques autour du pricing niveau mondial
 - Tests de non régression
 

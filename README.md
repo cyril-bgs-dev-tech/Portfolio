@@ -4,7 +4,6 @@
 
 ### Data Scientist | MLOps Engineer | Problem Solver
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-en%20ligne-2563eb?style=for-the-badge&logo=quarto)](https://cyril-bgs-dev-tech.github.io/Portfolio/)
 ![License](https://img.shields.io/badge/License-MIT-10B981?style=for-the-badge)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/cyril-bourgeois/)
@@ -305,11 +304,10 @@ Data Scientist passionné avec **double compétence modélisation + production**
 
 ### 🌟 *"Le code ne ment jamais, les commentaires oui"* - Linus Torvalds
 
-*Portfolio construit avec passion | Quarto + GitHub Pages*
+*Sources et résultats bruts versionnés — chaque chiffre est régénérable.*
 
 ![Quarto](https://img.shields.io/badge/Built%20with-Quarto-2563eb?style=for-the-badge)
 ![GitHub Pages](https://img.shields.io/badge/Deployed%20on-GitHub%20Pages-2088FF?style=for-the-badge&logo=github)
-![Open Source](https://img.shields.io/badge/Open%20Source-Yes-10B981?style=for-the-badge)
 
 *Dernière mise à jour : Août 2026*
 

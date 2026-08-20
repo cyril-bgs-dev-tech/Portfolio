@@ -34,7 +34,7 @@ Cette deuxième année (2023-2024) associe une formation avancée (deep learning
 
 ### Missions Réalisées
 - Réalisation d'un POC de parsing/matching de données complexes, niveau continental
-- Algorithmes de fuzzy matching — augmentation considérable du taux de détection des correspondances
+- Rapprochement automatisé de données de pricing hétérogènes, et tests de non-régression
 - Nettoyage et qualité des données, analyses spécifiques autour du pricing niveau mondial
 - Tests de non régression
 

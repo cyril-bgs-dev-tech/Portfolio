@@ -68,8 +68,14 @@ faute d'avoir franchi son propre seuil.
 
 ### Une affirmation du projet a été réfutée par sa propre mesure
 
-Le dossier affirmait que ses leviers ne se dégradent pas avec l'échéance. Poussé jusqu'à
-**J+3** — la dernière que CAMS Europe produise :
+Le dossier affirmait que ses leviers ne se dégradent pas avec l'échéance. Le balayage de J0
+à J+3 — la dernière échéance que CAMS Europe produise — le met à l'épreuve.
+
+⚠️ **Ces scores ne sont pas ceux du tableau précédent.** Pour comparer quatre échéances
+entre elles, il faut une **pile identique aux quatre** : CAMS, terrain, calendrier,
+typologie et tendance récente — **ni spéciation, ni GEOS-CF**, dont la couverture varie
+avec l'horizon. C'est donc une mesure de **sensibilité**, à lire pour sa pente, pas pour
+son niveau.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/v5_echeances_sombre.svg">
