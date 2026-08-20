@@ -71,6 +71,11 @@ faute d'avoir franchi son propre seuil.
 Le dossier affirmait que ses leviers ne se dégradent pas avec l'échéance. Poussé jusqu'à
 **J+3** — la dernière que CAMS Europe produise :
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/v5_echeances_sombre.svg">
+  <img alt="De J0 à J+3, le gain sur le NO₂ reste stable de 37,1 % à 36,7 % (0,38 point), tandis que celui sur l'ozone tombe de 9,3 % à 7,0 % (2,25 points)." src="assets/v5_echeances_clair.svg" width="100%">
+</picture>
+
 | | J0 | J+1 | J+2 | J+3 | plage | verdict |
 |---|---|---|---|---|---|---|
 | NO₂ | +37,1 % | +37,1 % | +36,9 % | +36,7 % | 0,38 pt | ✅ **stable** |
@@ -107,6 +112,11 @@ La directive **(UE) 2024/2881** fait deux choses que l'on cite toujours séparé
 **modélisation obligatoire** dans toute zone où un seuil est dépassé. Multipliées, elles
 donnent l'argument que ni l'une ni l'autre ne porte seule — abaisser le seuil **multiplie
 mécaniquement** le nombre de zones où modéliser devient une obligation légale.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/v4_seuil_2030_sombre.svg">
+  <img alt="Le nombre de stations en dépassement passe de 6 aujourd'hui à 109 en 2030, soit un facteur 18,2, sans qu'aucune émission n'ait changé." src="assets/v4_seuil_2030_clair.svg" width="100%">
+</picture>
 
 Compté sur le parc réel, moyennes annuelles 2025, à air constant : **6 stations en
 dépassement aujourd'hui, 109 en 2030** — un facteur **×18,2** sur 408 évaluées. En

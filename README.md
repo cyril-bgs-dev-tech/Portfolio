@@ -17,8 +17,6 @@
 
 ## 🎯 À Propos
 
-> *"Transformer des données complexes en décisions business impactantes"*
-
 Data Scientist passionné avec **double compétence modélisation + production**, spécialisé en détection d'anomalies et systèmes MLOps temps réel. Mon parcours atypique (armée → commerce → data science) m'a apporté une perspective unique : **rigueur technique + sens du business + communication efficace**.
 
 ### 🏆 Faits Marquants
@@ -129,50 +127,13 @@ Data Scientist passionné avec **double compétence modélisation + production**
 
 <div align="center">
 
-### 🐍 Langages & Frameworks
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+**Principal** — Python · SQL · scikit-learn · LightGBM/XGBoost · PyTorch · pandas/Polars
 
-### 📊 Machine Learning & IA
-![XGBoost](https://img.shields.io/badge/XGBoost-FF6B6B?style=for-the-badge)
-![LightGBM](https://img.shields.io/badge/LightGBM-007ACC?style=for-the-badge)
-![RealMLP](https://img.shields.io/badge/RealMLP-6E56CF?style=for-the-badge)
-![Modèles physiques](https://img.shields.io/badge/Mod%C3%A8les%20physiques-0EA5E9?style=for-the-badge)
-![LLMs](https://img.shields.io/badge/LLMs-8B5CF6?style=for-the-badge)
-![Modèles pré-entraînés](https://img.shields.io/badge/Mod%C3%A8les%20pr%C3%A9--entra%C3%AEn%C3%A9s-F59E0B?style=for-the-badge)
-![CUDA](https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+**Mise en production** — Docker · Redis · PostgreSQL · Prometheus/Grafana · Streamlit
 
-### 🤖 LLMs utilisés
-![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white)
-![ChatGPT](https://img.shields.io/badge/ChatGPT-10A37F?style=for-the-badge)
-![Grok](https://img.shields.io/badge/Grok-000000?style=for-the-badge&logo=x&logoColor=white)
-![Kimi K3](https://img.shields.io/badge/Kimi%20K3-1E293B?style=for-the-badge)
-![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white)
-![Mistral](https://img.shields.io/badge/Mistral-FA520F?style=for-the-badge&logo=mistralai&logoColor=white)
+**IA générative** — Claude · ChatGPT · Gemini · Mistral · Grok · Kimi K3 · *agentique* : Claude Code, Codex, OpenCode
 
-### ⚡ Agentic
-![Claude Code](https://img.shields.io/badge/Claude%20Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
-![Codex](https://img.shields.io/badge/Codex-412991?style=for-the-badge)
-![OpenCode](https://img.shields.io/badge/OpenCode-0F172A?style=for-the-badge)
-
-### ⚙️ MLOps & Infrastructure
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
-
-### 📈 Visualisation & BI
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
-![PowerBI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge)
+**Aussi** — Rust (cœur calculatoire), CUDA, RealMLP, modèles pré-entraînés, TensorFlow, Tableau/Power BI
 
 </div>
 
