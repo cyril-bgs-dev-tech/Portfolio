@@ -216,7 +216,7 @@ Data Scientist passionné avec **double compétence modélisation + production**
 ✨ **Highlights** :
 - 🎯 Démarche : reproduire l'ancre (égalités exactes : Sub-PCA 0.4234, Sub-KNN 0.3501) → monter les SOTA → **caractériser les domaines** → router
 - 🥇 PaAno (ICLR 2026) intégré à TSB-AD et certifié : **#1 des volets U et M** (0.58 / 0.46 VUS-PR vs 0.42 / 0.31 pour les leaders publiés)
-- 📈 Tabulaire : **routeur source-strict 72,8 AUROC** (pré-enregistré, LODO groupé par source) contre **69,8** pour le meilleur détecteur unique — soit **+3,0 points** ; oracle du corpus à **78,7**
+- 📈 Tabulaire : **routeur source-strict 72,8 AUROC** (pré-enregistré, LODO groupé par source), soit **+1,48 point** sur l'ensemble fixe de 18 détecteurs — et **+1,00** sur la spécialisation par domaine ; le plafond de sélection parfaite est à **+7,40**
 - 💡 Leçon : même avec un système SOTA, la composition par domaine ajoute jusqu'à +0.33 VUS-PR localement
 - 🔬 Volets : [tabulaire](anomaly_tabular/) · [séries temporelles](anomaly_tsad/) — dépôts : [anomaly_tabular](https://github.com/cyril-bgs-dev-tech/anomaly_tabular) · [anomaly_tsad](https://github.com/cyril-bgs-dev-tech/anomaly_tsad)
 

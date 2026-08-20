@@ -18,7 +18,7 @@
 
 **Pourquoi c'est rigoureux et pas juste une intuition** : avant de prétendre faire mieux que les résultats publiés dans la recherche académique (ADBench, la référence du domaine), la première étape a été de **reproduire exactement** ces résultats — c'est la garantie que les comparaisons qui suivent sont fiables et pas un artefact de mesure.
 
-**Le résultat chiffré** : le système de sélection par domaine dépasse le meilleur détecteur unique de +3.0 points de précision (AUROC) — un gain confirmé statistiquement (pas un hasard de mesure) et vérifié sur des données jamais vues pendant la mise au point.
+**Le résultat chiffré** : le routeur source-strict gagne +1,48 point sur l'ensemble fixe de 18 détecteurs, sous le même protocole (LODO groupé par source) — la comparaison à un détecteur unique relève d'un autre régime d'évaluation et n'est pas reprise ici. Il dépasse le meilleur détecteur unique de +3.0 points de précision (AUROC) — un gain confirmé statistiquement (pas un hasard de mesure) et vérifié sur des données jamais vues pendant la mise au point.
 
 **Une découverte utile en soi** : sur environ un tiers des jeux de données (les cas "mal posés", où même les méthodes classiques peinent), ce sont les modèles de dernière génération ("foundation models") qui prennent le relais — alors qu'ils sont plutôt décevants en moyenne. Savoir *quand* changer d'outil est aussi précieux que l'outil lui-même.
 
@@ -26,7 +26,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="../assets/v7_routeur_tabulaire_sombre.svg">
-  <img alt="Contre le meilleur détecteur unique, le routeur source-strict gagne 3,0 points d'AUROC, la spécialisation par domaine 2,5, et l'oracle 8,9." src="../assets/v7_routeur_tabulaire_clair.svg" width="100%">
+  <img alt="Contre l'ensemble fixe de 18 détecteurs, le routeur source-strict gagne 1,48 point d'AUROC, la spécialisation par domaine 1,00, et la sélection parfaite 7,40." src="../assets/v7_routeur_tabulaire_clair.svg" width="100%">
 </picture>
 
 <details>

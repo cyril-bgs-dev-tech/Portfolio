@@ -33,7 +33,7 @@ Data Scientist avec **double compétence modélisation + production**, spéciali
 ### Recherche compositionnelle — détection d'anomalies
 - **Ancres reproduites** : ADBench (47 datasets) et TSB-AD (égalités exactes au publié)
 - **PaAno (ICLR 2026)** intégré et certifié sur TSB-AD : **#1 des volets U et M**
-- **Routeur source-strict** : 502 jeux / 19 domaines, **+3,0 pts** AUROC contre le meilleur détecteur unique (pré-enregistré, LODO groupé par source)
+- **Routeur source-strict** : 502 jeux / 19 domaines, **+1,48 pt** AUROC sur l'ensemble fixe de 18 détecteurs (pré-enregistré, LODO groupé par source)
 
 ### MLOps
 - **Système temps réel** : DAG 9 workers, Redis, Docker
@@ -149,8 +149,8 @@ Claude Code · Codex · OpenCode
 
 - Ancre reproduite à l'exact (Sub-PCA 0.4234, Sub-KNN 0.3501 en VUS-PR), point-adjust banni
 - PaAno (ICLR 2026) monté sur TSB-AD et certifié : **#1 des deux volets** (0.58 U / 0.46 M)
-- Corpus 502 jeux / 19 domaines : le **routeur source-strict** bat le meilleur détecteur unique de **+3,0 pts** AUROC (pré-enregistré)
-- Le gain du routage croît avec la dimensionnalité — la composition bat le champion global
+- Corpus 502 jeux / 19 domaines : le **routeur source-strict** gagne **+1,48 pt** AUROC sur l'ensemble fixe (pré-enregistré) — un gain réel et modeste
+- Le gain du routage croît avec la dimensionnalité : **négatif** sur l'ensemble du multivarié (−0,01), positif à partir de huit variables
 
 → [Voir le projet](anomaly_tabular/index.qmd)
 
