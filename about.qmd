@@ -72,11 +72,16 @@ Ce parcours m'a apporté :
 
 ---
 
-## 🎓 Certifications et Diplômes
+## 🎓 Diplômes, et résultats publics
 
-- **Master 2 Data Scientist** - OpenClassrooms + Centrale Supélec (2024)
-- **Master 1 Data Analyst** - OpenClassrooms + ENSAE (2022)
-- **Kaggle Competitions** : Top 1% mondial (3 compétitions)
+**Diplômes**
+
+- **Master 2 Data Scientist** — OpenClassrooms + Centrale Supélec (2024)
+- **Master 1 Data Analyst** — OpenClassrooms + ENSAE (2022)
+
+**Résultats publics** *(vérifiables, pas décernés)*
+
+- Kaggle — 3 compétitions dans le top 1 % mondial
 
 ---
 

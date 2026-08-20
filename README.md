@@ -94,7 +94,7 @@ Data Scientist passionné avec **double compétence modélisation + production**
 ✨ **Missions** :
 - 🔬 Tests de recherche en clustering et détection d'anomalies
 - 📊 Analyse et interprétation d'insights et de cycliques
-- 🧠 Création d'un algorithme de niveau recherche validé par le responsable scientifique
+- 🧠 Nouvel algorithme de détection, validé par le responsable scientifique
 
 💡 **Impact** :
 - 📈 Analyses statistiques avancées sur ensemble de bon fonctionnement

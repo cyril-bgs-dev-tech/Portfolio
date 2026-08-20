@@ -103,7 +103,7 @@ Claude Code · Codex · OpenCode
 **Recherche en détection d'anomalies — capteurs industriels (pharma)**
 
 - Tests de recherche en clustering et détection d'anomalies, plusieurs centaines de capteurs
-- Algorithme de niveau recherche validé par le responsable scientifique
+- Nouvel algorithme de détection, validé par le responsable scientifique
 - Analyses statistiques avancées sur ensemble de bon fonctionnement
 - Cœur calculatoire haute vitesse optimisé en **Rust**
 - Caractérisation des régimes de fonctionnement sur plusieurs centaines de capteurs
@@ -167,11 +167,16 @@ Claude Code · Codex · OpenCode
 
 ---
 
-## 🎓 Certifications
+## 🎓 Diplômes, et résultats publics
 
-- **Master 2 Data Scientist** - OpenClassrooms + Centrale Supélec (2024)
-- **Master 1 Data Analyst** - OpenClassrooms + ENSAE (2022)
-- **Kaggle Competitions** : Top 1% mondial
+**Diplômes**
+
+- **Master 2 Data Scientist** — OpenClassrooms + Centrale Supélec (2024)
+- **Master 1 Data Analyst** — OpenClassrooms + ENSAE (2022)
+
+**Résultats publics** *(vérifiables, pas décernés)*
+
+- Kaggle — 3 compétitions dans le top 1 % mondial, meilleur rang #14 / 3 022
 
 ---
 
