@@ -19,9 +19,6 @@ Cette deuxième année (2023-2024) associe une formation avancée (deep learning
 
 **Le reste de l'année** : projets académiques sur des cas variés (application santé publique, prévision de consommation énergétique, segmentation client e-commerce, classification automatique de texte, reconnaissance d'images).
 
-<details>
-<summary><strong>🔧 Détails techniques</strong> — cliquer pour déplier</summary>
-
 ## 🏭 Alternance Michelin - POC Parsing/Matching de Données Complexes
 
 **Statut** : ✅ Validé - Alternance réussie  
@@ -166,6 +163,3 @@ Cette deuxième année (2023-2024) associe une formation avancée (deep learning
 **Feedback** : *"Sujet pertinent, sources sérieuses consultées et bien articulées. Présentation claire."*
 
 ---
-
-
-</details>

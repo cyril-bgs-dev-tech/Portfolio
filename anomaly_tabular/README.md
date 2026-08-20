@@ -29,9 +29,6 @@
   <img alt="Contre l'ensemble fixe de 18 détecteurs, le routeur source-strict gagne 1,48 point d'AUROC, la spécialisation par domaine 1,00, et la sélection parfaite 7,40." src="../assets/v7_routeur_tabulaire_clair.svg" width="100%">
 </picture>
 
-<details>
-<summary><strong>🔧 Détails techniques</strong> — cliquer pour déplier</summary>
-
 ## 1️⃣ Le benchmark de base (l'ancre)
 
 **ADBench** — la référence académique du domaine : 47 datasets tabulaires classiques, protocoles et hyperparamètres officiels (dépôts de référence clonés, pas réinventés).
@@ -94,5 +91,3 @@ Même en partant du **meilleur détecteur unique** (KNN, 69.8), la composition r
 **Projet frère** : [Recherche time series](../anomaly_tsad/) (TSB-AD, PaAno, routage par domaine)  
 **Dernière mise à jour** : Août 2026  
 **Contact** : cyril.bgs.dev.tech@gmail.com
-
-</details>

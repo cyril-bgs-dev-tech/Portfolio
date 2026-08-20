@@ -14,9 +14,6 @@ Cette première année de formation (2021-2022) pose les bases du métier de dat
 
 Le fil conducteur des retours d'évaluateurs (5 formateurs différents sur 10 projets) : la technique était acquise dès le début, mais la **présentation des résultats à un public non-technique** était le point à travailler — et s'est nettement améliorée au fil des projets (voir le dernier, sur la détection de faux billets, où ce retour a été le plus explicite).
 
-<details>
-<summary><strong>🔧 Détails techniques</strong> — cliquer pour déplier</summary>
-
 ## 📊 Vue d'Ensemble
 
 ### Compétences Acquises
@@ -112,9 +109,6 @@ Le fil conducteur des retours d'évaluateurs (5 formateurs différents sur 10 pr
 **Feedback** : *"Conforme à la demande. Intégration d'analyses supplémentaires. Bonne présentation."*
 
 ---
-
-<details>
-<summary><strong>Les six autres projets</strong> — cliquer pour déplier</summary>
 
 ### 5. Optimisation de la Gestion des Données d'une Boutique
 **Statut** : ✅ Validé
@@ -223,8 +217,6 @@ Le fil conducteur des retours d'évaluateurs (5 formateurs différents sur 10 pr
 
 ---
 
-</details>
-
 ## 📊 Synthèse des Feedbacks
 
 **Mots-clés dominants** :
@@ -279,5 +271,3 @@ Le fil conducteur des retours d'évaluateurs (5 formateurs différents sur 10 pr
 **Contact** : cyril.bgs.dev.tech@gmail.com
 
 > 📦 **Livrables complets** (notebooks, rapports, soutenances) disponibles sur demande — non versionnés ici pour garder le dépôt léger.
-
-</details>

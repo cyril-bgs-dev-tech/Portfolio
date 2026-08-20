@@ -21,9 +21,6 @@
 
 **Ce que ça démontre** : la capacité à construire un système d'IA agentique avec la même rigueur qu'une démarche scientifique — mesurer plutôt que supposer, documenter les échecs autant que les réussites, et rester honnête sur ce qui n'est pas encore prouvé (le module d'auto-correction n'a qu'un seul succès mesuré à ce stade, pas un taux fiable).
 
-<details>
-<summary><strong>🔧 Détails techniques</strong> — cliquer pour déplier</summary>
-
 ## Ce que l'agent fait, et où l'humain décide
 
 ```mermaid
@@ -36,6 +33,8 @@ flowchart LR
     F -->|acceptée| G["Sandbox jetable<br/>réseau isolé, cgroups"]
     F -->|refusée| H["Retour<br/>au prévisionniste"]
 ```
+
+**En clair, sans le schéma** : un incident ouvert par *vigilance* est enrichi de ses métriques et de ses logs, confronté aux procédures par recherche documentaire, puis soumis à un LLM local (Qwen3.6:27B). Le diagnostic et sa recommandation **passent toujours par une validation humaine** : acceptée, l'action s'exécute dans un bac à sable jetable — réseau isolé, cgroups ; refusée, elle retourne au prévisionniste.
 
 **La frontière est le sujet du projet** : l'agent instruit le dossier, il ne clôt jamais
 l'incident seul. Tout ce qui suit la validation tourne dans un bac à sable jetable, sans réseau.
@@ -84,5 +83,3 @@ Les diagnostics validés (ou corrigés) par un opérateur constituent des labels
 **Projet frère** : [vigilance](../vigilance/) (le système qu'Aegis-RCA investigue)
 **Dernière mise à jour** : Août 2026
 **Contact** : cyril.bgs.dev.tech@gmail.com
-
-</details>

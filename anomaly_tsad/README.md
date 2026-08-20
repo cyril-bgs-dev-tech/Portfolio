@@ -22,9 +22,6 @@
 
 **Ce que ça démontre** : la capacité à mener une recherche appliquée avec la même rigueur qu'une publication scientifique (protocoles figés à l'avance, vérifications anti-triche), tout en gardant un œil sur l'utilité pratique du résultat.
 
-<details>
-<summary><strong>🔧 Détails techniques</strong> — cliquer pour déplier</summary>
-
 ## 1️⃣ Le benchmark de base (l'ancre)
 
 **TSB-AD** — 870 séries univariées + 200 multivariées, issues de sources réelles (aérospatial, SCADA industriel, serveurs IT, médical, éolien…).
@@ -98,5 +95,3 @@ Même en déployant PaAno partout (le #1 absolu), la spécialisation par domaine
 **Projet frère** : [Recherche tabulaire](../anomaly_tabular/) (ADBench, 502 datasets, 19 domaines)  
 **Dernière mise à jour** : Août 2026  
 **Contact** : cyril.bgs.dev.tech@gmail.com
-
-</details>

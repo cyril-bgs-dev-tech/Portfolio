@@ -29,9 +29,6 @@
 
 **Ce que ça démontre** : la capacité à concevoir un système complet — pas juste un modèle qui prédit, mais tout ce qu'il faut autour pour que ce modèle soit fiable, observable et utilisable en production.
 
-<details>
-<summary><strong>🔧 Détails techniques</strong> — cliquer pour déplier</summary>
-
 ## De trois signaux à un ticket unique
 
 ```mermaid
@@ -49,6 +46,8 @@ flowchart TD
     E --> F["**Un ticket par épisode**<br/>hystérésis · escalade · SLA"]
     F --> G["Cockpit Streamlit<br/>40+ pages, rôles RASCI"]
 ```
+
+**En clair, sans le schéma** : trois machines simulées émettent un événement par seconde, avec reprise après coupure. Quatre détecteurs les jugent en parallèle — un statique (IsolationForest), deux temporels (résidu Ridge sur 8 retards, reconstruction PCA sur 16 pas) et un jeu de règles capteur. **Seuls les trois premiers sont fusionnés** par XGBoost ; les règles capteur rejoignent directement l'explication SHAP. Le tout est regroupé en **un ticket par épisode** — hystérésis, escalade, SLA — que le cockpit Streamlit présente selon les rôles RASCI.
 
 **Ce que ce flux montre, et qu'une liste de workers ne montre pas** : trois détections
 parallèles et décorrélées ne produisent pas trois alertes, mais **un seul incident**, expliqué
@@ -180,5 +179,3 @@ Navigation native `st.navigation`, matrice **RASCI par page** (opérateur / anal
 **Code source** : [github.com/cyril-bgs-dev-tech/vigilance](https://github.com/cyril-bgs-dev-tech/vigilance)  
 **Dernière mise à jour** : Août 2026  
 **Contact** : cyril.bgs.dev.tech@gmail.com
-
-</details>

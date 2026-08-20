@@ -58,9 +58,6 @@ il est en train de redéfinir ce que veut dire « bien travailler » sur une com
 - Rigueur méthodologique (éviter de "tricher" en apprenant par cœur les données de test, une erreur fréquente chez les débutants)
 - Veille technique active : intégration des toutes dernières techniques de recherche dès leur publication
 
-<details>
-<summary><strong>🔧 Détails techniques</strong> — cliquer pour déplier</summary>
-
 ## 📊 Statistiques Globales
 
 | Métrique | Valeur |
@@ -206,6 +203,3 @@ il est en train de redéfinir ce que veut dire « bien travailler » sur une com
 | **2025-2026** | Top 1-2% | Approche systématique, veille active (TabM, TabICL2) |
 
 ---
-
-
-</details>
