@@ -24,6 +24,11 @@
 
 **Ce que ça démontre** : la capacité à mener une recherche appliquée avec la même rigueur qu'une publication scientifique (hypothèses figées avant les résultats, vérification systématique), tout en restant honnête sur les limites (le gain est nul sur certains domaines, et c'est dit clairement).
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/v7_routeur_tabulaire_sombre.svg">
+  <img alt="Contre le meilleur détecteur unique, le routeur source-strict gagne 3,0 points d'AUROC, la spécialisation par domaine 2,5, et l'oracle 8,9." src="../assets/v7_routeur_tabulaire_clair.svg" width="100%">
+</picture>
+
 <details>
 <summary><strong>🔧 Détails techniques</strong> — cliquer pour déplier</summary>
 
