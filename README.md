@@ -246,23 +246,22 @@ Data Scientist passionné avec **double compétence modélisation + production**
 
 ---
 
-## 📂 Structure du Portfolio
+## 🗂️ Tous les projets
 
-<div align="center">
+« Projets Phares » ci-dessus est une sélection. Voici la liste complète — les **17 projets de formation** n'apparaissent nulle part ailleurs.
 
-```
-📦 Portfolio
-├── 🎓 projets_Master_1/  # 10 projets Data Analyst
-├── 🎓 projets_Master_2/  # 7 projets Data Scientist + Michelin
-├── 🏆 projets_Competitions/  # 35+ compétitions Kaggle
-├── 🌬️ projets_Qualite_Air/  # Correction apprise des prévisions CAMS
-├── 🔧 vigilance/  # Système MLOps temps réel
-├── 🕵️ aegis-rca/  # Agent de diagnostic de causes racines
-├── 🔬 anomaly_tabular/  # Recherche tabulaire
-└── 🔬 anomaly_tsad/  # Recherche time series
-```
+| Projet | Ce qu'on y trouve |
+|---|---|
+| 🌬️ **[Correction des prévisions de qualité de l'air](projets_Qualite_Air/)** | 36 mois, 28 M de mesures horaires, 4 polluants — évalué sans aucune observation du lieu corrigé |
+| 🔧 **[Système MLOps temps réel](vigilance/)** | Détection d'anomalies industrielle — dashboard 40+ pages, rôles RASCI |
+| 🕵️ **[Agent de diagnostic de causes racines](aegis-rca/)** | Extension de vigilance — architecture confrontée à des bancs de mesure réels |
+| 🔬 **[Recherche compositionnelle — tabulaire](anomaly_tabular/)** | Composer les détecteurs SOTA et router par domaine, sur le banc ADBench |
+| 🔬 **[Recherche compositionnelle — séries temporelles](anomaly_tsad/)** | Le même routage porté sur le banc TSB-AD |
+| 🏆 **[Compétitions Kaggle](projets_Competitions/)** | 35+ engagées, 3 top 1 %, meilleur rang #14 / 3 022 |
+| 🎓 **[Master 2 — Data Scientist](projets_Master_2/)** | 7 projets, et l'alternance Michelin |
+| 🎓 **[Master 1 — Data Analyst](projets_Master_1/)** | 10 projets — SQL, Python, KNIME, Tableau |
 
-</div>
+> 💻 **Le code** — les dépôts sont en cours de republication : [correction-previsions-qualite-air](https://gitlab.com/cyril.bgs.dev/correction-previsions-qualite-air) est lisible sans compte. Les liens GitHub de cette page dépendent d'un compte actuellement indisponible aux visiteurs non connectés.
 
 ---
 
