@@ -113,6 +113,9 @@ Le fil conducteur des retours d'évaluateurs (5 formateurs différents sur 10 pr
 
 ---
 
+<details>
+<summary><strong>Les six autres projets</strong> — cliquer pour déplier</summary>
+
 ### 5. Optimisation de la Gestion des Données d'une Boutique
 **Statut** : ✅ Validé
 
@@ -219,6 +222,8 @@ Le fil conducteur des retours d'évaluateurs (5 formateurs différents sur 10 pr
 **Leçon apprise** : Importance de la structuration des présentations et de la communication des résultats.
 
 ---
+
+</details>
 
 ## 📊 Synthèse des Feedbacks
 

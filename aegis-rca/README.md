@@ -24,6 +24,22 @@
 <details>
 <summary><strong>🔧 Détails techniques</strong> — cliquer pour déplier</summary>
 
+## Ce que l'agent fait, et où l'humain décide
+
+```mermaid
+flowchart LR
+    A["Incident ouvert<br/>par vigilance"] --> B["Contexte<br/>métriques + logs"]
+    B --> C["RAG sur<br/>les procédures"]
+    C --> D["LLM local<br/>Qwen3.6:27B"]
+    D --> E["Diagnostic<br/>+ recommandation"]
+    E --> F{"**Validation<br/>humaine**"}
+    F -->|acceptée| G["Sandbox jetable<br/>réseau isolé, cgroups"]
+    F -->|refusée| H["Retour<br/>au prévisionniste"]
+```
+
+**La frontière est le sujet du projet** : l'agent instruit le dossier, il ne clôt jamais
+l'incident seul. Tout ce qui suit la validation tourne dans un bac à sable jetable, sans réseau.
+
 ## Architecture
 
 - `aegis/consumer.py` — consommateur Redis at-least-once, anti-poison (ACK systématique) sur le flux `aegis:incidents` de vigilance

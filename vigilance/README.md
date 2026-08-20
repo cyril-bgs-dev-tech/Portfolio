@@ -32,45 +32,38 @@
 <details>
 <summary><strong>🔧 Détails techniques</strong> — cliquer pour déplier</summary>
 
-## 🏗️ Architecture Réelle du DAG (9 workers)
+## De trois signaux à un ticket unique
 
-```
-                        ┌──────────────────────────────────────┐
-                        │   SIMULATEUR HAUTE RÉSILIENCE        │
-                        │   3 machines · reprise après restart │
-                        │   (index persisté Redis) · bruit 2%  │
-                        └──────────────────┬───────────────────┘
-                                           ▼
-                                   worker_features
-                                           │
-            ┌──────────────┬───────────────┼────────────────┬──────────────┐
-            ▼              ▼               ▼                ▼              │
-      unsup_stat    unsup_temp_point  unsup_temp_seq   sensor_fault       │
-   (IsolationForest) (résidu Ridge     (reconstruction  (règles capteur : │
-                      sur 8 lags)       PCA fenêtres 16) STUCK, etc.)     │
-            │              │               │                │             │
-            └──────────────┴───────┬───────┘                │             │
-                                   ▼  barrière à 3          │             │
-                              worker_sup (XGBoost)          │             │
-                                   │                        │             │
-                                   └──────────┬─────────────┘             │
-                                              ▼  barrière à 2             │
-                                  worker_model_interpreter (SHAP)         │
-                                              ▼                           │
-                                  worker_correlation_drift                │
-                                              ▼                           │
-                              worker_novelty_rules_unsup_sup ─────────────┘
-                                              │
-                                              ▼
-                        Dashboard (Redis list + Pub/Sub) + cycle de vie d'alarme
+```mermaid
+flowchart TD
+    A["3 machines simulées<br/>1 événement/s · reprise après crash"] --> B[worker_features]
+    B --> C1["1 · Statique<br/>IsolationForest"]
+    B --> C2["2 · Temporel ponctuel<br/>résidu Ridge, 8 lags"]
+    B --> C3["3 · Temporel séquentiel<br/>reconstruction PCA, 16 pas"]
+    B --> C4["Règles capteur<br/>valeur figée, dérive"]
+    C1 --> D["Fusion<br/>XGBoost"]
+    C2 --> D
+    C3 --> D
+    D --> E["Explication<br/>SHAP par événement"]
+    C4 --> E
+    E --> F["**Un ticket par épisode**<br/>hystérésis · escalade · SLA"]
+    F --> G["Cockpit Streamlit<br/>40+ pages, rôles RASCI"]
 ```
 
-**Choix de topologie défendus** :
-- `sensor_fault` (règles déterministes) ne bloque jamais le canal ML — il rejoint à la barrière SHAP
-- Barrières de synchronisation **atomiques** dans Redis (HSET/HINCRBY + TTL 120 s) : un worker en panne n'immobilise pas le pipeline
-- Détection de **nouveauté** par croisement : l'unsupervisé détecte ET le supervisé ne catalogue pas → anomalie hors des patterns connus
+**Ce que ce flux montre, et qu'une liste de workers ne montre pas** : trois détections
+parallèles et décorrélées ne produisent pas trois alertes, mais **un seul incident**, expliqué
+et suivi jusqu'à sa clôture. C'est la différence entre un détecteur et un système.
 
----
+<details>
+<summary><strong>L'implémentation, pour qui veut vérifier</strong></summary>
+
+Neuf workers, barrières Redis atomiques (à 3 puis à 2), file de rejet, reprise après crash sur
+index persisté. Les canaux `unsup_stat`, `unsup_temp_point`, `unsup_temp_seq` et
+`sensor_fault` alimentent `worker_sup`, puis `worker_model_interpreter`,
+`worker_correlation_drift` et `worker_novelty_rules_unsup_sup`. Diffusion au cockpit par liste
+Redis et Pub/Sub.
+
+</details>
 
 ## ⚙️ Exécution distribuée
 
