@@ -181,24 +181,30 @@ Data Scientist passionné avec **double compétence modélisation + production**
 ## 🚀 Projets Phares
 
 ### 🌬️ [Correction apprise des prévisions de qualité de l'air](projets_Qualite_Air/)
-**Apprendre l'erreur du modèle européen, et la retirer** — 36 mois, 28 M de mesures horaires, 4 polluants
+**Apprendre l'erreur du modèle européen, et la corriger** — 36 mois, 28 M de mesures horaires, 4 polluants
 
 <div align="center">
 
-![Protocole](https://img.shields.io/badge/Protocole-Double%20aveugle-2563eb?style=for-the-badge)
-![NO2](https://img.shields.io/badge/NO%E2%82%82-%E2%88%9239%2C6%20%25%20d'erreur-10B981?style=for-the-badge)
-![Stations](https://img.shields.io/badge/Stations-438-8B5CF6?style=for-the-badge)
-![Sources](https://img.shields.io/badge/Sources-CAMS%20%7C%20GEOS--CF%20%7C%20ERA5-F59E0B?style=for-the-badge)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/v1_gain_polluants_sombre.svg">
+  <img alt="Réduction de l'erreur CAMS à J+1 sans observation locale : NO₂ 39,6 %, PM10 20,2 %, ozone 17,9 % et PM2,5 11,8 %." src="assets/v1_gain_polluants_clair.svg" width="100%">
+</picture>
 
 </div>
 
 ✨ **Highlights** :
 - 🎯 **Prévoir là où personne ne mesure** : aucune observation du lieu corrigé n'entre dans le modèle — et il est testé sur des stations *et* des mois qu'il n'a jamais vus
-- 📉 **−39,6 % d'erreur sur le NO₂**, −20,2 % sur les PM10, −17,9 % sur l'ozone, −11,8 % sur les PM2,5, face à la prévision européenne brute
 - 📅 **En 2030 l'Europe divise ses seuils par deux** : à pollution inchangée, les stations en dépassement passent de **6 à 109** — et 4 départements d'Occitanie n'ont aucune station pour le constater
 - ✅ **Utilisable au sens réglementaire&nbsp;?** **Sans aucune observation du point**, la part des stations NO₂ qui satisfait le critère européen passe de 41,4 % à **87,9 %** — encore sous le seuil de 90 %. **Aux stations instrumentées**, elle atteint **96,2 %**
+
+
 - 🔍 **Les limites sont publiées comme les résultats** : 3 épisodes de pollution réels détectés sur 33 — l'observation directe elle-même n'en attrape que 21, et le produit officiel 1
 - 💻 **Code** : [github.com/cyril-bgs-dev-tech/correction-previsions-qualite-air](https://github.com/cyril-bgs-dev-tech/correction-previsions-qualite-air)
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/v3_fairmode_no2_sombre.svg">
+  <img alt="Pour le NO₂, 41,4 % des stations satisfont le critère européen avec CAMS brut, 87,9 % après correction sans observation locale et 96,2 % avec l'historique de station ; le seuil est à 90 %." src="assets/v3_fairmode_no2_clair.svg" width="100%">
+</picture>
 
 ---
 
