@@ -18,7 +18,7 @@
 
 **Pourquoi c'est rigoureux et pas juste une intuition** : avant de prétendre faire mieux que les modèles publiés dans la recherche académique, la première étape a été de **reproduire exactement** leurs résultats publiés — sans ça, impossible de savoir si un gain mesuré ensuite est réel ou un artefact de mesure. Cette étape de vérification est ce qui distingue une démarche scientifique sérieuse d'un simple benchmark marketing.
 
-**Le résultat chiffré** : en intégrant le modèle le plus récent de la recherche (2026) et en le combinant avec ce routage par domaine, le système obtient de meilleurs résultats que n'importe quel modèle utilisé seul — l'écart grandit avec la complexité des données (plusieurs capteurs corrélés plutôt qu'un seul).
+**Le résultat chiffré** : sur **l'ensemble** du multivarié, le routage **ne bat pas** le meilleur modèle seul — **−0,01** de VUS-PR. Il devient positif sur le multivarié réel : **+0,03** à partir de 8 variables, **+0,07** à partir de 20. Les séries quasi-univariées (d = 2) diluent le signal. **Le routage compositionnel est une stratégie du multivarié réel — et le dire est le résultat, pas une réserve.**
 
 **Ce que ça démontre** : la capacité à mener une recherche appliquée avec la même rigueur qu'une publication scientifique (protocoles figés à l'avance, vérifications anti-triche), tout en gardant un œil sur l'utilité pratique du résultat.
 

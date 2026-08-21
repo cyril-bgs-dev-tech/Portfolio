@@ -206,7 +206,7 @@ Data Scientist passionné avec **double compétence modélisation + production**
 
 <div align="center">
 
-![Corpus](https://img.shields.io/badge/Corpus-502%20datasets%20%C2%B7%2020%20domaines-2563eb?style=for-the-badge)
+![Corpus](https://img.shields.io/badge/Corpus-502%20datasets%20%C2%B7%2019%20domaines-2563eb?style=for-the-badge)
 ![PaAno](https://img.shields.io/badge/PaAno%20(ICLR'26)-%231%20des%202%20volets%20TSB--AD-10B981?style=for-the-badge)
 ![Repro](https://img.shields.io/badge/Reproductions-exactes%20valid%C3%A9es-8B5CF6?style=for-the-badge)
 ![Métrique](https://img.shields.io/badge/VUS--PR-point--adjust%20banni-F59E0B?style=for-the-badge)
@@ -301,12 +301,8 @@ Data Scientist passionné avec **double compétence modélisation + production**
 
 <div align="center">
 
-### 🌟 *"Le code ne ment jamais, les commentaires oui"* - Linus Torvalds
+*Sources et résultats bruts versionnés — chaque chiffre publié est relié à son protocole.*
 
-*Sources et résultats bruts versionnés — chaque chiffre est régénérable.*
-
-![Quarto](https://img.shields.io/badge/Built%20with-Quarto-2563eb?style=for-the-badge)
-![GitHub Pages](https://img.shields.io/badge/Deployed%20on-GitHub%20Pages-2088FF?style=for-the-badge&logo=github)
 
 *Dernière mise à jour : Août 2026*
 

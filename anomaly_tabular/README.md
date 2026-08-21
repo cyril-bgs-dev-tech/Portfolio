@@ -66,16 +66,15 @@ Système **tuned-domaine** : configuration du pool figée par domaine, validée 
 | Système | AUROC moyen | Lecture |
 |---|---:|---|
 | IsolationForest (baseline) | 63.8 | largement dépassée |
-| KNN (meilleur détecteur unique) | 69.8 | le « SOTA single » |
 | Ensemble 18 rails (fusion plate) | 71.3 | déjà mieux que tout single |
-| **Routeur source-strict (préenregistré, LODO groupé par source)** | **72.8** | bat KNN de +3.0 pts — headline |
+| **Routeur source-strict** (préenregistré, LODO groupé par source) | **72,8** | **+1,48 pt** sur l'ensemble fixe du même protocole |
 | Oracle du pool (sélection parfaite) | 78.7 | le plafond à capturer |
 
 Gains par domaine du routage : **+5.1 pts environnement, +3.3 agriculture, +3.0 réseau** — et honnêtement 0.0 sur médical/finance (domaines où le signal de routage reste à trouver).
 
 ## 💡 Aparté — combien gagne-t-on au-dessus d'un système SOTA ?
 
-Même en partant du **meilleur détecteur unique** (KNN, 69.8), la composition rapporte **+3.0 pts** aujourd'hui — et le plafond de sélection parfaite est à **+8.9 pts** (oracle 78.7). Autrement dit : ~70 % du gain accessible n'est **pas encore capturé**, et il se trouve dans la sélection, pas dans un 19ᵉ détecteur (démontré par screening systématique : les candidats supplémentaires n'élèvent plus l'oracle).
+Dans le protocole source-strict, l'ensemble fixe de 18 détecteurs vaut **71,31** et le routeur **72,79** : **+1,48 pt**. L'oracle atteint **78,71**, soit **+7,40** au-dessus de ce même ensemble fixe. Autrement dit : ~70 % du gain accessible n'est **pas encore capturé**, et il se trouve dans la sélection, pas dans un 19ᵉ détecteur (démontré par screening systématique : les candidats supplémentaires n'élèvent plus l'oracle).
 
 ## 🧭 Prochaines actions intelligentes
 
