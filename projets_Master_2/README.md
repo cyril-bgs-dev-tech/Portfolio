@@ -1,5 +1,7 @@
 # 🎓 Projets Master 2 - Data Scientist (2023-2024)
 
+> 💻 **Le code des 7 projets est consultable** : [projets_Master_2](https://gitlab.com/cyril.bgs.dev/projets_Master_2) — notebooks avec leurs sorties, sans les jeux de données.
+
 **Formation** : OpenClassrooms + Centrale Supélec  
 **Alternance** : MICHELIN (Fév 2023 - Fév 2024), 39h/semaine, 4 jours/5 en entreprise  
 **Durée** : 12 mois  

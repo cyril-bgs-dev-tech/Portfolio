@@ -258,10 +258,10 @@ Data Scientist passionné avec **double compétence modélisation + production**
 | 🔬 **[Recherche compositionnelle — tabulaire](anomaly_tabular/)** | Composer les détecteurs SOTA et router par domaine, sur le banc ADBench |
 | 🔬 **[Recherche compositionnelle — séries temporelles](anomaly_tsad/)** | Le même routage porté sur le banc TSB-AD |
 | 🏆 **[Compétitions Kaggle](projets_Competitions/)** | 35+ engagées, 3 top 1 %, meilleur rang #14 / 3 022 |
-| 🎓 **[Master 2 — Data Scientist](projets_Master_2/)** | 7 projets, et l'alternance Michelin |
-| 🎓 **[Master 1 — Data Analyst](projets_Master_1/)** | 10 projets — SQL, Python, KNIME, Tableau |
+| 🎓 **[Master 2 — Data Scientist](projets_Master_2/)** | 7 projets, et l'alternance Michelin — [code](https://gitlab.com/cyril.bgs.dev/projets_Master_2) |
+| 🎓 **[Master 1 — Data Analyst](projets_Master_1/)** | 10 projets — SQL, Python, KNIME, Tableau — [code](https://gitlab.com/cyril.bgs.dev/projets_Master_1) |
 
-> 💻 **Le code** — les dépôts sont en cours de republication : [correction-previsions-qualite-air](https://gitlab.com/cyril.bgs.dev/correction-previsions-qualite-air) est lisible sans compte. Les liens GitHub de cette page dépendent d'un compte actuellement indisponible aux visiteurs non connectés.
+> 💻 **Le code** — trois dépôts sont lisibles sans compte : [qualité de l'air](https://gitlab.com/cyril.bgs.dev/correction-previsions-qualite-air) · [Master 1](https://gitlab.com/cyril.bgs.dev/projets_Master_1) · [Master 2](https://gitlab.com/cyril.bgs.dev/projets_Master_2). Les liens GitHub de cette page dépendent d'un compte actuellement indisponible aux visiteurs non connectés.
 
 ---
 

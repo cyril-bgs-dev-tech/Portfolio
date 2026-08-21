@@ -1,5 +1,7 @@
 # 🎓 Projets Master 1 - Data Analyst (2021-2022)
 
+> 💻 **Le code des 10 projets est consultable** : [projets_Master_1](https://gitlab.com/cyril.bgs.dev/projets_Master_1) — notebooks avec leurs sorties, sans les jeux de données.
+
 **Formation** : OpenClassrooms + ENSAE  
 **Durée** : 12 mois  
 **Projets réalisés** : 10 projets validés
