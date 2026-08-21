@@ -89,4 +89,4 @@ Dans le protocole source-strict, l'ensemble fixe de 18 détecteurs vaut **71,31*
 **Dépôt dédié** : [github.com/cyril-bgs-dev-tech/anomaly_tabular](https://github.com/cyril-bgs-dev-tech/anomaly_tabular)  
 **Projet frère** : [Recherche time series](../anomaly_tsad/) (TSB-AD, PaAno, routage par domaine)  
 **Dernière mise à jour** : Août 2026  
-**Contact** : cyril.bgs.dev.tech@gmail.com
+**Contact** : cyril.bgs.dev@gmail.com

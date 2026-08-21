@@ -7,7 +7,7 @@
 **Durée** : 12 mois  
 **Projets réalisés** : 7 projets validés
 
-**Où en est ce projet** : formation et alternance terminées et validées (2024). Le code Michelin est confidentiel (données pricing propriétaires) ; les notebooks des projets académiques ne sont pas versionnés ici — disponibles sur demande.
+**Où en est ce projet** : formation et alternance terminées et validées (2024). Le code Michelin reste confidentiel (données pricing propriétaires) ; les **notebooks académiques sont versionnés dans le dépôt dédié**, sans les jeux de données.
 
 ---
 

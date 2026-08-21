@@ -94,4 +94,4 @@ Même en déployant PaAno partout (le #1 absolu), la spécialisation par domaine
 **Dépôt dédié** : [github.com/cyril-bgs-dev-tech/anomaly_tsad](https://github.com/cyril-bgs-dev-tech/anomaly_tsad) (classements complets inclus)  
 **Projet frère** : [Recherche tabulaire](../anomaly_tabular/) (ADBench, 502 datasets, 19 domaines)  
 **Dernière mise à jour** : Août 2026  
-**Contact** : cyril.bgs.dev.tech@gmail.com
+**Contact** : cyril.bgs.dev@gmail.com

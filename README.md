@@ -2,12 +2,12 @@
 
 # 🚀 Cyril BOURGEOIS
 
-### Data Scientist | MLOps Engineer | Problem Solver
+### Data scientist — qualité de l'air, détection d'anomalies, systèmes MLOps observables
 
 ![License](https://img.shields.io/badge/License-MIT-10B981?style=for-the-badge)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/cyril-bourgeois-65a739150/)
-[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail)](mailto:cyril.bgs.dev.tech@gmail.com)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail)](mailto:cyril.bgs.dev@gmail.com)
 [![Kaggle](https://img.shields.io/badge/Kaggle-Top%201%25-20BEFF?style=for-the-badge&logo=kaggle)](https://www.kaggle.com/cyrilbourgeois)
 
 ---
@@ -16,7 +16,8 @@
 
 ## 🎯 À Propos
 
-Data Scientist passionné avec **double compétence modélisation + production**, spécialisé en détection d'anomalies et systèmes MLOps temps réel. Mon parcours atypique (armée → commerce → data science) m'a apporté une perspective unique : **rigueur technique + sens du business + communication efficace**.
+Je construis et j'audite des chaînes de données de bout en bout : des prévisions européennes de qualité de l'air corrigées **sans aucune observation du lieu prédit**, du routage de détecteurs d'anomalies par domaine, des pipelines temps réel où l'humain garde la décision. Chaque chiffre publié ici est relié à son protocole et régénérable par un script nommé.
+
 
 ### 🏆 Faits Marquants
 
@@ -290,7 +291,7 @@ Data Scientist passionné avec **double compétence modélisation + production**
 
 <div align="center">
 
-**📧 Email** : [cyril.bgs.dev.tech@gmail.com](mailto:cyril.bgs.dev.tech@gmail.com)  
+**📧 Email** : [cyril.bgs.dev@gmail.com](mailto:cyril.bgs.dev@gmail.com)  
 **💼 LinkedIn** : [linkedin.com/in/cyril-bourgeois-65a739150](https://www.linkedin.com/in/cyril-bourgeois-65a739150/)  
 **🏆 Kaggle** : [kaggle.com/cyrilbourgeois](https://www.kaggle.com/cyrilbourgeois)  
 **🐙 GitHub** : [github.com/cyril-bgs-dev-tech](https://github.com/cyril-bgs-dev-tech)

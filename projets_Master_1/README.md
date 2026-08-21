@@ -6,7 +6,7 @@
 **Durée** : 12 mois  
 **Projets réalisés** : 10 projets validés
 
-**Où en est ce projet** : les 10 projets sont validés et clos (2022). Les notebooks/livrables ne sont pas versionnés ici (pour garder le dépôt léger) — disponibles sur demande.
+**Où en est ce projet** : les 10 projets sont validés et clos (2022). Leurs notebooks et livrables sont **versionnés dans le dépôt dédié** ; seuls les jeux de données et les artefacts lourds en sont exclus, ce qui garde le dépôt consultable en ligne.
 
 ---
 
@@ -270,6 +270,6 @@ Le fil conducteur des retours d'évaluateurs (5 formateurs différents sur 10 pr
 ---
 
 **Dernière mise à jour** : Août 2026  
-**Contact** : cyril.bgs.dev.tech@gmail.com
+**Contact** : cyril.bgs.dev@gmail.com
 
-> 📦 **Livrables complets** (notebooks, rapports, soutenances) disponibles sur demande — non versionnés ici pour garder le dépôt léger.
+> 📦 **Livrables** — notebooks, rapports et soutenances sont dans le dépôt lié en haut de page. Les jeux de données ne sont pas redistribués.

@@ -12,7 +12,7 @@ about:
       href: https://www.linkedin.com/in/cyril-bourgeois-65a739150/
     - icon: envelope
       text: Email
-      href: mailto:cyril.bgs.dev.tech@gmail.com
+      href: mailto:cyril.bgs.dev@gmail.com
 ---
 
 ## 🎯 Profil
@@ -182,7 +182,7 @@ Claude Code · Codex · OpenCode
 
 ## 📫 Contact
 
-**Email** : [cyril.bgs.dev.tech@gmail.com](mailto:cyril.bgs.dev.tech@gmail.com)  
+**Email** : [cyril.bgs.dev@gmail.com](mailto:cyril.bgs.dev@gmail.com)  
 **GitHub** : [github.com/cyril-bgs-dev-tech](https://github.com/cyril-bgs-dev-tech)  
 **LinkedIn** : [linkedin.com/in/cyril-bourgeois-65a739150](https://www.linkedin.com/in/cyril-bourgeois-65a739150/)
 

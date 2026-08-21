@@ -82,4 +82,4 @@ Les diagnostics validés (ou corrigés) par un opérateur constituent des labels
 **Code source** : [github.com/cyril-bgs-dev-tech/aegis-rca](https://github.com/cyril-bgs-dev-tech/aegis-rca)
 **Projet frère** : [vigilance](../vigilance/) (le système qu'Aegis-RCA investigue)
 **Dernière mise à jour** : Août 2026
-**Contact** : cyril.bgs.dev.tech@gmail.com
+**Contact** : cyril.bgs.dev@gmail.com
