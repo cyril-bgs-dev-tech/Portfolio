@@ -187,7 +187,7 @@ Je construis et j'audite des chaînes de données de bout en bout : des prévisi
 - 🎫 Cycle de vie d'alarme en épisode unique : hystérésis, escalade, SLA par sévérité
 - 📊 Dashboard Streamlit 40+ pages avec rôles RASCI
 - 🔭 Observabilité par étape du DAG : Prometheus + Grafana + cAdvisor
-- 💻 **Code** : [github.com/cyril-bgs-dev-tech/vigilance](https://github.com/cyril-bgs-dev-tech/vigilance)
+- 🔒 **Code** : dépôt privé, accès sur demande
 
 ---
 
@@ -199,6 +199,19 @@ Je construis et j'audite des chaînes de données de bout en bout : des prévisi
 - 🔬 Décisions d'architecture confrontées à des avis externes (Gemini, ChatGPT) **puis vérifiées par des bancs de mesure réels** — une erreur de méthodologie détectée et corrigée en cours de route, documentée telle quelle
 - 🛡️ Sandbox d'auto-correction durci (Docker jetable, réseau isolé, cgroups) — 1 succès réel mesuré
 - 💻 **Code** : [github.com/cyril-bgs-dev-tech/aegis-rca](https://github.com/cyril-bgs-dev-tech/aegis-rca)
+
+---
+
+### 🧪 [Multi-Agent-Lab, laboratoire d'évaluation d'agents LLM locaux](multi-agent-lab/)
+**En cours** : 116 objectifs sur 200 clos (septembre 2026)
+
+✨ **Highlights** :
+- 🎯 Mesurer ce que chaque brique d'un agent apporte réellement face à une baseline, mêmes tâches, mêmes graines, en 100 % local (RTX 5090, Ollama)
+- 📐 Protocoles préenregistrés, analyse appariée, 40 tâches privées scellées contre la fuite, plus de 130 bundles de preuve
+- 📊 Pour choisir le bon skill, une décision typée du modèle bat un routeur classique : 84 sur 107 contre 41, écart résolu
+- ❌ Résultats négatifs publiés : 7 formats de consigne, TextGrad et GEPA sans gain confirmé
+- 🧬 Plus de 4 400 tests, eux-mêmes éprouvés par mutation
+- 🔒 **Code** : dépôt privé, accès sur demande · [vitrine publique](https://github.com/cyril-bgs-dev-tech/multi-agent-lab)
 
 ---
 

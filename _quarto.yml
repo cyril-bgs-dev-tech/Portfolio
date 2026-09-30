@@ -30,6 +30,8 @@ website:
           - text: "--- Agents IA ---"
           - text: "Aegis-RCA"
             href: aegis-rca/index.qmd
+          - text: "Multi-Agent-Lab"
+            href: multi-agent-lab/index.qmd
           - text: "--- Qualité de l'air ---"
           - text: "Correction de prévisions CAMS"
             href: projets_Qualite_Air/index.qmd
@@ -42,9 +44,9 @@ website:
       - icon: github
         href: https://github.com/cyril-bgs-dev-tech
       - icon: linkedin
-        href: https://www.linkedin.com/in/cyril-bourgeois/
+        href: https://www.linkedin.com/in/cyril-bourgeois-65a739150/
       - icon: envelope
-        href: mailto:cyril.bgs.dev.tech@gmail.com
+        href: mailto:cyril.bgs.dev@gmail.com
 
   page-footer:
     center: "© 2026 Cyril BOURGEOIS | Data Scientist"

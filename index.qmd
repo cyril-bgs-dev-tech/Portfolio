@@ -144,6 +144,15 @@ Claude Code · Codex · OpenCode
 
 → [Voir le projet](aegis-rca/index.qmd)
 
+### 🧪 Multi-Agent-Lab, laboratoire d'évaluation d'agents LLM locaux
+**En cours** : 116 objectifs sur 200 clos (septembre 2026)
+
+- Mesurer ce que chaque brique d'un agent (harnais, outils, contexte, consignes, skills) apporte réellement face à une baseline, en 100 % local sur RTX 5090
+- Protocoles préenregistrés, analyse appariée, 40 tâches privées scellées, plus de 4 400 tests éprouvés par mutation
+- Dernier résultat : pour choisir le bon skill, une décision typée du modèle bat un routeur classique (84 sur 107 contre 41, écart résolu) ; les résultats négatifs sont publiés comme tels
+
+→ [Voir le projet](multi-agent-lab/index.qmd)
+
 ### 🔬 Recherche Compositionnelle — Détection d'Anomalies (ADBench & TSB-AD)
 **Composer les SOTA et router par domaine de données**
 

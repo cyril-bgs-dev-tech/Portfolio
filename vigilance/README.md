@@ -176,6 +176,6 @@ Navigation native `st.navigation`, matrice **RASCI par page** (opérateur / anal
 
 ---
 
-**Code source** : [github.com/cyril-bgs-dev-tech/vigilance](https://github.com/cyril-bgs-dev-tech/vigilance)  
+**Code source** : dépôt privé, accès sur demande  
 **Dernière mise à jour** : Août 2026  
 **Contact** : cyril.bgs.dev@gmail.com
