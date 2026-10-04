@@ -32,6 +32,8 @@ website:
             href: aegis-rca/index.qmd
           - text: "Multi-Agent-Lab"
             href: multi-agent-lab/index.qmd
+          - text: "LLM_finetuning"
+            href: llm-finetuning/index.qmd
           - text: "--- Qualité de l'air ---"
           - text: "Correction de prévisions CAMS"
             href: projets_Qualite_Air/index.qmd

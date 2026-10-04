@@ -215,6 +215,17 @@ Je construis et j'audite des chaînes de données de bout en bout : des prévisi
 
 ---
 
+### 🧬 [LLM_finetuning, affiner et distiller des LLM sur des textes cliniques français](llm-finetuning/)
+**En cours** : premier cycle exploratoire mené, aucun verdict confirmatoire rendu (octobre 2026)
+
+✨ **Highlights** :
+- 🎯 Mesurer quelle technique (LoRA, distillation, pré-entraînement voisin) apporte un gain réel face à une référence solide et réglée, sur une seule RTX 5090
+- 📐 Protocole gelé et haché avant toute mesure, verdict en trois valeurs, test scellé ouvert une seule fois, plis par auteur en contrôle de fuite
+- 🧾 Données : PARHAF, comptes rendus cliniques **fictifs**, aucune donnée de patient réel
+- 🔒 **Code** : dépôt privé · présentation détaillée sur demande à [cyril.bgs.dev@gmail.com](mailto:cyril.bgs.dev@gmail.com?subject=LLM_finetuning%20%3A%20demande%20de%20pr%C3%A9sentation) · [vitrine publique](https://github.com/cyril-bgs-dev-tech/llm-finetuning)
+
+---
+
 ### 🔬 [Recherche Compositionnelle - Anomaly Detection](anomaly_tabular/)
 **Composer les SOTA et router par domaine — ADBench (tabulaire) + TSB-AD (séries temporelles)**
 

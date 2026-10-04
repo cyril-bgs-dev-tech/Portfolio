@@ -153,6 +153,15 @@ Claude Code · Codex · OpenCode
 
 → [Voir le projet](multi-agent-lab/index.qmd)
 
+### 🧬 LLM_finetuning, affiner et distiller des LLM sur des textes cliniques français
+**En cours** : premier cycle exploratoire mené, aucun verdict confirmatoire rendu (octobre 2026)
+
+- Mesurer quelle technique d'adaptation (LoRA, distillation, pré-entraînement voisin) donne un gain réel face à une référence solide et réglée, sur une seule RTX 5090, avec des textes cliniques fictifs (PARHAF)
+- Protocole gelé et haché avant la première mesure, verdict en trois valeurs (gain confirmé, absence de gain utile, non résolu), test scellé ouvert une seule fois
+- Code privé, présentation détaillée sur demande à cyril.bgs.dev@gmail.com
+
+→ [Voir le projet](llm-finetuning/index.qmd)
+
 ### 🔬 Recherche Compositionnelle — Détection d'Anomalies (ADBench & TSB-AD)
 **Composer les SOTA et router par domaine de données**
 
