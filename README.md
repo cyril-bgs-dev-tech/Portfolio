@@ -199,7 +199,7 @@ Je construis et j'audite des chaînes de données de bout en bout : des prévisi
 - 🤖 Agent LLM local (Qwen3.6:27B) qui investigue les incidents ouverts par vigilance : contexte métriques, RAG sur procédures, diagnostic + recommandation validés par un humain
 - 🔬 Décisions d'architecture confrontées à des avis externes (Gemini, ChatGPT) **puis vérifiées par des bancs de mesure réels** — une erreur de méthodologie détectée et corrigée en cours de route, documentée telle quelle
 - 🛡️ Sandbox d'auto-correction durci (Docker jetable, réseau isolé, cgroups) — 1 succès réel mesuré
-- 💻 **Code** : [github.com/cyril-bgs-dev-tech/aegis-rca](https://github.com/cyril-bgs-dev-tech/aegis-rca)
+- 🔒 **Code** : dépôt privé, démo sur demande
 
 ---
 
@@ -216,14 +216,15 @@ Je construis et j'audite des chaînes de données de bout en bout : des prévisi
 
 ---
 
-### 🧬 [LLM_finetuning, affiner et distiller des LLM sur des textes cliniques français](llm-finetuning/)
-**En cours** : premier cycle exploratoire mené, aucun verdict confirmatoire rendu (octobre 2026)
+### 🧬 [LLM-Engineering, optimiser un LLM pour une réponse juste au format attendu](llm-engineering/)
+**Code public** · [plan interactif des tests](https://cyril-bgs-dev-tech.github.io/llm-engineering/) (octobre 2026)
 
 ✨ **Highlights** :
-- 🎯 Mesurer quelle technique (LoRA, distillation, pré-entraînement voisin) apporte un gain réel face à une référence solide et réglée, sur une seule RTX 5090
-- 📐 Protocole gelé et haché avant toute mesure, verdict en trois valeurs, test scellé ouvert une seule fois, plis par auteur en contrôle de fuite
+- 🎯 Affinage LoRA, distillation, compression, ensembles et cascade, comparés à des références fortes et réglées, sur une seule RTX 5090
+- 📐 Protocole gelé avant la première mesure, test scellé ouvert une seule fois : 0,813 contre 0,740 pour le TF-IDF, écart non tranché au seuil de 2 points
+- 📊 Sur MorFITT, benchmark public, au niveau du meilleur chiffre publié ; en cascade, même qualité avec 82 % des patients sans le LoRA
 - 🧾 Données : PARHAF, comptes rendus cliniques **fictifs**, aucune donnée de patient réel
-- 🔒 **Code** : dépôt privé · présentation détaillée sur demande à [cyril.bgs.dev@gmail.com](mailto:cyril.bgs.dev@gmail.com?subject=LLM_finetuning%20%3A%20demande%20de%20pr%C3%A9sentation) · [vitrine publique](https://github.com/cyril-bgs-dev-tech/llm-finetuning)
+- 💻 **Code** : [github.com/cyril-bgs-dev-tech/llm-engineering](https://github.com/cyril-bgs-dev-tech/llm-engineering)
 
 ---
 
