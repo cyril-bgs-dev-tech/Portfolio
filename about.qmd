@@ -37,25 +37,26 @@ Ce parcours m'a apporté :
 ## 💼 Expérience Professionnelle
 
 ### Alternance Data Scientist - MICHELIN (Fév 2023 - Fév 2024)
-*39h/semaine, 4 jours/5 en entreprise*
+*Direction Opérationnelle · 39h/semaine, 4 jours/5 en entreprise*
 
-**POC Parsing/Matching de Données Complexes — Niveau Continental**
+**POC Parsing/Matching de Données Complexes, à l'échelle continentale**
 
 **Missions** :
-- Réalisation d'un POC de parsing/matching de données complexes, niveau continental
-- Rapprochement automatisé de données de pricing hétérogènes, et tests de non-régression
-- Nettoyage et qualité des données, analyses spécifiques autour du pricing niveau mondial
-- Tests de non régression
+- POC de parsing / matching de données complexes multi-sources, de la spécification au scoring
+- Pipeline qualité : nettoyage, normalisation, expressions régulières, matching
+- Travaux sur des tests de non-régression automatisés
+- Explication du fonctionnement du POC en réunion d'équipe, accessible à un public non expert
 
 **Résultats** :
-- Vitesse d'exécution et résultats jugés excellents d'après plusieurs Product Owners
-- Accélération considérable des temps de traitement par rapport au processus manuel
-- POC mené jusqu'au bout et préparé pour la mise en production, adapté et utilisé par les équipes par la suite
+- Demandes traitées sous 24 h contre environ 2 semaines, via la seconde chaîne de traitement exploitable (retour du Product Owner)
+- Qualité et clarté du code saluées par plusieurs Product Owners
+- Clarté des explications soulignée par le manager direct en fin de projet
 
-**Feedback** :
-> *"Implication et capacité constante à se challenger. Force de proposition, assidu dans les missions. POC parsing/mapping mené avec succès."*
-> 
-> — Antoine DANIEL LAMAZIERE (PO) + Architecte Data, Michelin
+**Feedback** (lettre de recommandation, extraits) :
+> *« Son implication et sa capacité constante à se challenger ont été particulièrement appréciées. »*
+> *« Parmi ses réalisations, on peut notamment souligner un POC de parsing et de mapping qu'il a mené avec succès. »*
+>
+> Antoine DANIEL LAMAZIERE (Product Owner) et l'architecte data, Michelin
 
 ---
 
@@ -116,9 +117,9 @@ Ce parcours m'a apporté :
 ## 📄 Lettres de Recommandation
 
 ### Michelin (2023-2024)
-**Antoine DANIEL LAMAZIERE** (Product Owner) + **Architecte Data**
+**Antoine DANIEL LAMAZIERE** (Product Owner) et **l'architecte data** (extraits)
 
-> *"Implication et capacité constante à se challenger. Maîtrise des solutions de développement et mise en œuvre. Curiosité et motivation, intérêt pour problématiques Data Business. Force de proposition, assidu dans les missions."*
+> *« Son implication et sa capacité constante à se challenger ont été particulièrement appréciées. Cyril a démontré une maîtrise des solutions de développement que nous utilisons, ainsi qu'une réelle compétence dans leur mise en œuvre. Curieux et motivé, il s'est rapidement intéressé à nos problématiques Data Business et s'est montré assidu dans les missions qui lui ont été confiées. Il a également su être force de proposition. »*
 
 ### OpenClassrooms (2022)
 **Hamza Tajmouati** (Head of AI chez Iktos, Mentor OpenClassrooms)
