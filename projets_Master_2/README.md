@@ -3,11 +3,11 @@
 > 💻 **Le code des 7 projets est consultable** : [projets_Master_2](https://gitlab.com/cyril.bgs.dev/projets_Master_2) — notebooks avec leurs sorties, sans les jeux de données.
 
 **Formation** : OpenClassrooms + Centrale Supélec  
-**Alternance** : MICHELIN (Fév 2023 - Fév 2024), 39h/semaine, 4 jours/5 en entreprise  
+**Alternance** : MICHELIN, Direction Opérationnelle (Fév 2023 - Fév 2024), 39h/semaine, 4 jours/5 en entreprise  
 **Durée** : 12 mois  
 **Projets réalisés** : 7 projets validés
 
-**Où en est ce projet** : formation et alternance terminées et validées (2024). Le code Michelin reste confidentiel (données pricing propriétaires) ; les **notebooks académiques sont versionnés dans le dépôt dédié**, sans les jeux de données.
+**Où en est ce projet** : formation et alternance terminées et validées (2024). Le code réalisé chez Michelin reste confidentiel (données propriétaires de l'entreprise) ; les **notebooks académiques sont versionnés dans le dépôt dédié**, sans les jeux de données.
 
 ---
 
@@ -15,9 +15,9 @@
 
 Cette deuxième année (2023-2024) associe une formation avancée (deep learning, NLP, séries temporelles) à une alternance d'un an chez Michelin.
 
-**La mission Michelin en une phrase** : rapprocher automatiquement des données de pricing venant de sources multiples et hétérogènes, à l'échelle mondiale (niveau continental) — un travail de rapprochement fait manuellement jusque-là, avec des résultats jugés excellents par plusieurs Product Owners.
+**La mission Michelin en une phrase** : un POC de parsing et de matching de données complexes venant de sources multiples, à l'échelle continentale, mené de la spécification jusqu'au scoring.
 
-**L'impact** : accélération considérable des temps de traitement par rapport au processus manuel, amélioration de la qualité des données de pricing, et un POC mené jusqu'au bout, préparé pour la mise en production, puis adapté et utilisé par les équipes.
+**L'impact** : des demandes traitées sous 24 h contre environ 2 semaines, via la seconde chaîne de traitement exploitable (retour du Product Owner) ; qualité et clarté du code saluées par plusieurs Product Owners.
 
 **Le reste de l'année** : projets académiques sur des cas variés (application santé publique, prévision de consommation énergétique, segmentation client e-commerce, classification automatique de texte, reconnaissance d'images).
 
@@ -25,38 +25,29 @@ Cette deuxième année (2023-2024) associe une formation avancée (deep learning
 
 **Statut** : ✅ Validé - Alternance réussie  
 **Durée** : 12 mois (Fév 2023 - Fév 2024)  
-**Contexte** : Données pricing mondial, niveau continental, hétérogénéité des sources
+**Contexte** : Direction Opérationnelle ; données complexes issues de sources multiples, à l'échelle continentale
 
 ### Problématique
-- Rapprocher des données de pricing provenant de sources multiples et hétérogènes, niveau continental
-- Assurer la qualité des données pour des analyses pricing mondiales fiables
+- Rapprocher automatiquement des données complexes issues de sources multiples et hétérogènes, à l'échelle continentale
+- Fiabiliser la qualité des données en amont du rapprochement
 
 ### Missions Réalisées
-- Réalisation d'un POC de parsing/matching de données complexes, niveau continental
-- Rapprochement automatisé de données de pricing hétérogènes, et tests de non-régression
-- Nettoyage et qualité des données, analyses spécifiques autour du pricing niveau mondial
-- Tests de non régression
+- POC de parsing / matching de données complexes multi-sources, de la spécification au scoring
+- Pipeline qualité : nettoyage, normalisation, expressions régulières, matching
+- Travaux sur des tests de non-régression automatisés
+- Explication du fonctionnement du POC en réunion d'équipe, accessible à un public non expert
 
-### Résultats Globaux
-- Vitesse d'exécution et résultats jugés excellents d'après plusieurs Product Owners
-- Accélération considérable des temps de traitement par rapport au processus manuel
-- POC mené jusqu'au bout et préparé pour la mise en production, adapté et utilisé par les équipes par la suite
-
-### Synthèse des Feedbacks
-
-**Mots-clés dominants** :
-- **Implication/Challenger** : Engagement constant
-- **Maîtrise/Développement** : Compétences techniques solides
-- **Force proposition** : Autonomie et initiative
-- **Qualité/Exécution** : Standards élevés
-- **Industrialisation** : Vision produit
+### Résultats
+- Demandes traitées sous 24 h contre environ 2 semaines, via la seconde chaîne de traitement exploitable (retour du Product Owner)
+- Qualité et clarté du code saluées par plusieurs Product Owners
+- Clarté des explications soulignée par le manager direct en fin de projet
 
 ### Feedback Michelin
-**Antoine DANIEL LAMAZIERE (PO) + Architecte Data** :
-- *"Implication et capacité constante à se challenger"*
-- *"Maîtrise des solutions de développement et mise en œuvre"*
-- *"Force de proposition, assidu dans les missions"*
-- *"POC parsing/mapping mené avec succès"*
+Lettre de recommandation, Antoine DANIEL LAMAZIERE (Product Owner) et l'architecte data, Michelin (extraits) :
+- *« Son implication et sa capacité constante à se challenger ont été particulièrement appréciées. »*
+- *« Cyril a démontré une maîtrise des solutions de développement que nous utilisons, ainsi qu'une réelle compétence dans leur mise en œuvre. »*
+- *« Il a également su être force de proposition. »*
+- *« Parmi ses réalisations, on peut notamment souligner un POC de parsing et de mapping qu'il a mené avec succès. »*
 
 ---
 

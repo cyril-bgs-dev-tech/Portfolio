@@ -92,12 +92,12 @@ Claude Code · Codex · OpenCode
 ### Alternance Data Scientist - MICHELIN (2023-2024)
 **POC Parsing/Matching de Données Complexes**
 
-- Gestion de données pricing mondial (niveau continental)
-- Augmentation considérable du taux de détection des correspondances
-- Dashboards Power BI pour équipe pricing
-- Tests automatisés (PyTest)
+- POC de parsing / matching de données complexes multi-sources, à l'échelle continentale
+- Pipeline qualité : nettoyage, normalisation, expressions régulières, matching
+- Tests de non-régression automatisés
+- Demandes traitées sous 24 h contre environ 2 semaines (retour du Product Owner)
 
-**Feedback** : *"Force de proposition, assidu dans les missions. POC parsing/mapping mené avec succès."*
+**Feedback** : *« Parmi ses réalisations, on peut notamment souligner un POC de parsing et de mapping qu'il a mené avec succès. »*
 
 ### Data Scientist / ML Engineer - DELTAMU (2024-2025)
 **Recherche en détection d'anomalies — capteurs industriels (pharma)**

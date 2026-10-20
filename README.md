@@ -57,27 +57,28 @@ Je construis et j'audite des chaînes de données de bout en bout : des prévisi
 <div align="center">
 
 ### 🏭 Data Scientist - MICHELIN (Alternance)
-*Février 2023 - Février 2024 · 39h/semaine, 4 jours/5 en entreprise*
+*Février 2023 - Février 2024 · Direction Opérationnelle · 39h/semaine, 4 jours/5 en entreprise*
 
 </div>
 
-**POC Parsing/Matching de Données Complexes — Niveau Continental**
+**POC Parsing/Matching de Données Complexes, à l'échelle continentale**
 
-🎯 **Mission** : Réalisation d'un POC de parsing/matching de données complexes, niveau continental
+🎯 **Mission** : POC de parsing / matching de données complexes multi-sources, de la spécification au scoring
 
 ✨ **Réalisations** :
-- 🎯 Augmentation considérable du taux de détection des correspondances
-- 🧹 Nettoyage et qualité des données, analyses spécifiques autour du pricing niveau mondial
-- ✅ Tests de non régression
+- 🧹 Pipeline qualité : nettoyage, normalisation, expressions régulières, matching
+- ✅ Travaux sur des tests de non-régression automatisés
+- 🗣️ Explication du POC en réunion d'équipe, accessible à un public non expert
 
 💡 **Impact** :
-- Vitesse d'exécution et résultats jugés excellents d'après plusieurs Product Owners
-- Accélération considérable des temps de traitement par rapport au processus manuel
-- POC mené jusqu'au bout et préparé pour la mise en production, adapté et utilisé par les équipes par la suite
+- Demandes traitées sous 24 h contre environ 2 semaines, via la seconde chaîne de traitement exploitable (retour du Product Owner)
+- Qualité et clarté du code saluées par plusieurs Product Owners
 
-🗣️ **Feedback** :
-> *"Implication et capacité constante à se challenger. Force de proposition, assidu dans les missions. POC parsing/mapping mené avec succès."*  
-> — Antoine DANIEL LAMAZIERE (PO) + Architecte Data
+🗣️ **Feedback** (lettre de recommandation, extraits) :
+> *« Son implication et sa capacité constante à se challenger ont été particulièrement appréciées. »*
+> *« Parmi ses réalisations, on peut notamment souligner un POC de parsing et de mapping qu'il a mené avec succès. »*
+>
+> Antoine DANIEL LAMAZIERE (Product Owner) et l'architecte data, Michelin
 
 ---
 
