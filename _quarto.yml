@@ -24,9 +24,11 @@ website:
           - text: "--- Compétitions ---"
           - text: "Kaggle & ML"
             href: projets_Competitions/index.qmd
-          - text: "--- MLOps ---"
+          - text: "--- MLOps & Infrastructure ---"
           - text: "Système Temps Réel"
             href: vigilance/index.qmd
+          - text: "AIOps Lab"
+            href: aiops-lab/index.qmd
           - text: "--- Agents IA ---"
           - text: "Aegis-RCA"
             href: aegis-rca/index.qmd
@@ -34,9 +36,16 @@ website:
             href: multi-agent-lab/index.qmd
           - text: "LLM-Engineering"
             href: llm-engineering/index.qmd
+          - text: "Prof Anglais"
+            href: prof-anglais/index.qmd
           - text: "--- Qualité de l'air ---"
           - text: "Correction de prévisions CAMS"
             href: projets_Qualite_Air/index.qmd
+          - text: "--- Data Science appliquée ---"
+          - text: "NeuroSig (électrophysiologie)"
+            href: neurosig/index.qmd
+          - text: "Association de protection animale"
+            href: association-protection-animale/index.qmd
           - text: "--- Recherche ---"
           - text: "SOTA AD Tabular"
             href: anomaly_tabular/index.qmd

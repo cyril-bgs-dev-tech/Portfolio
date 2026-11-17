@@ -37,7 +37,7 @@ Data Scientist avec **double compétence modélisation + production**, spéciali
 
 ### MLOps
 - **Système temps réel** : DAG 9 workers, Redis, Docker
-- **Dashboard** : 40+ pages Streamlit avec rôles RASCI
+- **Dashboard** : 49 pages Streamlit avec rôles RASCI
 - **Observabilité** : Prometheus, Grafana, SLA tracking
 
 ---
@@ -78,7 +78,7 @@ Claude Code · Codex · OpenCode
 - **Containerisation** : Docker, Docker Compose
 - **Orchestration** : Redis, DAG event-driven
 - **Monitoring** : Prometheus, Grafana
-- **Dashboard** : Streamlit (40+ pages)
+- **Dashboard** : Streamlit (49 pages)
 
 ### Data Engineering
 - **DataFrames** : Pandas, Polars, NumPy
@@ -131,7 +131,7 @@ Claude Code · Codex · OpenCode
 - Architecture event-driven : DAG 9 workers, 3 réplicas CPU + 1 GPU
 - 3 canaux de détection décorrélés : IsolationForest + résidu Ridge temporel + reconstruction PCA séquentielle, fusion XGBoost
 - Cycle de vie d'alarme en épisode unique (hystérésis, escalade, SLA)
-- Dashboard Streamlit 40+ pages (rôles RASCI), observabilité Prometheus/Grafana
+- Dashboard Streamlit 49 pages (rôles RASCI), observabilité Prometheus/Grafana
 
 → [Voir le projet](vigilance/index.qmd)
 

@@ -43,7 +43,7 @@ Je construis et j'audite des chaînes de données de bout en bout : des prévisi
   
 **⚙️ MLOps Temps Réel**
 - DAG 9 workers · pool de 3 réplicas CPU + 1 GPU
-- Dashboard 40+ pages RASCI
+- Dashboard 49 pages RASCI
 - Observabilité Prometheus/Grafana
 
 </td>
@@ -177,7 +177,7 @@ Je construis et j'audite des chaînes de données de bout en bout : des prévisi
 
 ![Architecture](https://img.shields.io/badge/Architecture-Event--Driven-2563eb?style=for-the-badge)
 ![Workers](https://img.shields.io/badge/Workers-9%20%C3%97%204%20r%C3%A9plicas-10B981?style=for-the-badge)
-![Dashboard](https://img.shields.io/badge/Dashboard-40%2B%20pages-8B5CF6?style=for-the-badge)
+![Dashboard](https://img.shields.io/badge/Dashboard-49%20pages-8B5CF6?style=for-the-badge)
 ![Observabilité](https://img.shields.io/badge/Observabilit%C3%A9-Prometheus%20%7C%20Grafana-F59E0B?style=for-the-badge)
 
 </div>
@@ -186,7 +186,7 @@ Je construis et j'audite des chaînes de données de bout en bout : des prévisi
 - 🏗️ DAG event-driven : 9 workers, barrières Redis atomiques, DLQ, reprise après crash
 - 🤖 3 canaux décorrélés (IsolationForest + Ridge temporel + PCA séquentiel) fusionnés par XGBoost + détection de nouveauté
 - 🎫 Cycle de vie d'alarme en épisode unique : hystérésis, escalade, SLA par sévérité
-- 📊 Dashboard Streamlit 40+ pages avec rôles RASCI
+- 📊 Dashboard Streamlit 49 pages avec rôles RASCI
 - 🔭 Observabilité par étape du DAG : Prometheus + Grafana + cAdvisor
 - 🔒 **Code** : dépôt privé, accès sur demande
 
@@ -280,10 +280,14 @@ Je construis et j'audite des chaînes de données de bout en bout : des prévisi
 | Projet | Ce qu'on y trouve |
 |---|---|
 | 🌬️ **[Correction des prévisions de qualité de l'air](projets_Qualite_Air/)** | 36 mois, 28 M de mesures horaires, 4 polluants — évalué sans aucune observation du lieu corrigé |
-| 🔧 **[Système MLOps temps réel](vigilance/)** | Détection d'anomalies industrielle — dashboard 40+ pages, rôles RASCI |
+| 🔧 **[Système MLOps temps réel](vigilance/)** | Détection d'anomalies industrielle, dashboard 49 pages, rôles RASCI |
 | 🕵️ **[Agent de diagnostic de causes racines](aegis-rca/)** | Extension de vigilance — architecture confrontée à des bancs de mesure réels |
 | 🔬 **[Recherche compositionnelle — tabulaire](anomaly_tabular/)** | Composer les détecteurs SOTA et router par domaine, sur le banc ADBench |
 | 🔬 **[Recherche compositionnelle — séries temporelles](anomaly_tsad/)** | Le même routage porté sur le banc TSB-AD |
+| 🏗️ **[AIOps Lab](aiops-lab/)** | Infrastructure Kubernetes en GitOps, détruite puis reconstruite hors ligne, livraison signée |
+| 🎙️ **[Prof Anglais](prof-anglais/)** | Application vocale d'anglais 100 % locale, comportement du modèle mesuré |
+| 🧠 **[NeuroSig](neurosig/)** | Électrophysiologie MEA : 33 008 ajustements de l'US EPA refaits, 98,3 % d'accord |
+| 🐾 **[Association de protection animale](association-protection-animale/)** | Diagnostic chiffré, plan de 25 actions, prototype de site généré depuis les données |
 | 🏆 **[Compétitions Kaggle](projets_Competitions/)** | 35+ engagées, 3 top 1 %, meilleur rang #14 / 3 022 |
 | 🎓 **[Master 2 — Data Scientist](projets_Master_2/)** | 7 projets, et l'alternance Michelin — [code](https://gitlab.com/cyril.bgs.dev/projets_Master_2) |
 | 🎓 **[Master 1 — Data Analyst](projets_Master_1/)** | 10 projets — SQL, Python, KNIME, Tableau — [code](https://gitlab.com/cyril.bgs.dev/projets_Master_1) |

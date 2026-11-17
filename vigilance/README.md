@@ -7,7 +7,7 @@
 **Périmètre** : 3 machines simulées (capteurs numériques, flux 1 event/s/machine), extensible par simple enregistrement de dataset
 
 **Où en est ce projet** :
-- ✅ Fait et fonctionnel : pipeline de détection (3 canaux + fusion), cycle de vie d'alarme, dashboard 40+ pages, observabilité Prometheus/Grafana, résilience (DLQ, backups, reprise après crash)
+- ✅ Fait et fonctionnel : pipeline de détection (3 canaux + fusion), cycle de vie d'alarme, dashboard 49 pages, observabilité Prometheus/Grafana, résilience (DLQ, backups, reprise après crash)
 - 🚧 Prévu, pas encore construit : boucle de feedback opérateur (validation humaine → réentraînement automatique), score de santé agrégé par machine
 - 🔭 Exploratoire : GATv2/Transformer sur graphes de capteurs (prototype existant, pas intégré au pipeline)
 
@@ -44,7 +44,7 @@ flowchart TD
     D --> E["Explication<br/>SHAP par événement"]
     C4 --> E
     E --> F["**Un ticket par épisode**<br/>hystérésis · escalade · SLA"]
-    F --> G["Cockpit Streamlit<br/>40+ pages, rôles RASCI"]
+    F --> G["Cockpit Streamlit<br/>49 pages, rôles RASCI"]
 ```
 
 **En clair, sans le schéma** : trois machines simulées émettent un événement par seconde, avec reprise après coupure. Quatre détecteurs les jugent en parallèle — un statique (IsolationForest), deux temporels (résidu Ridge sur 8 retards, reconstruction PCA sur 16 pas) et un jeu de règles capteur. **Seuls les trois premiers sont fusionnés** par XGBoost ; les règles capteur rejoignent directement l'explication SHAP. Le tout est regroupé en **un ticket par épisode** — hystérésis, escalade, SLA — que le cockpit Streamlit présente selon les rôles RASCI.
@@ -102,12 +102,14 @@ OPEN ──(hystérésis : N ticks normaux consécutifs)──► AUTO_RESOLVED
 
 ---
 
-## 📊 Dashboard Streamlit (40+ pages, 7 sections)
+## 📊 Dashboard Streamlit (49 pages, 9 sections)
 
 Navigation native `st.navigation`, matrice **RASCI par page** (opérateur / analyste / technicien / admin) :
 
 | Section | Contenu |
 |---------|---------|
+| 🎯 Simulateur de contrôle | Détection en direct comparée à la vérité terrain, banc de contrôle, courbes et seuils |
+| ⚡ Banc d'essai | Banc et sélection des détecteurs, comparatif des algorithmes, échelles temporelles |
 | 📡 Monitoring | Global live, monitoring local, comparaison de flotte, pires instabilités, dérives |
 | 🚨 Alertes | Alertes actives (SLA countdown), assignation, escalade, événements similaires passés |
 | 🔍 Investigation | Étude d'anomalie, graphe causal, analyse contrastive, décisions modèles, replay |
@@ -164,7 +166,7 @@ Navigation native `st.navigation`, matrice **RASCI par page** (opérateur / anal
 - **Gestion d'alarmes** : machine à états, hystérésis, escalade, déduplication en épisode unique — le cœur métier d'un système de monitoring industriel
 - **MLOps** : registries versionnés, bootstrap conditionnel, compatibilité descendante des modèles picklés
 - **Observabilité** : métriques par étape, SLA, monitoring infra
-- **UX opérationnelle** : 40+ pages organisées par rôle RASCI, du cockpit temps réel à l'audit
+- **UX opérationnelle** : 49 pages organisées par rôle RASCI, du cockpit temps réel à l'audit
 
 ---
 
@@ -177,5 +179,5 @@ Navigation native `st.navigation`, matrice **RASCI par page** (opérateur / anal
 ---
 
 **Code source** : dépôt privé, accès sur demande  
-**Dernière mise à jour** : Août 2026  
+**Dernière mise à jour** : novembre 2026  
 **Contact** : cyril.bgs.dev@gmail.com
