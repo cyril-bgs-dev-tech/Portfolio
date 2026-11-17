@@ -267,7 +267,7 @@ Je construis et j'audite des chaînes de données de bout en bout : des prévisi
 - 🔧 Feature engineering intensif (centaines de features)
 - 🤝 Ensembling/stacking de modèles diversifiés
 - ⚡ Optimisation bayésienne (Optuna)
-- 🔬 Veille active (TabM, TabICL2, RealMLP)
+- 🔬 Veille active
 - 🤖 La stratégie gagnante se déplace vers l'**agentique** — des systèmes d'agents qui explorent et sélectionnent les pistes en autonomie
 - 🏅 **Palmarès vérifiable** : [kaggle.com/cyrilbourgeois](https://www.kaggle.com/cyrilbourgeois/competitions)
 

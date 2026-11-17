@@ -200,6 +200,6 @@ il est en train de redéfinir ce que veut dire « bien travailler » sur une com
 |---------|-------------|----------|
 | **2021-2022** | Top 20-30% | Modèles standards, peu de feature engineering |
 | **2023-2024** | Top 5-10% | Feature engineering intensif, ensembling |
-| **2025-2026** | Top 1-2% | Approche systématique, veille active (TabM, TabICL2) |
+| **2025-2026** | Top 1-2% | Approche systématique, veille active |
 
 ---
