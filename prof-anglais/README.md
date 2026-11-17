@@ -17,7 +17,7 @@
 
 ## La chaîne vocale
 
-```mermaid
+```{mermaid}
 flowchart LR
     A["Micro"] --> B["Détection<br/>de parole (VAD)"]
     B --> C["Transcription<br/>Whisper"]

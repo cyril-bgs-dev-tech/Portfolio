@@ -18,7 +18,7 @@
 
 ## De l'enregistrement à la signature
 
-```mermaid
+```{mermaid}
 flowchart LR
     A["Signal brut<br/>ou listes de spikes"] --> B["Contrôle qualité<br/>traçable"]
     B --> C["Features<br/>bursts, synchronie, spectre"]

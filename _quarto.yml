@@ -15,21 +15,21 @@ website:
         href: about.qmd
       - text: "Projets"
         menu:
-          - text: "--- Master 1 ---"
+          - text: "Master 1"
           - text: "Projets Master 1"
             href: projets_Master_1/index.qmd
-          - text: "--- Master 2 ---"
+          - text: "Master 2"
           - text: "Projets Master 2"
             href: projets_Master_2/index.qmd
-          - text: "--- Compétitions ---"
+          - text: "Compétitions"
           - text: "Kaggle & ML"
             href: projets_Competitions/index.qmd
-          - text: "--- MLOps & Infrastructure ---"
+          - text: "MLOps & Infrastructure"
           - text: "Système Temps Réel"
             href: vigilance/index.qmd
           - text: "AIOps Lab"
             href: aiops-lab/index.qmd
-          - text: "--- Agents IA ---"
+          - text: "Agents IA"
           - text: "Aegis-RCA"
             href: aegis-rca/index.qmd
           - text: "Multi-Agent-Lab"
@@ -38,15 +38,15 @@ website:
             href: llm-engineering/index.qmd
           - text: "Prof Anglais"
             href: prof-anglais/index.qmd
-          - text: "--- Qualité de l'air ---"
+          - text: "Qualité de l'air"
           - text: "Correction de prévisions CAMS"
             href: projets_Qualite_Air/index.qmd
-          - text: "--- Data Science appliquée ---"
+          - text: "Data Science appliquée"
           - text: "NeuroSig (électrophysiologie)"
             href: neurosig/index.qmd
           - text: "Association de protection animale"
             href: association-protection-animale/index.qmd
-          - text: "--- Recherche ---"
+          - text: "Recherche"
           - text: "SOTA AD Tabular"
             href: anomaly_tabular/index.qmd
           - text: "SOTA AD Time Series"

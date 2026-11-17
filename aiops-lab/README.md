@@ -7,6 +7,7 @@
 **Organisation** : 9 phases, chacune fermée par une porte de validation
 
 **Où en est ce projet** (état au 5 octobre 2026) :
+
 - ✅ 6 portes sur 9 fermées, dont la livraison vérifiée (1er octobre 2026)
 - 🚧 7e porte en cours : plateforme IA et connaissances, 4 livrables sur 11 terminés
 
@@ -22,7 +23,7 @@
 
 ## Une plateforme reconstruite depuis le code
 
-```mermaid
+```{mermaid}
 flowchart LR
     A["Code<br/>Terraform, Helm"] --> B["Cluster K3s"]
     B --> C["Argo CD<br/>GitOps"]
