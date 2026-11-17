@@ -44,6 +44,7 @@ Cette deuxième année (2023-2024) associe une formation avancée (deep learning
 
 ### Feedback Michelin
 Lettre de recommandation, Antoine DANIEL LAMAZIERE (Product Owner) et l'architecte data, Michelin (extraits) :
+
 - *« Son implication et sa capacité constante à se challenger ont été particulièrement appréciées. »*
 - *« Cyril a démontré une maîtrise des solutions de développement que nous utilisons, ainsi qu'une réelle compétence dans leur mise en œuvre. »*
 - *« Il a également su être force de proposition. »*
@@ -57,6 +58,7 @@ Lettre de recommandation, Antoine DANIEL LAMAZIERE (Product Owner) et l'architec
 **Statut** : ✅ Validé
 
 **Objectifs** :
+
 - Définir une stratégie d'apprentissage personnalisée
 - Planifier le parcours Master 2
 - Identifier les ressources et outils
@@ -71,6 +73,7 @@ Lettre de recommandation, Antoine DANIEL LAMAZIERE (Product Owner) et l'architec
 **Contexte** : Application data science pour la santé publique
 
 **Réalisation** :
+
 - Analyse de données de santé
 - Modélisation prédictive
 - Visualisation et recommandations
@@ -85,6 +88,7 @@ Lettre de recommandation, Antoine DANIEL LAMAZIERE (Product Owner) et l'architec
 **Contexte** : Prédiction de consommation énergétique
 
 **Réalisation** :
+
 - Feature engineering temporel
 - Modèles de régression
 - Prévisions de consommation
@@ -99,6 +103,7 @@ Lettre de recommandation, Antoine DANIEL LAMAZIERE (Product Owner) et l'architec
 **Contexte** : Segmentation client pour e-commerce
 
 **Réalisation** :
+
 - Clustering (K-Means, CAH)
 - Analyse comportementale
 - Recommandations business
@@ -113,6 +118,7 @@ Lettre de recommandation, Antoine DANIEL LAMAZIERE (Product Owner) et l'architec
 **Contexte** : Classification automatique de textes (NLP)
 
 **Réalisation** :
+
 - Pipeline NLP (tokenization, vectorization)
 - Modèles de classification de textes
 - TF-IDF, embeddings, transformers
@@ -125,11 +131,13 @@ Lettre de recommandation, Antoine DANIEL LAMAZIERE (Product Owner) et l'architec
 **Statut** : ✅ Validé
 
 **Objectifs pédagogiques** :
+
 - Maîtriser les architectures CNN (Convolutional Neural Networks)
 - Transfer learning avec modèles pré-entraînés
 - Data augmentation et régularisation
 
 **Réalisation** :
+
 - Architectures testées : CNN custom, ResNet, VGG, EfficientNet
 - Framework : TensorFlow/Keras ou PyTorch
 - Prétraitement d'images (normalisation, redimensionnement)
@@ -149,6 +157,7 @@ Lettre de recommandation, Antoine DANIEL LAMAZIERE (Product Owner) et l'architec
 **Contexte** : POC pour validation des acquis avant stage/alternance — classification sur données tabulaires, test d'une famille d'algorithmes récente (TabPFN) comparée aux approches ensemblistes (XGBoost, LightGBM, CatBoost)
 
 **Réalisation** :
+
 - Projet intégrateur combinant plusieurs compétences
 - Démonstration de capacité à mener un projet de bout en bout
 - Présentation et soutenance

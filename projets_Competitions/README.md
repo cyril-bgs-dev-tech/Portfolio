@@ -54,6 +54,7 @@ il est en train de redéfinir ce que veut dire « bien travailler » sur une com
 **Pourquoi c'est une preuve utile** : contrairement à un projet personnel où on choisit son propre problème et ses propres critères de réussite, ici la difficulté et les règles sont imposées, et la comparaison se fait contre des milliers d'autres personnes, du débutant à l'expert. Finir dans le 1% mondial sur plusieurs compétitions différentes (course automobile, agriculture, écoute de podcasts...) montre une capacité à s'adapter vite à un nouveau domaine et à en extraire les bonnes informations, plutôt qu'une simple connaissance apprise par cœur sur un seul sujet.
 
 **Ce que ça démontre concrètement** :
+
 - Capacité d'apprentissage rapide sur des domaines très différents (35+ sujets distincts en 5 ans)
 - Rigueur méthodologique (éviter de "tricher" en apprenant par cœur les données de test, une erreur fréquente chez les débutants)
 - Veille technique active : intégration des toutes dernières techniques de recherche dès leur publication
@@ -78,6 +79,7 @@ il est en train de redéfinir ce que veut dire « bien travailler » sur une com
 **Contexte** : Prédiction des besoins en irrigation agricole
 
 **Approche Feature Engineering** :
+
 - Features temporelles : cumul de précipitations, évapotranspiration
 - Indices de végétation dérivés (NDVI, NDWI)
 - Lag features sur données météo (J-7, J-14, J-30)
@@ -85,6 +87,7 @@ il est en train de redéfinir ce que veut dire « bien travailler » sur une com
 - Encodages cycliques : jour de l'année, heure
 
 **Modélisation** :
+
 - Modèles dominants : LightGBM, XGBoost, CatBoost
 - Feature selection : importance des features, SHAP
 - Validation : Time series split
@@ -98,6 +101,7 @@ il est en train de redéfinir ce que veut dire « bien travailler » sur une com
 **Contexte** : Prédiction de la durée ou du moment des arrêts aux stands en F1
 
 **Approche Feature Engineering** :
+
 - Features course : position, écart avec concurrents, tours restants
 - Features pilote : historique pit stops, style de conduite
 - Features équipe : performance moyenne aux stands
@@ -105,6 +109,7 @@ il est en train de redéfinir ce que veut dire « bien travailler » sur une com
 - Lag features : performance derniers tours
 
 **Modélisation** :
+
 - Modèles : XGBoost, LightGBM, CatBoost, réseaux neuronaux
 - Feature importance : SHAP values pour interprétation
 - Validation : K-fold stratifié par course
@@ -119,6 +124,7 @@ il est en train de redéfinir ce que veut dire « bien travailler » sur une com
 **Contexte** : Prédiction du temps d'écoute de podcasts
 
 **Approche Feature Engineering** :
+
 - Features utilisateur : historique d'écoute, préférences, engagement
 - Features podcast : durée, catégorie, popularité, invité
 - Features interaction : match utilisateur-podcast
@@ -126,6 +132,7 @@ il est en train de redéfinir ce que veut dire « bien travailler » sur une com
 - Text features : NLP sur titres et descriptions (TF-IDF, embeddings)
 
 **Modélisation** :
+
 - Modèles tabulaires : LightGBM, XGBoost, CatBoost
 - NLP : Embeddings de texte + concaténation avec features tabulaires
 - Validation : Group K-fold (par utilisateur)
@@ -141,6 +148,7 @@ il est en train de redéfinir ce que veut dire « bien travailler » sur une com
 **Contexte** : Prédiction de prix immobiliers en Californie
 
 **Approche** :
+
 - Feature engineering : interactions géographiques, ratios
 - Modèles : XGBoost, LightGBM, CatBoost, réseaux neuronaux
 - Validation : K-fold stratifié par région
@@ -152,6 +160,7 @@ il est en train de redéfinir ce que veut dire « bien travailler » sur une com
 **Contexte** : Prédiction de l'âge d'ormeau à partir de caractéristiques physiques
 
 **Approche** :
+
 - Feature engineering : ratios de mesures, transformations non-linéaires
 - Modèles : Gradient Boosting, SVR, réseaux neuronaux
 
@@ -162,6 +171,7 @@ il est en train de redéfinir ce que veut dire « bien travailler » sur une com
 **Contexte** : Détection de défauts sur des plaques d'acier (industrie)
 
 **Approche** :
+
 - Feature engineering : features géométriques, statistiques de capteurs
 - Gestion déséquilibre : SMOTE, class weights
 - Modèles : XGBoost, LightGBM, Random Forest
@@ -173,6 +183,7 @@ il est en train de redéfinir ce que veut dire « bien travailler » sur une com
 **Contexte** : Prédiction de substrats enzymatiques (biologie/chimie)
 
 **Approche** :
+
 - Feature engineering : descripteurs moléculaires, fingerprints
 - Gestion multi-label : Binary Relevance, Label Powerset
 - Modèles : One-vs-Rest XGBoost, Classifier Chains

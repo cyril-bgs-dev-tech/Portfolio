@@ -50,11 +50,13 @@ Le fil conducteur des retours d'évaluateurs (5 formateurs différents sur 10 pr
 **Statut** : ✅ Validé | **Durée** : ~20 heures
 
 **Objectifs** :
+
 - Élaborer un plan d'apprentissage personnalisé sur 12 mois
 - Identifier les ressources et outils nécessaires
 - Planifier les 10 projets avec dates prévisionnelles
 
 **Compétences validées** :
+
 - Gestion de projet personnel
 - Identification de ressources pertinentes
 - Planification et organisation
@@ -67,6 +69,7 @@ Le fil conducteur des retours d'évaluateurs (5 formateurs différents sur 10 pr
 **Contexte** : Analyse des données de ventes d'une entreprise e-commerce
 
 **Réalisation** :
+
 - Analyse exploratoire complète
 - 12 graphiques principaux + 2 graphiques explicatifs
 - Dashboard interactif avec filtres
@@ -84,6 +87,7 @@ Le fil conducteur des retours d'évaluateurs (5 formateurs différents sur 10 pr
 **Contexte** : Conception et exploitation d'une base de données immobilière
 
 **Réalisation** :
+
 - Modélisation MCD/MLD avec normalisation (1FN, 2FN, 3FN)
 - Création des tables et chargement des données
 - 9 requêtes SQL complexes (jointures, agrégations, sous-requêtes)
@@ -101,6 +105,7 @@ Le fil conducteur des retours d'évaluateurs (5 formateurs différents sur 10 pr
 **Contexte** : Analyse de données de santé publique
 
 **Réalisation** :
+
 - Configuration environnement Python (Anaconda, Jupyter)
 - Manipulation de DataFrames (Pandas, NumPy)
 - Analyses descriptives et visualisations
@@ -118,6 +123,7 @@ Le fil conducteur des retours d'évaluateurs (5 formateurs différents sur 10 pr
 **Contexte** : Analyse et optimisation de la gestion des stocks
 
 **Réalisation** :
+
 - Classification des données (produits, ventes, stocks, clients)
 - Nettoyage des données (valeurs manquantes, doublons, incohérences)
 - Analyse univariée détaillée
@@ -136,6 +142,7 @@ Le fil conducteur des retours d'évaluateurs (5 formateurs différents sur 10 pr
 **Contexte** : Analyse des ventes avec séries temporelles et tests statistiques
 
 **Réalisation** :
+
 - Tests statistiques (Shapiro-Wilk, Kolmogorov-Smirnov, t-test, Mann-Whitney)
 - Analyse bivariée (corrélations, scatter plots)
 - Séries temporelles (décomposition, saisonnalité, prévisions)
@@ -153,6 +160,7 @@ Le fil conducteur des retours d'évaluateurs (5 formateurs différents sur 10 pr
 **Contexte** : Analyse des indicateurs d'égalité professionnelle
 
 **Réalisation** :
+
 - Collecte et conformité RGPD
 - Préparation des données (nettoyage, normalisation)
 - Workflow KNIME complet
@@ -171,6 +179,7 @@ Le fil conducteur des retours d'évaluateurs (5 formateurs différents sur 10 pr
 **Contexte** : Analyse de données sur la qualité de l'eau potable
 
 **Réalisation** :
+
 - Analyse du besoin client (questions analytiques)
 - Dashboard Tableau avec plusieurs vues (globale, continentale, nationale)
 - Filtres interactifs
@@ -189,6 +198,7 @@ Le fil conducteur des retours d'évaluateurs (5 formateurs différents sur 10 pr
 **Contexte** : Analyse de marché avec réduction de dimension et segmentation
 
 **Réalisation** :
+
 - **ACP** : Éboulis des valeurs propres, cercle des corrélations, projection des individus
 - **Clustering** : Dendrogramme CAH, K-Means, justification du nombre de classes
 - **Caractérisation** : Centroïdes, heatmap, boxplots, radar plots
@@ -206,6 +216,7 @@ Le fil conducteur des retours d'évaluateurs (5 formateurs différents sur 10 pr
 **Contexte** : Classification de billets authentiques vs contrefaçons
 
 **Réalisation** :
+
 - Régression linéaire (feature engineering poussé)
 - Régression logistique et classification (cross-validation, optimisation)
 - Analyse prédictive (plusieurs modèles comparés)
@@ -222,6 +233,7 @@ Le fil conducteur des retours d'évaluateurs (5 formateurs différents sur 10 pr
 ## 📊 Synthèse des Feedbacks
 
 **Mots-clés dominants** :
+
 - **Présentation** : Mentionnée dans 8/10 projets
 - **Conforme/Complet** : Livrables de qualité
 - **Bonus/Supplémentaire** : Proactivité (Power BI, analyses additionnelles)
@@ -229,6 +241,7 @@ Le fil conducteur des retours d'évaluateurs (5 formateurs différents sur 10 pr
 - **Graphiques** : Point fort récurrent
 
 **Évolution constatée** :
+
 - Présentations de plus en plus fluides et structurées
 - Leçon P10 (soutenance confuse) intégrée pour la suite
 
@@ -257,11 +270,13 @@ Le fil conducteur des retours d'évaluateurs (5 formateurs différents sur 10 pr
 ## 📈 Transition vers Master 2
 
 **Objectifs atteints** :
+
 - Bases solides en analyse de données
 - Premiers modèles de ML
 - Capacité à réaliser des analyses complètes
 
 **Ambitions pour M2** :
+
 - Problèmes plus complexes
 - Deep learning et NLP
 - Données à plus grande échelle
